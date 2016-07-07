@@ -1,1 +1,7 @@
 language: ruby
+rvm: 2.0.0
+script: "./_scripts/travis_build.sh"
+branches:
+  only:
+  - master
+  - live
