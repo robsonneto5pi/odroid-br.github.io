@@ -20,7 +20,8 @@ echo -e "
 Script de monitoramento do meu odroid excutado em - $(date)
 $(uptime)
 $(df -h)
-Ha $(who | grep 192 | wc -l) dispositivos conectado(s) em mim ;)
+Ha $(who -a | grep 192 | wc -l) dispositivos conectado(s) em mim ;)
+$(who -a)
 " >> ${name}
 
 git add --all
