@@ -10,7 +10,8 @@ Para isso você deve seguir algumas instruções
 
 ### Instruções
 
-Em Construção!!!
+Em Construção!!! <br />
+
 ![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/_posts.PNG)
 
 
