@@ -20,7 +20,7 @@ echo -e "
 Post-script excutado em - $(date)
 $(uptime)
 $(df -h)
-ha $(who | grep 192 | wc -l) dispositivos conectado(s) em mim ;)
+Ha $(who | grep 192 | wc -l) dispositivos conectado(s) em mim ;)
 " >> ${name}
 
 git add --all
