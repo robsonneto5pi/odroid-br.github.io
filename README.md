@@ -1,13 +1,14 @@
 # odroid-br.github.io
 
-Odroid é uma plaquinha, digamos, um clone do raspberry, com algumas boas diferenças <br />
-Esse repositório tem o intuito de agregar blogs, artigos etc relacionados ao Odroid.
+Odroid é uma plaquinha, digamos, um clone do raspberry, com algumas boas diferenças. <br />
+Esse repositório tem o intuito de agregar blogs, artigos etc relacionados ao Odroid. <br />
+Tudo para a troca de experiências
 
-## Getting Started
+## Você pode adicionar seus artigos/blog com um pull request
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Para isso você deve seguir algumas instruções
 
-### Prerequisities
+### Instruções
 
 What things you need to install the software and how to install them
 
