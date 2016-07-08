@@ -13,11 +13,11 @@ echo -e "
 ---
 layout: post
 title:  "Pilar Monitoramento Odroid "
-categories: odroid pilar
+categories: odroid-monitor
 ---" > ${name}
 echo "" >> ${name}
 echo -e "
-Post-script excutado em - $(date)
+Script de monitoramento do meu odroid excutado em - $(date)
 $(uptime)
 $(df -h)
 Ha $(who | grep 192 | wc -l) dispositivos conectado(s) em mim ;)
