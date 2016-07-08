@@ -1,5 +1,6 @@
 language: ruby
 rvm: 2.0.0
+sudo: required
 script: "./_scripts/travis.sh"
 branches:
   only:
