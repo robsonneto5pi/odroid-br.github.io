@@ -10,8 +10,7 @@ Para isso você deve seguir algumas instruções
 
 ### Instruções
 
-Faça um pull request para esse repositório adicionando:
-* post - na pasta _posts e com o seguinte nome:
+Em Construção!!!
 ![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/_posts.PNG)
 
 
