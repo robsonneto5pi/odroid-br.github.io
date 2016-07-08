@@ -1,6 +1,6 @@
 # odroid-br.github.io
 
-Odroid é uma plaquinha, digamos, um clone do raspberry, com algumas boas diferenças
+Odroid é uma plaquinha, digamos, um clone do raspberry, com algumas boas diferenças <br />
 Esse repositório tem o intuito de agregar blogs, artigos etc relacionados ao Odroid.
 
 ## Getting Started
