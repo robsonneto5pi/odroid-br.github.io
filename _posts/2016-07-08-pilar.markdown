@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Pilar Odroid current info"
+categories: odroid pilar
+---
+
+{% include pilar.html %}
