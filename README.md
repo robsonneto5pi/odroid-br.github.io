@@ -10,7 +10,10 @@ Para isso você deve seguir algumas instruções
 
 ### Instruções
 
-What things you need to install the software and how to install them
+Faça um pull request para esse repositório adicionando:
+* post - na pasta _posts e com o seguinte nome:
+![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/_posts.PNG)
+
 
 ```
 Give examples
