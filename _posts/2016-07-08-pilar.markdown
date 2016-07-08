@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Pilar monitoramento Odroid"
+categories: odroid monitor
+---
+
 <html>
 uptime excutado em Fri Jul  8 00:00:01 EDT 2016
 <br>
