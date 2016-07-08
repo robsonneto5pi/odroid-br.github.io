@@ -28,21 +28,17 @@ Give the example
 
 ## Built With
 
-* Dropwizard - Bla bla bla
-* Maven - Maybe
-* Atom - ergaerga
+* Jekyll - Bla bla bla
+* Shell Script - Maybe
+* vontade - hum
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Rodolfo Neto** - *Initial work* - [PurpleBooth](https://github.com/odroid-br)
+* **Rodolfo Neto** - *Initial work* - [Odroid.github.io](https://odroid-br.github.io)
 
 See also the list of [contributors](https://github.com/odroid-br.github.io/contributors) who participated in this project.
 
