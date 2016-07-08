@@ -2,7 +2,8 @@
 
 Odroid é uma plaquinha, digamos, um clone do raspberry, com algumas boas diferenças. <br />
 Esse repositório tem o intuito de agregar blogs, artigos etc relacionados ao Odroid. <br />
-Tudo para a troca de experiências
+Tudo para a troca de experiências <br />
+***Assuntos relacionados ao Raspiberry PI são bem vindos!!!***
 
 ## Você pode adicionar seus artigos/blog com um pull request
 
