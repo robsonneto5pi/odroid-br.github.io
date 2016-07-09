@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Rodolfo fazendo um teste"
-categories: jekyll update
-link-telegram: https://telegram.me/dockerbr
+link-artigo: https://tecnologiagourmet.wordpress.com/2016/06/09/dockerizando-uma-aplicacao-web/
 ---
-Colaboração: github_username: dodopontocom
+Colaboração: Rodolfo Neto (@dodopontocom)
