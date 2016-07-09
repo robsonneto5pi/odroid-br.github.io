@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Rodolfo fazendo um teste"
-categories: jekyll update
-link-telegram: https://telegram.me/dockerbr
 ---
-Colaboração: github-username: dodopontocom
+[Dockerizando uma Aplicação no github](https://tecnologiagourmet.wordpress.com/2016/06/09/dockerizando-uma-aplicacao-web/) <br />
+Colaboração: Rodolfo Neto (@dodopontocom)

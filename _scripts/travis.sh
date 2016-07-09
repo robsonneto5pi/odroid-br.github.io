@@ -1,2 +1,2 @@
 #!/bin/bash
-bundle exec rake
+bundle exec rake build

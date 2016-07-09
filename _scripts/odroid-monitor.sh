@@ -3,7 +3,24 @@
 # set -e --- em qualquer erro que houver, script vai terminar
 # set -e 
 
+# o script que vai rodar a partir do crontab do meu odroid, ira buscar
+# pela sessão "the trick" e se encontrar, então vai rodar o script que o contenha
+
+###############
+# "the trick" #
+# _monitorar_ #
+###############
+
+cd /home/odroid/odroid-br.github.io/
+
+echo "atualizando o repositório..."
 git pull
+if [ "$?" -ne 0 ]
+then
+  echo "houve um erro ao executar o comando -git pull-"
+  echo "terminando..."
+  exit 1
+fi
 
 name="$(date +%Y-%m-%d)-pilar.markdown"
 
