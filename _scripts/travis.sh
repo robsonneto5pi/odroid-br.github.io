@@ -1,2 +1,2 @@
 #!/bin/bash
-bundle exec rake publish
+bundle exec rake
