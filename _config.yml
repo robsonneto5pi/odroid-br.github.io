@@ -9,8 +9,8 @@
 title: Odroid Agregador de Artigos e Afins
 email: rodolfotiago@linuxmail.org
 description: > # this means to ignore newlines until "baseurl:"
-  Aqui você encontra url's de artigos, blogs, vídeos e afins sobre ODROID. Tudo sobre configurações das mais variadas 
-  possibilidades de uso desse computador.
+  Aqui você encontra url's de artigos, blogs, vídeos e afins sobre ODROID (raspberryPI também é bem vindo). Tudo sobre tutoriais de configurações das mais variadas 
+  possibilidades de uso desse computador. Veja <a href="{{ site.base-url }}/adicione">aqui</a> como adicionar o seu conteúdo.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://odroid-br.github.io" # the base hostname & protocol for your site
 twitter_username: rodolfotiago
