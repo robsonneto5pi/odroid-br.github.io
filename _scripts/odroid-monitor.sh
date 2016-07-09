@@ -10,7 +10,9 @@
 # "the trick" #
 # _monitorar_ #
 ###############
+
 cd /home/odroid/odroid-br.github.io/
+
 echo "atualizando o repositório..."
 git pull
 if [ "$?" -ne 0 ]
@@ -19,6 +21,7 @@ then
   echo "terminando..."
   exit 1
 fi
+
 name="$(date +%Y-%m-%d)-pilar.markdown"
 
 cd /home/odroid/odroid-br.github.io/_posts/
