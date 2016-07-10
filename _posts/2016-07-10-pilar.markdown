@@ -6,8 +6,8 @@ categories: odroid-monitor
 ---
 
 -e 
-Script de monitoramento do meu odroid excutado em - Sun Jul 10 16:42:06 EDT 2016
- 16:42:06 up  2:26,  2 users,  load average: 0.03, 0.12, 0.57
+Script de monitoramento do meu odroid excutado em - Sun Jul 10 16:44:11 EDT 2016
+ 16:44:11 up  2:28,  2 users,  load average: 0.00, 0.08, 0.50
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.4M  163M   6% /run
@@ -27,6 +27,6 @@ Ha 2 dispositivos conectado(s) em mim ;)
 LOGIN      tty1         2016-02-11 11:28               845 id=tty1
 LOGIN      ttyS0        2016-02-11 11:28               847 id=tyS0
            run-level 5  2016-02-11 11:28
-odroid   + pts/8        2016-02-11 11:28 02:19        1324 (192.168.1.40)
-odroid   + pts/9        2016-07-10 14:48 00:01        5489 (192.168.1.30)
+odroid   + pts/8        2016-02-11 11:28 02:21        1324 (192.168.1.40)
+odroid   + pts/9        2016-07-10 14:48 00:03        5489 (192.168.1.30)
 
