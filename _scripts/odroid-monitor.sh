@@ -10,6 +10,7 @@
 # "the trick" #
 # _monitorar_ #
 ###############
+
 scriptdir="$(dirname $0; $PWD)"
 echo ${scriptdir}
 cd /home/odroid/odroid-br.github.io/
