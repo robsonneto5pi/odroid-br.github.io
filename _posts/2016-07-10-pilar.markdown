@@ -6,8 +6,8 @@ categories: odroid-monitor
 ---
 
 -e 
-Script de monitoramento do meu odroid excutado em - Sun Jul 10 16:19:49 EDT 2016
- 16:19:50 up  2:04,  2 users,  load average: 0.84, 1.70, 1.82
+Script de monitoramento do meu odroid excutado em - Sun Jul 10 16:19:55 EDT 2016
+ 16:19:55 up  2:04,  2 users,  load average: 0.77, 1.67, 1.81
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.4M  163M   6% /run
