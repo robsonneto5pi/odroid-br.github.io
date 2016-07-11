@@ -3,7 +3,7 @@ layout: post
 title:  "Pilar Monitoramento Odroid"
 categories: odroid-monitor
 ---
-
+{% highlight ruby %}
 Script de monitoramento do meu odroid excutado em - Mon Jul 11 19:50:11 EDT 2016
 up 1 hour, 13 minutes
 Filesystem      Size  Used Avail Use% Mounted on
@@ -25,4 +25,4 @@ LOGIN      tty1         2016-02-11 11:28               638 id=tty1
 odroid   + pts/8        2016-07-11 18:49 00:59        2648 (192.168.1.30)
 odroid   + pts/9        2016-07-11 18:51   .          2896 (192.168.1.30)
            pts/10       2016-07-11 19:11              4317 id=s/10  term=0 exit=0
-
+{% endhighlight %}
