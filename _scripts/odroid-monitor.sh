@@ -30,15 +30,13 @@ name="$(date +%Y-%m-%d)-pilar.markdown"
 
 cd /home/odroid/odroid-br.github.io/_posts/
 
-echo -e "
----
+echo "---
 layout: post
 title:  "Pilar Monitoramento Odroid "
 categories: odroid-monitor
 ---" > ${name}
 echo "" >> ${name}
-echo -e "
-Script de monitoramento do meu odroid excutado em - $(date)
+echo "Script de monitoramento do meu odroid excutado em - $(date)
 $(uptime -p)
 $(df -h)
 Ha $(who -a | grep 192 | wc -l) dispositivo(s) conectado(s) em mim ;)
