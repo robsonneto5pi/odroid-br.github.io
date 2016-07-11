@@ -17,6 +17,7 @@ echo ${scriptdir}
 cd /home/odroid/odroid-br.github.io/
 
 echo "atualizando o repositório..."
+
 git pull
 if [ "$?" -ne 0 ]
 then
