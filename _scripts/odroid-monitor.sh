@@ -32,7 +32,7 @@ cd /home/odroid/rodolfo/odroid-br.github.io/_posts/
 
 echo "---
 layout: post
-title:  \"Pilar Monitoramento Odroid \"
+title:  \"Pilar Monitoramento Odroid\"
 categories: odroid-monitor
 ---" > ${name}
 echo "" >> ${name}
