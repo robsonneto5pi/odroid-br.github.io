@@ -37,9 +37,9 @@ categories: odroid-monitor
 echo "" >> ${name}
 echo -e "
 Script de monitoramento do meu odroid excutado em - $(date)
-$(uptime)
+$(uptime -p)
 $(df -h)
-Ha $(who -a | grep 192 | wc -l) dispositivos conectado(s) em mim ;)
+Ha $(who -a | grep 192 | wc -l) dispositivo(s) conectado(s) em mim ;)
 $(who -a)
 " >> ${name}
 
