@@ -1,11 +1,9 @@
--e 
 ---
 layout: post
 title:  Pilar Monitoramento Odroid 
 categories: odroid-monitor
 ---
 
--e 
 Script de monitoramento do meu odroid excutado em - Sun Jul 10 23:25:23 EDT 2016
 up 22 minutes
 Filesystem      Size  Used Avail Use% Mounted on
