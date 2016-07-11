@@ -36,12 +36,14 @@ title:  \"Pilar Monitoramento Odroid\"
 categories: odroid-monitor
 ---" > ${name}
 echo "" >> ${name}
+echo "{% highlight %}" >> ${name}
 echo "Script de monitoramento do meu odroid excutado em - $(date)
 $(uptime -p)
 $(df -h)
 Ha $(who -a | grep 192 | wc -l) dispositivo(s) conectado(s) em mim ;)
 $(who -a)
 " >> ${name}
+echo "{% endhighlight %}" >> ${name}
 
 git add --all
 git commit -m "${name}"
