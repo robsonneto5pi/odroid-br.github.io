@@ -4,8 +4,8 @@ title:  Pilar Monitoramento Odroid
 categories: odroid-monitor
 ---
 
-Script de monitoramento do meu odroid excutado em - Mon Jul 11 19:20:11 EDT 2016
-up 43 minutes
+Script de monitoramento do meu odroid excutado em - Mon Jul 11 19:22:14 EDT 2016
+up 45 minutes
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.3M  163M   6% /run
@@ -22,7 +22,7 @@ Ha 2 dispositivo(s) conectado(s) em mim ;)
            run-level 5  2016-02-11 11:28
 LOGIN      ttyS0        2016-02-11 11:28               635 id=tyS0
 LOGIN      tty1         2016-02-11 11:28               638 id=tty1
-odroid   + pts/8        2016-07-11 18:49 00:29        2648 (192.168.1.30)
-odroid   + pts/9        2016-07-11 18:51 00:01        2896 (192.168.1.30)
+odroid   + pts/8        2016-07-11 18:49 00:31        2648 (192.168.1.30)
+odroid   + pts/9        2016-07-11 18:51   .          2896 (192.168.1.30)
            pts/10       2016-07-11 19:11              4317 id=s/10  term=0 exit=0
 
