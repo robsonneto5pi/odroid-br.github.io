@@ -14,11 +14,11 @@
 scriptdir="$(dirname $0; $PWD)"
 
 echo ${scriptdir}
-cd /home/odroid/odroid-br.github.io/
+cd /home/odroid/rodolfo/odroid-br.github.io/
 
 echo "atualizando o repositório..."
 
-git pull
+git up
 if [ "$?" -ne 0 ]
 then
   echo "houve um erro ao executar o comando -git pull-"
@@ -26,9 +26,9 @@ then
   exit 1
 fi
 
-name="$(date +%Y-%m-%d)-pilar.markdown"
+name="$(date +%Y-%m-%d)-televator.markdown"
 
-cd /home/odroid/odroid-br.github.io/_posts/
+cd /home/odroid/rodolfo/odroid-br.github.io/_posts/
 
 echo "---
 layout: post
