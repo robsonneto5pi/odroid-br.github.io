@@ -35,15 +35,16 @@ layout: post
 title:  \"Monitoramento Meu Odroid\"
 ---" > ${name}
 echo "" >> ${name}
-echo "Hello friend! Meu nome é $(whoami), abaixo você irá encontrar um relatório de monitoramento" >> ${name}
-echo "Eu estou ligado ineterruptamente a $(uptime -p | cut -d' ' -f2-), amuse me!!!" >> ${name}
+echo "Hello friend! Meu nome é $(whoami), abaixo você irá encontrar um relatório de monitoramento <br />" >> ${name}
+echo "Eu estou ligado ininterruptamente a $(uptime -p | cut -d' ' -f2-), amuse me!!!" >> ${name}
 echo "" >> ${name}
 echo "Script de monitoramento do meu odroid excutado em - $(date)"  >> ${name}
-echo "Verificação de espaço em disco (comando usado: df -h)"
+echo "Verificação de espaço em disco (comando usado: df -h)" >> ${name}
 echo "{% highlight ruby %}" >> ${name}
 echo "$(df -h)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "Ha $(who -a | grep 192 | wc -l) usuario(s) conectado(s) em mim ;)" >> ${name}
+echo "Comando usado para ver quem esta conectado em mim: who -a" >> ${name}
 echo "{% highlight ruby %}" >> ${name}
 echo "$(who -a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
