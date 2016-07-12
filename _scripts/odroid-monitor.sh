@@ -58,6 +58,10 @@ echo "Comando usado: uname -a" >> ${name}
 echo "{% highlight ruby %}" >> ${name}
 echo "$(uname -a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
+echo "Listando todos os programas instalados, Comando usado: dpkg -l" >> ${name}
+echo "{% highlight ruby %}" >> ${name}
+echo "$(dpkg -l)" >> ${name}
+echo "{% endhighlight %}" >> ${name}
 
 git add --all
 git commit -m "${name}"
