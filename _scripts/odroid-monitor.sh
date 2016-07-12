@@ -36,10 +36,9 @@ title:  \"Monitoramento Meu Odroid\"
 ---" > ${name}
 echo "" >> ${name}
 echo "Hello friend! Meu nome é $(whoami), abaixo você irá encontrar um relatório de monitoramento" >> ${name}
+echo "Eu estou ligado ineterruptamente a $(uptime -p | cut -d' ' -f2-), amuse me!!!" >> ${name}
+echo "" >> ${name}
 echo "Script de monitoramento do meu odroid excutado em - $(date)"  >> ${name}
-echo "{% highlight ruby %}" >> ${name}
-echo "$(uptime -p)" >> ${name}
-echo "{% endhighlight %}" >> ${name}
 echo "Verificação de espaço em disco (comando usado: df -h)"
 echo "{% highlight ruby %}" >> ${name}
 echo "$(df -h)" >> ${name}
