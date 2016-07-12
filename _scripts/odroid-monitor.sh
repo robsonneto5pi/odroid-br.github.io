@@ -36,7 +36,7 @@ title:  \"Monitoramento Meu Odroid\"
 ---" > ${name}
 echo "<br />" >> ${name}
 echo "Hello friends! Meu nome é $(whoami), mas podem me chamar de Mr. $(whoami | sed 's/o/0/g'). Abaixo você irá encontrar um relatório de monitoramento <br />" >> ${name}
-echo "Eu estou ligado ininterruptamente à $(uptime -p | cut -d' ' -f2-), amuse me!!!" >> ${name}
+echo "Eu estou ligado ininterruptamente à $(uptime -p | cut -d' ' -f2-) !!!" >> ${name}
 echo "" >> ${name}
 echo "Script de monitoramento executado em - $(date) <br />"  >> ${name}
 echo "" >> ${name}
