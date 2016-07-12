@@ -2,8 +2,10 @@
 layout: post
 title:  "Monitoramento Meu Odroid"
 ---
+Olá
 
 {% highlight ruby %}
+
 Script de monitoramento do meu odroid excutado em - Tue Jul 12 08:00:18 AMT 2016
 up 8 hours, 33 minutes
 Filesystem      Size  Used Avail Use% Mounted on
