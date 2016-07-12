@@ -40,7 +40,7 @@ echo "{% highlight %}" >> ${name}
 echo "Script de monitoramento do meu odroid excutado em - $(date)
 $(uptime -p)
 $(df -h)
-Ha $(who -a | grep 192 | wc -l) dispositivo(s) conectado(s) em mim ;)
+Ha $(who -a | grep 192 | wc -l) usuario(s) conectado(s) em mim ;)
 $(who -a)
 " >> ${name}
 echo "{% endhighlight %}" >> ${name}
