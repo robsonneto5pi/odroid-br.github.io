@@ -32,8 +32,7 @@ cd /home/odroid/rodolfo/odroid-br.github.io/_posts/
 
 echo "---
 layout: post
-title:  \"Pilar Monitoramento Odroid\"
-categories: odroid-monitor
+title:  \"Monitoramento Meu Odroid\"
 ---" > ${name}
 echo "" >> ${name}
 echo "{% highlight %}" >> ${name}
