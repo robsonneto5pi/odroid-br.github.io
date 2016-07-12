@@ -5,8 +5,8 @@ categories: odroid-monitor
 ---
 
 {% highlight %}
-Script de monitoramento do meu odroid excutado em - Tue Jul 12 05:30:11 AMT 2016
-up 6 hours, 3 minutes
+Script de monitoramento do meu odroid excutado em - Tue Jul 12 06:00:11 AMT 2016
+up 6 hours, 33 minutes
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.3M  163M   6% /run
