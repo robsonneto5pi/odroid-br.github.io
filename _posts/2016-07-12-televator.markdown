@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "Pilar Monitoramento Odroid"
-categories: odroid-monitor
+title:  "Monitoramento Meu Odroid"
 ---
 
 {% highlight %}
-Script de monitoramento do meu odroid excutado em - Tue Jul 12 07:30:12 AMT 2016
-up 8 hours, 3 minutes
+Script de monitoramento do meu odroid excutado em - Tue Jul 12 08:00:18 AMT 2016
+up 8 hours, 33 minutes
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.3M  163M   6% /run
