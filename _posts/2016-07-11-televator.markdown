@@ -5,8 +5,8 @@ categories: odroid-monitor
 ---
 
 {% highlight %}
-Script de monitoramento do meu odroid excutado em - Mon Jul 11 23:10:08 AMT 2016
-up 22 minutes
+Script de monitoramento do meu odroid excutado em - Mon Jul 11 23:20:09 AMT 2016
+up 32 minutes
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.4M  163M   6% /run
@@ -23,7 +23,7 @@ Ha 2 usuario(s) conectado(s) em mim ;)
 LOGIN      tty1         2016-02-11 12:28               647 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               646 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-02-11 12:28 00:01        1303 (192.168.1.30)
-odroid   + pts/2        2016-07-11 22:50   .          1831 (192.168.1.30)
+odroid   + pts/1        2016-02-11 12:28 00:07        1303 (192.168.1.30)
+odroid   + pts/2        2016-07-11 22:50 00:10        1831 (192.168.1.30)
 
 {% endhighlight %}
