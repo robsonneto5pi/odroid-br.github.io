@@ -38,7 +38,7 @@ echo "" >> ${name}
 echo "Hello friend! Meu nome é $(whoami), abaixo você irá encontrar um relatório de monitoramento <br />" >> ${name}
 echo "Eu estou ligado ininterruptamente a $(uptime -p | cut -d' ' -f2-), amuse me!!!" >> ${name}
 echo "" >> ${name}
-echo "Script de monitoramento do meu odroid excutado em - $(date)"  >> ${name}
+echo "Script de monitoramento do meu odroid excutado em - $(date) <br />"  >> ${name}
 echo "Verificação de espaço em disco (comando usado: df -h)" >> ${name}
 echo "{% highlight ruby %}" >> ${name}
 echo "$(df -h)" >> ${name}
