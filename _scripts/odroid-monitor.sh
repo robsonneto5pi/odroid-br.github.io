@@ -56,7 +56,7 @@ echo "<br />" >> ${name}
 echo "Mais infomações sobre o meu sistema, lembrando que eu sou baseado em $(uname) <br />" >> ${name}
 echo "Comando usado: uname -a" >> ${name}
 echo "{% highlight ruby %}" >> ${name}
-echo "$(who -a)" >> ${name}
+echo "$(uname -a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 
 git add --all
