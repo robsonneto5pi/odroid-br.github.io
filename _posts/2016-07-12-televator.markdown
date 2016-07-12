@@ -4,7 +4,7 @@ title:  "Monitoramento Meu Odroid"
 ---
 
 Hello friend! Meu nome é odroid, abaixo você irá encontrar um relatório de monitoramento
-Eu estou ligado ineterruptamente a 9 hours, 3 minutes, amuse me!!!
+Eu estou ligado ininterruptamente a 9 hours, 3 minutes, amuse me!!!
 
 Script de monitoramento do meu odroid excutado em - Tue Jul 12 08:30:13 AMT 2016
 {% highlight ruby %}
