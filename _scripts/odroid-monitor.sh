@@ -35,7 +35,7 @@ layout: post
 title:  \"Monitoramento Meu Odroid\"
 ---" > ${name}
 echo "" >> ${name}
-echo "{% highlight %}" >> ${name}
+echo "{% highlight ruby %}" >> ${name}
 echo "Script de monitoramento do meu odroid excutado em - $(date)
 $(uptime -p)
 $(df -h)
