@@ -4,9 +4,9 @@ title:  "Monitoramento Meu Odroid"
 ---
 <br />
 Hello friends! Meu nome é odroid, mas podem me chamar de Mr. 0dr0id. Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 12 hours, 3 minutes, amuse me!!!
+Eu estou ligado ininterruptamente à 14 minutes, amuse me!!!
 
-Script de monitoramento executado em - Tue Jul 12 11:30:17 AMT 2016 <br />
+Script de monitoramento executado em - Tue Jul 12 12:00:17 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -14,7 +14,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.3M  163M   6% /run
 /dev/mmcblk0p2  7.1G  4.5G  2.4G  65% /
-tmpfs           860M  304K  859M   1% /dev/shm
+tmpfs           860M  276K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
@@ -26,11 +26,9 @@ Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
            run-level 5  2016-02-11 12:28
-LOGIN      ttyS0        2016-02-11 12:28               644 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
-odroid   + tty7         2016-02-11 12:28  old          710 (:0)
-           pts/1        2016-07-12 00:05              1328 id=ts/1  term=0 exit=0
-           pts/2        2016-07-12 00:05              1900 id=ts/2  term=0 exit=0
+LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
+odroid   + tty7         2016-02-11 12:28  old          708 (:0)
 {% endhighlight %}
 Informações sobre minha cpu (comando usado: lscpu)
 {% highlight ruby %}
