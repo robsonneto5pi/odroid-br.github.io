@@ -2,11 +2,11 @@
 layout: post
 title:  "Monitoramento Meu Odroid"
 ---
+<br />
+Hello friends! Meu nome é odroid, mas podem me chamar de Mr. 0dr0id. Abaixo você irá encontrar um relatório de monitoramento <br />
+Eu estou ligado ininterruptamente a 10 hours, 3 minutes, amuse me!!!
 
-Hello friend! Meu nome é odroid, abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente a 9 hours, 33 minutes, amuse me!!!
-
-Script de monitoramento do meu odroid #6 excutado em - Tue Jul 12 09:00:18 AMT 2016 <br />
+Script de monitoramento executado em - Tue Jul 12 09:30:18 AMT 2016 <br />
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
@@ -31,4 +31,27 @@ odroid   + tty7         2016-02-11 12:28  old          710 (:0)
            pts/1        2016-07-12 00:05              1328 id=ts/1  term=0 exit=0
            pts/2        2016-07-12 00:05              1900 id=ts/2  term=0 exit=0
 {% endhighlight %}
-
+Informações sobre minha cpu (comando usado: lscpu)
+{% highlight ruby %}
+Architecture:          aarch64
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             4
+CPU max MHz:           2016.0000
+CPU min MHz:           100.0000
+{% endhighlight %}
+<br />
+Mais infomações sobre o meu sistema, lembrando que eu sou baseado em Linux <br />
+Comando usado: uname -a
+{% highlight ruby %}
+           system boot  1969-12-31 20:00
+           run-level 5  2016-02-11 12:28
+LOGIN      ttyS0        2016-02-11 12:28               644 id=tyS0
+LOGIN      tty1         2016-02-11 12:28               646 id=tty1
+odroid   + tty7         2016-02-11 12:28  old          710 (:0)
+           pts/1        2016-07-12 00:05              1328 id=ts/1  term=0 exit=0
+           pts/2        2016-07-12 00:05              1900 id=ts/2  term=0 exit=0
+{% endhighlight %}
