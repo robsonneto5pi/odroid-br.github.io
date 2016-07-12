@@ -39,11 +39,12 @@ echo "Hello friends! Meu nome é $(whoami), mas podem me chamar de Mr. $(whoami 
 echo "Eu estou ligado ininterruptamente a $(uptime -p | cut -d' ' -f2-), amuse me!!!" >> ${name}
 echo "" >> ${name}
 echo "Script de monitoramento executado em - $(date) <br />"  >> ${name}
+echo "" >> ${name}
 echo "Verificação de espaço em disco (comando usado: df -h)" >> ${name}
 echo "{% highlight ruby %}" >> ${name}
 echo "$(df -h)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
-echo "Ha $(who -a | grep 192 | wc -l) usuario(s) conectado(s) em mim ;)" >> ${name}
+echo "Ha $(who -a | grep 192 | wc -l) usuario(s) conectado(s) em mim ;) <br />" >> ${name}
 echo "Comando usado para ver quem esta conectado em mim: who -a" >> ${name}
 echo "{% highlight ruby %}" >> ${name}
 echo "$(who -a)" >> ${name}
