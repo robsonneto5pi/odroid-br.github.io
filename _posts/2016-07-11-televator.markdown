@@ -5,13 +5,13 @@ categories: odroid-monitor
 ---
 
 {% highlight %}
-Script de monitoramento do meu odroid excutado em - Mon Jul 11 23:00:09 AMT 2016
-up 12 minutes
+Script de monitoramento do meu odroid excutado em - Mon Jul 11 23:10:08 AMT 2016
+up 22 minutes
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.4M  163M   6% /run
-/dev/mmcblk0p2  7.1G  4.5G  2.5G  65% /
-tmpfs           860M  276K  859M   1% /dev/shm
+/dev/mmcblk0p2  7.1G  4.5G  2.4G  65% /
+tmpfs           860M  340K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
