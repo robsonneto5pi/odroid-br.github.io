@@ -3,10 +3,11 @@ layout: post
 title:  "Monitoramento Meu Odroid"
 ---
 
-Hello friend! Meu nome é odroid, abaixo você irá encontrar um relatório de monitoramento
-Eu estou ligado ininterruptamente a 9 hours, 3 minutes, amuse me!!!
+Hello friend! Meu nome é odroid, abaixo você irá encontrar um relatório de monitoramento <br />
+Eu estou ligado ininterruptamente a 9 hours, 33 minutes, amuse me!!!
 
-Script de monitoramento do meu odroid excutado em - Tue Jul 12 08:30:13 AMT 2016
+Script de monitoramento do meu odroid excutado em - Tue Jul 12 09:00:18 AMT 2016
+Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
@@ -20,6 +21,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   24K  172M   1% /run/user/1000
 {% endhighlight %}
 Ha 0 usuario(s) conectado(s) em mim ;)
+Comando usado para ver quem esta conectado em mim: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
            run-level 5  2016-02-11 12:28
