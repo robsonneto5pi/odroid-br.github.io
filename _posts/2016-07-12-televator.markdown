@@ -6,7 +6,7 @@ title:  "Monitoramento Meu Odroid"
 Hello friend! Meu nome é odroid, abaixo você irá encontrar um relatório de monitoramento <br />
 Eu estou ligado ininterruptamente a 9 hours, 33 minutes, amuse me!!!
 
-Script de monitoramento do meu odroid excutado em - Tue Jul 12 09:00:18 AMT 2016
+Script de monitoramento do meu odroid excutado em - Tue Jul 12 09:00:18 AMT 2016 <br />
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
