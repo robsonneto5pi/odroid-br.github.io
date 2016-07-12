@@ -34,11 +34,11 @@ echo "---
 layout: post
 title:  \"Monitoramento Meu Odroid\"
 ---" > ${name}
-echo "" >> ${name}
-echo "Hello friend! Meu nome é $(whoami), abaixo você irá encontrar um relatório de monitoramento <br />" >> ${name}
+echo "<br />" >> ${name}
+echo "Hello friend! Meu nome é Mr. $(whoami | sed 's/o/0/g'), abaixo você irá encontrar um relatório de monitoramento <br />" >> ${name}
 echo "Eu estou ligado ininterruptamente a $(uptime -p | cut -d' ' -f2-), amuse me!!!" >> ${name}
 echo "" >> ${name}
-echo "Script de monitoramento do meu odroid excutado em - $(date) <br />"  >> ${name}
+echo "Script de monitoramento executado em - $(date) <br />"  >> ${name}
 echo "Verificação de espaço em disco (comando usado: df -h)" >> ${name}
 echo "{% highlight ruby %}" >> ${name}
 echo "$(df -h)" >> ${name}
@@ -48,7 +48,16 @@ echo "Comando usado para ver quem esta conectado em mim: who -a" >> ${name}
 echo "{% highlight ruby %}" >> ${name}
 echo "$(who -a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
-echo "" >> ${name}
+echo "Informações sobre minha cpu (comando usado: lscpu)" >> ${name}
+echo "{% highlight ruby %}" >> ${name}
+echo "$(lscpu)" >> ${name}
+echo "{% endhighlight %}" >> ${name}
+echo "<br />" >> ${name}
+echo "Mais infomações sobre o meu sistema, lembrando que eu sou baseado em $(uname) <br />" >> ${name}
+echo "Comando usado: uname -a" >> ${name}
+echo "{% highlight ruby %}" >> ${name}
+echo "$(who -a)" >> ${name}
+echo "{% endhighlight %}" >> ${name}
 
 git add --all
 git commit -m "${name}"
