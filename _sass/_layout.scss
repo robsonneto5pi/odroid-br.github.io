@@ -92,19 +92,6 @@
     }
 }
 
-.ht:hover .tooltip {
-    display:block;
-}
-
-.tooltip {
-    display: none;
-    color: red;
-    margin-left: 28px; /* moves the tooltip to the right */
-    margin-top: 15px; /* moves it down */
-    position: absolute;
-    z-index: 1000;
-}
-
 /**
  * Site footer
  */
