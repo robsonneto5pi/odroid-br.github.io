@@ -70,7 +70,8 @@ echo "{% highlight ruby %}" >> ${name}
 echo "$(ps a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
-echo "picture of the state of my screen right now!!!" >> ${name}
+echo "Here is a picture of the state of my screen right now!!!" >> ${name}
+echo "" >> ${name}
 echo "![picture of my screen](https://github.com/odroid-br/televator-c2/blob/master/screenshot.png?raw=true =250x)" >> ${name}
 
 git add --all
