@@ -3,10 +3,11 @@ layout: post
 title:  "Monitoramento Meu Odroid"
 ---
 <br />
+Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 19 hours, 44 minutes !!!
+Eu estou ligado ininterruptamente à 20 hours, 14 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 07:30:12 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 08:00:16 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -51,3 +52,6 @@ Comando usado: uname -a
 Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aarch64 aarch64 GNU/Linux
 {% endhighlight %}
 
+... tamanho das pastas do /home/odroid/
+{% highlight ruby %}
+{% endhighlight %}
