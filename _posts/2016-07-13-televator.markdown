@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 3 hours, 44 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 4 hours, 14 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 15:30:16 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 16:00:15 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -55,10 +55,11 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 ... Meus processos em execução ...
 {% highlight ruby %}
   PID TTY      STAT   TIME COMMAND
-  618 tty7     Ss+   13:33 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  618 tty7     Ss+   13:35 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   643 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
  1205 pts/0    Ss+    0:00 /bin/bash
 {% endhighlight %}
 
+picture of the state of my screen right now!!!
 ![picture of my screen](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/screenshot.png?raw=true =250x)
