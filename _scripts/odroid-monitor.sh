@@ -23,7 +23,7 @@ git clean -fd
 git up
 if [ "$?" -ne 0 ]
 then
-  echo "houve um erro ao executar o comando -git pull-" > ${log_home}/${name}.txt
+  echo "houve um erro ao executar o comando -git up-" > ${log_home}/${name}.txt
   echo "terminando..." >> ${log_home}/${name}.txt
   exit 1
 fi
