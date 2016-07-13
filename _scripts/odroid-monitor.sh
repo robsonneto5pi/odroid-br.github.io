@@ -11,6 +11,8 @@
 # _monitorar_ #
 ###############
 
+name="$(date +%Y-%m-%d)-televator.markdown"
+log_home="/home/odroid/rodolfo/blog-monitor/"
 scriptdir="$(dirname $0; $PWD)"
 
 cd ${scriptdir}../
@@ -21,13 +23,11 @@ git clean -fd
 git up
 if [ "$?" -ne 0 ]
 then
-  echo "houve um erro ao executar o comando -git pull-"
-  echo "terminando..."
+  echo "houve um erro ao executar o comando -git pull-" > ${log_home}/${name}.txt
+  echo "terminando..." >> ${log_home}/${name}.txt
   exit 1
 fi
-
-name="$(date +%Y-%m-%d)-televator.markdown"
-
+echo "git up sucesso..." > ${log_home}/${name}.txt
 cd ${scriptdir}../_posts/
 
 echo "---
