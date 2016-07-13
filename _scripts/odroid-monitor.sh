@@ -69,7 +69,7 @@ echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
 echo "... ps aux ..." >> ${name}
 echo "{% highlight ruby %}" >> ${name}
-echo "$(ps aux)" >> ${name}
+echo "$(ps a | grep -v \"ps a\")" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
 echo "![picture of my screen](../downloads/screenshot.png =250x)" >> ${name}
