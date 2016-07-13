@@ -3,10 +3,10 @@ layout: post
 title:  "Monitoramento Meu Odroid"
 ---
 <br />
-Hello friends! Meu nome é odroid, mas podem me chamar de Mr. 0dr0id. Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 19 hours, 14 minutes !!!
+Abaixo você irá encontrar um relatório de monitoramento <br />
+Eu estou ligado ininterruptamente à 19 hours, 44 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 07:00:11 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 07:30:12 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -21,6 +21,7 @@ tmpfs           860M     0  860M   0% /sys/fs/cgroup
 cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   28K  172M   1% /run/user/1000
 {% endhighlight %}
+
 Há 0 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
@@ -30,6 +31,7 @@ LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
 {% endhighlight %}
+
 Informações sobre minha cpu (comando usado: lscpu)
 {% highlight ruby %}
 Architecture:          aarch64
@@ -42,9 +44,10 @@ Socket(s):             4
 CPU max MHz:           2016.0000
 CPU min MHz:           100.0000
 {% endhighlight %}
-<br />
+
 Mais infomações sobre o meu sistema, lembrando que eu sou baseado em Linux <br />
 Comando usado: uname -a
 {% highlight ruby %}
 Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aarch64 aarch64 GNU/Linux
 {% endhighlight %}
+
