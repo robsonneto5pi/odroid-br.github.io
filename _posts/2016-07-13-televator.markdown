@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 6 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 6 hours, 44 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 18:00:13 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 18:30:12 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -84,7 +84,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    33 ?        S      0:00 [khubd]
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
-   36 ?        S      3:09 [kworker/0:1]
+   36 ?        S      3:12 [kworker/0:1]
    37 ?        S<     0:00 [kworker/1:1H]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
@@ -129,13 +129,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   439 ?        Ssl    0:00 /usr/sbin/ModemManager
   443 ?        Ss     0:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   450 ?        S      0:00 avahi-daemon: chroot helper
-  486 ?        Ssl    0:49 /usr/sbin/NetworkManager --no-daemon
+  486 ?        Ssl    0:50 /usr/sbin/NetworkManager --no-daemon
   488 ?        Ss     0:00 /usr/sbin/cron -f
   490 ?        Ssl    0:00 /usr/sbin/cups-browsed
   582 ?        Ss     0:00 /usr/sbin/sshd -D
   587 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   604 ?        Ssl    0:00 /usr/sbin/lightdm
-  618 tty7     Ss+   13:39 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  618 tty7     Ss+   13:41 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   643 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   650 ?        Ss     0:13 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
@@ -182,7 +182,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   999 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
  1010 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
  1014 ?        Ssl    0:02 /usr/lib/upower/upowerd
- 1038 ?        Sl     0:05 /usr/lib/mate-panel/clock-applet
+ 1038 ?        Sl     0:06 /usr/lib/mate-panel/clock-applet
  1040 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
  1050 ?        Sl     0:00 marco.real --no-composite
  1055 ?        S      0:00 [kworker/2:1]
@@ -195,18 +195,18 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  2511 ?        S      0:18 [kworker/3:0]
  4960 ?        S      0:00 [kworker/1:0]
  6915 ?        S      0:00 [kworker/u8:1]
- 9624 ?        S      0:00 [kworker/u8:0]
-14669 ?        S      0:00 xcalc
-16641 ?        S      0:00 [kworker/0:0]
-16982 ?        S      0:00 [kworker/0:2]
-17077 ?        S      0:00 /usr/sbin/CRON -f
-17078 ?        Ss     0:00 /bin/sh -c mastershell.sh
-17079 ?        S      0:00 /bin/bash /bin/mastershell.sh
-17120 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-17153 ?        R      0:00 ps ax
 17162 ?        S      0:00 [kworker/1:1]
+17234 ?        S      0:00 xcalc
+17237 ?        S      0:00 [kworker/u8:2]
 17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
 19073 ?        S      0:35 [kworker/3:2]
+19074 ?        S      0:00 [kworker/0:0]
+19421 ?        S      0:00 [kworker/0:2]
+19525 ?        S      0:00 /usr/sbin/CRON -f
+19526 ?        Ss     0:00 /bin/sh -c mastershell.sh
+19527 ?        S      0:00 /bin/bash /bin/mastershell.sh
+19568 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+19601 ?        R      0:00 ps ax
 28031 ?        S      0:00 [kworker/2:0]
 {% endhighlight %}
 
