@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 14 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 44 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 12:00:13 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 12:30:12 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -15,7 +15,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.3M  163M   6% /run
 /dev/mmcblk0p2  7.1G  4.5G  2.4G  66% /
-tmpfs           860M  360K  859M   1% /dev/shm
+tmpfs           860M  364K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
