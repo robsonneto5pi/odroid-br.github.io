@@ -13,7 +13,7 @@
 
 scriptdir="$(dirname $0; $PWD)"
 
-echo ${scriptdir}../
+cd ${scriptdir}../
 
 echo "atualizando o repositório..."
 git reset --hard
@@ -28,7 +28,7 @@ fi
 
 name="$(date +%Y-%m-%d)-televator.markdown"
 
-echo ${scriptdir}../_posts/
+cd ${scriptdir}../_posts/
 
 echo "---
 layout: post
