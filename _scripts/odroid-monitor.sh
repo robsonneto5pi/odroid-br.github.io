@@ -67,9 +67,9 @@ echo "{% highlight ruby %}" >> ${name}
 echo "$(uname -a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
-echo "... ps aux ..." >> ${name}
+echo "... Meus processos em execução ..." >> ${name}
 echo "{% highlight ruby %}" >> ${name}
-echo "$(ps a | grep -v \"ps a\")" >> ${name}
+echo "$(ps a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
 echo "![picture of my screen](../downloads/screenshot.png =250x)" >> ${name}
