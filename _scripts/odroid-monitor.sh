@@ -15,6 +15,7 @@ name="$(date +%Y-%m-%d)-televator.markdown"
 log_home="/home/odroid/rodolfo/blog-monitor/"
 basedir="$(dirname $0; $PWD)"
 screen_dir="/home/odroid/rodolfo/televator-c2/"
+
 cd ${basedir}/../
 
 echo "atualizando o repositório..."
@@ -71,7 +72,7 @@ echo "{% highlight ruby %}" >> ${name}
 echo "$(ps aux)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
-echo "![picture of my screen](https://raw.githubusercontent.com/odroid-br/televator-c2/master/screenshot.png =250x)" >> ${name}
+echo "![picture of my screen](../downloads/screenshot.png =250x)" >> ${name}
 
 git add --all
 git commit -m "${name}"
