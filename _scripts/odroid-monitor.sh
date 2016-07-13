@@ -72,7 +72,7 @@ echo "{% highlight ruby %}" >> ${name}
 echo "$(ps a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
-echo "![picture of my screen](../downloads/screenshot.png =250x)" >> ${name}
+echo "![picture of my screen](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/screenshot.png?raw=true =250x)" >> ${name}
 
 git add --all
 git commit -m "${name}"
