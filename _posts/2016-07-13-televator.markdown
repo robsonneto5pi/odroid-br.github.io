@@ -62,4 +62,4 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 {% endhighlight %}
 
 picture of the state of my screen right now!!!
-![picture of my screen](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/screenshot.png?raw=true =250x)
+![picture of my screen](https://github.com/odroid-br/televator-c2/blob/master/screenshot.png?raw=true =250x)
