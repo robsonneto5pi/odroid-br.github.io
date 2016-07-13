@@ -14,7 +14,7 @@
 name="$(date +%Y-%m-%d)-televator.markdown"
 log_home="/home/odroid/rodolfo/blog-monitor/"
 basedir="$(dirname $0; $PWD)"
-
+screen_dir="/home/odroid/rodolfo/televator-c2/"
 cd ${basedir}/../
 
 echo "atualizando o repositório..."
@@ -28,6 +28,9 @@ then
   exit 1
 fi
 echo "git up sucesso..." > ${log_home}/${name}.txt
+
+cp ${screen_dir}/screenshot.png ${basedir}/../downloads/
+
 cd ${basedir}/../_posts/
 
 echo "---
