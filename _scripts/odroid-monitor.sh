@@ -14,7 +14,7 @@
 name="$(date +%Y-%m-%d)-televator.markdown"
 log_home="/home/odroid/rodolfo/blog-monitor/"
 basedir="$(dirname $0; $PWD)"
-screen_dir="/home/odroid/rodolfo/televator-c2/"
+televatorc2_dir="/home/odroid/rodolfo/televator-c2/"
 
 cd ${basedir}/../
 
@@ -29,8 +29,6 @@ then
   exit 1
 fi
 echo "git up sucesso..." > ${log_home}/${name}.txt
-
-cp ${screen_dir}/screenshot.png ${basedir}/../downloads/
 
 cd ${basedir}/../_posts/
 
@@ -73,7 +71,7 @@ echo "$(ps a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
 echo "picture of the state of my screen right now!!!" >> ${name}
-echo "![picture of my screen](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/screenshot.png?raw=true =250x)" >> ${name}
+echo "![picture of my screen](https://github.com/odroid-br/televator-c2/blob/master/screenshot.png?raw=true =250x)" >> ${name}
 
 git add --all
 git commit -m "${name}"
