@@ -61,4 +61,4 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1205 pts/0    Ss+    0:00 /bin/bash
 {% endhighlight %}
 
-![picture of my screen](../downloads/screenshot.png =250x)
+![picture of my screen](./downloads/screenshot.png =250x)
