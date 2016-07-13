@@ -63,10 +63,12 @@ echo "{% highlight ruby %}" >> ${name}
 echo "$(uname -a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
-#echo "Listando todos os programas instalados, Comando usado: dpkg -l" >> ${name}
-#echo "{% highlight ruby %}" >> ${name}
-#echo "$(dpkg -l)" >> ${name}
-#echo "{% endhighlight %}" >> ${name}
+echo "... tamanho das pastas do /home/odroid/" >> ${name}
+echo "{% highlight ruby %}" >> ${name}
+cd /home/odroid/
+echo "du -x --max-depth=1|sort -rn|awk -F / -v c=$COLUMNS 'NR==1{t=$1} NR>1{r=int($1/t*c+.5); b="\033[1;31m"; for (i=0; i<r; i++) b=b"#"; printf " %5.2f%% %s\033[0m %s\n", $1/t*100, b, $2}'|tac" >> ${name}
+cd /home/odroid/rodolfo/odroid-br.github.io/_posts/
+echo "{% endhighlight %}" >> ${name}
 
 git add --all
 git commit -m "${name}"
