@@ -67,6 +67,8 @@ echo "... ps aux ..." >> ${name}
 echo "{% highlight ruby %}" >> ${name}
 echo "$(ps aux)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
+echo "" >> ${name}
+echo "![picture of my screen](https://raw.githubusercontent.com/odroid-br/televator-c2/master/screenshot.png =250x)" >> ${name}
 
 git add --all
 git commit -m "${name}"
