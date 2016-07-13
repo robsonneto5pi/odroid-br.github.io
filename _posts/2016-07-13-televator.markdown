@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 6 hours, 44 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 7 hours, 14 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 18:30:12 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 19:00:16 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -15,7 +15,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.3M  163M   6% /run
 /dev/mmcblk0p2  7.1G  4.5G  2.4G  66% /
-tmpfs           860M  376K  859M   1% /dev/shm
+tmpfs           860M  380K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
@@ -84,7 +84,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    33 ?        S      0:00 [khubd]
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
-   36 ?        S      3:12 [kworker/0:1]
+   36 ?        S      3:15 [kworker/0:1]
    37 ?        S<     0:00 [kworker/1:1H]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
@@ -109,7 +109,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:48 [kthread_di]
+   84 ?        S      0:49 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -135,7 +135,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   582 ?        Ss     0:00 /usr/sbin/sshd -D
   587 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   604 ?        Ssl    0:00 /usr/sbin/lightdm
-  618 tty7     Ss+   13:41 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  618 tty7     Ss+   13:42 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   643 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   650 ?        Ss     0:13 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
@@ -161,7 +161,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   870 ?        Sl     0:03 mate-panel
   875 ?        Sl     0:02 caja
   877 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
-  882 ?        Sl     0:00 /usr/lib/mate-panel/wnck-applet
+  882 ?        Sl     0:01 /usr/lib/mate-panel/wnck-applet
   885 ?        S<l    0:01 /usr/bin/pulseaudio --start --log-target=syslog
   887 ?        Sl     0:00 /usr/lib/mate-applets/trashapplet
   888 ?        SNsl   0:01 /usr/lib/rtkit/rtkit-daemon
@@ -170,7 +170,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   900 ?        Sl     0:00 mate-volume-control-applet
   908 ?        Sl     0:02 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
   910 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
-  937 ?        Sl     0:10 nm-applet
+  937 ?        Sl     0:11 nm-applet
   938 ?        Sl     0:01 tilda
   941 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
   943 ?        Sl     0:00 mate-maximus
@@ -196,17 +196,17 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  4960 ?        S      0:00 [kworker/1:0]
  6915 ?        S      0:00 [kworker/u8:1]
 17162 ?        S      0:00 [kworker/1:1]
-17234 ?        S      0:00 xcalc
-17237 ?        S      0:00 [kworker/u8:2]
 17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
-19073 ?        S      0:35 [kworker/3:2]
-19074 ?        S      0:00 [kworker/0:0]
-19421 ?        S      0:00 [kworker/0:2]
-19525 ?        S      0:00 /usr/sbin/CRON -f
-19526 ?        Ss     0:00 /bin/sh -c mastershell.sh
-19527 ?        S      0:00 /bin/bash /bin/mastershell.sh
-19568 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-19601 ?        R      0:00 ps ax
+19073 ?        S      0:36 [kworker/3:2]
+19691 ?        S      0:00 xcalc
+19694 ?        S      0:00 [kworker/u8:0]
+21635 ?        S      0:00 [kworker/0:0]
+22057 ?        S      0:00 [kworker/0:2]
+22111 ?        S      0:00 /usr/sbin/CRON -f
+22112 ?        Ss     0:00 /bin/sh -c mastershell.sh
+22113 ?        S      0:00 /bin/bash /bin/mastershell.sh
+22154 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+22207 ?        R      0:00 ps ax
 28031 ?        S      0:00 [kworker/2:0]
 {% endhighlight %}
 
