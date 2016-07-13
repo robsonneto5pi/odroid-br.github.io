@@ -67,7 +67,7 @@ echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
 echo "... Meus processos em execução ..." >> ${name}
 echo "{% highlight ruby %}" >> ${name}
-echo "$(ps a)" >> ${name}
+echo "$(ps ax)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
 echo "Here is a picture of the state of my screen right now!!!" >> ${name}
