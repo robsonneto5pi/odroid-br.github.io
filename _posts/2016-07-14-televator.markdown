@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 9 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 9 hours, 31 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 09:47:11 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 10:00:18 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -124,7 +124,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
-  437 ?        Ss     0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  437 ?        Ss     0:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   447 ?        Ssl    0:15 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
@@ -174,7 +174,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   898 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
   905 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
   931 ?        Sl     0:01 tilda
-  933 ?        Sl     0:03 nm-applet
+  933 ?        Sl     0:04 nm-applet
   935 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
   937 ?        Sl     0:00 mate-maximus
   942 ?        Sl     0:01 mate-power-manager
@@ -199,14 +199,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  3737 ?        S      0:08 [kworker/1:2]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  4265 ?        S      0:00 [kworker/3:1]
-11561 ?        S      0:01 [kworker/1:1]
-12433 ?        S      0:00 [kworker/0:2]
+11561 ?        S      0:03 [kworker/1:1]
 13072 ?        S      0:00 [kworker/0:0]
-13083 ?        S      0:00 /usr/sbin/CRON -f
-13084 ?        Ss     0:00 /bin/sh -c mastershell.sh
-13085 ?        S      0:00 /bin/bash /bin/mastershell.sh
-13145 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-13178 ?        R      0:00 ps ax
+14215 ?        S      0:00 /usr/sbin/CRON -f
+14216 ?        Ss     0:00 /bin/sh -c mastershell.sh
+14217 ?        S      0:00 /bin/bash /bin/mastershell.sh
+14269 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+14302 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
