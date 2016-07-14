@@ -1,1 +1,1 @@
-[aqui](//odroid-br.github.io/../../../odroid-br/odroid-wiki)
+[aqui](//odroid-br.github.io/../../../odroid-wiki)
