@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 11 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 11 hours, 31 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 11:47:12 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 12:00:17 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -111,7 +111,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:10 [kthread_di]
+   84 ?        S      0:11 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -142,7 +142,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   639 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   640 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   644 ?        Sl     0:00 lightdm --session-child 12 15
-  650 ?        Ss     0:04 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  650 ?        Ss     0:05 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   672 ?        Ss     0:00 /lib/systemd/systemd --user
   675 ?        S      0:00 (sd-pam)
   698 ?        Ssl    0:00 mate-session
@@ -199,14 +199,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  3737 ?        S      0:08 [kworker/1:2]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  4265 ?        S      0:00 [kworker/3:1]
-11561 ?        S      0:12 [kworker/1:1]
-21659 ?        S      0:00 [kworker/0:2]
-22170 ?        S      0:00 [kworker/0:0]
-22493 ?        S      0:00 /usr/sbin/CRON -f
-22494 ?        Ss     0:00 /bin/sh -c mastershell.sh
-22495 ?        S      0:00 /bin/bash /bin/mastershell.sh
-22537 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-22570 ?        R      0:00 ps ax
+11561 ?        S      0:13 [kworker/1:1]
+23158 ?        S      0:00 [kworker/0:2]
+23576 ?        S      0:00 /usr/sbin/CRON -f
+23577 ?        Ss     0:00 /bin/sh -c mastershell.sh
+23578 ?        S      0:00 /bin/bash /bin/mastershell.sh
+23620 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+23653 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
