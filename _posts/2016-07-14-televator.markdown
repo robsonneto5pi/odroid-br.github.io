@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 5 hours, 31 minutes !!!
+Eu estou ligado ininterruptamente à 6 hours, 18 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 06:00:11 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 06:47:08 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               639 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          698 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               640 id=tyS0
-odroid   + pts/1        2016-07-14 05:11 00:25       24111 (192.168.1.32)
+odroid   + pts/1        2016-07-14 05:11 01:12       24111 (192.168.1.32)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -56,7 +56,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 ... Meus processos em execução ...
 {% highlight ruby %}
   PID TTY      STAT   TIME COMMAND
-    1 ?        Ss     0:05 /sbin/init
+    1 ?        Ss     0:06 /sbin/init
     2 ?        S      0:00 [kthreadd]
     3 ?        S      0:00 [ksoftirqd/0]
     5 ?        S<     0:00 [kworker/0:0H]
@@ -112,7 +112,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:05 [kthread_di]
+   84 ?        S      0:06 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -120,13 +120,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   163 ?        S<     0:00 [ipv6_addrconf]
   183 ?        S      0:00 [kauditd]
   188 ?        Ss     0:00 /lib/systemd/systemd-journald
-  237 ?        S      0:09 [kworker/2:2]
+  237 ?        S      0:11 [kworker/2:2]
   239 ?        Ss     0:00 /lib/systemd/systemd-udevd
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
   437 ?        Ss     0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  447 ?        Ssl    0:09 /usr/sbin/NetworkManager --no-daemon
+  447 ?        Ssl    0:10 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   453 ?        Ssl    0:00 /usr/sbin/ModemManager
@@ -138,7 +138,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   551 ?        Ssl    0:00 /usr/sbin/cups-browsed
   557 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   576 ?        Ssl    0:00 /usr/sbin/lightdm
-  600 tty7     Ss+    0:12 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  600 tty7     Ss+    0:13 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   601 ?        Ss     0:00 /usr/sbin/sshd -D
   639 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   640 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
@@ -175,7 +175,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   898 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
   905 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
   931 ?        Sl     0:01 tilda
-  933 ?        Sl     0:02 nm-applet
+  933 ?        Sl     0:03 nm-applet
   935 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
   937 ?        Sl     0:00 mate-maximus
   942 ?        Sl     0:00 mate-power-manager
@@ -197,18 +197,19 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1261 ?        S      0:00 [kworker/u8:2]
  2863 ?        S      0:00 [kworker/3:0]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 4197 ?        S      0:26 [kworker/1:0]
+ 4197 ?        S      0:31 [kworker/1:0]
  4265 ?        S      0:00 [kworker/3:1]
 13230 ?        S      0:01 [kworker/0:2]
 24111 ?        Ss     0:00 sshd: odroid [priv]
 24162 ?        S      0:00 sshd: odroid@pts/1
 24163 pts/1    Ss+    0:00 -bash
-27089 ?        S      0:00 [kworker/0:0]
-27914 ?        S      0:00 /usr/sbin/CRON -f
-27915 ?        Ss     0:00 /bin/sh -c mastershell.sh
-27916 ?        S      0:00 /bin/bash /bin/mastershell.sh
-27978 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-28011 ?        R      0:00 ps ax
+30084 ?        S      0:00 [kworker/0:0]
+31200 ?        S      0:00 [kworker/0:1]
+31473 ?        S      0:00 /usr/sbin/CRON -f
+31474 ?        Ss     0:00 /bin/sh -c mastershell.sh
+31475 ?        S      0:00 /bin/bash /bin/mastershell.sh
+31517 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+31550 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
