@@ -15,5 +15,5 @@ echo "4_Hello! No momento, estou com $(ps aux | wc -l) processos em execução!"
 echo "5_Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: $(curl -s ipinfo.io | grep region | cut -d':' -f2 | sed 's/[\", ]//g')" >> greetings.txt
 
 git add --all
-git commit -m "${name}"
+git commit -m "greetings uhu"
 git push -u origin master
