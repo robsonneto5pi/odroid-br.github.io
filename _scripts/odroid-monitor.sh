@@ -10,7 +10,7 @@
 # "the trick" #
 # _monitorar_ #
 ###############
-#ale="shuf -i 1-2 -n 1"
+aleat="shuf -i 1-5 -n 1"
 #cat oi.txt | grep "^$(${ale})_" | cut -d'_' -f2-
 
 name="$(date +%Y-%m-%d)-televator.markdown"
@@ -39,7 +39,7 @@ layout: post
 title:  \"Monitoramento Meu Odroid\"
 ---" > ${name}
 echo "<br />" >> ${name}
-echo "$(cat ../_scripts/greetings.txt | grep ^5_ | cut -d'_' -f2-)  <br />" >> ${name}
+echo "$(cat ../_scripts/greetings.txt | grep "^$(${aleat})_" | cut -d'_' -f2-)  <br />" >> ${name}
 #echo "Hello friends! Meu nome é $(whoami). Esse é uma publicação automática. <br />" >> ${name}
 echo "Abaixo você irá encontrar um relatório de monitoramento <br />" >> ${name}
 echo "Eu estou ligado ininterruptamente à $(uptime -p | cut -d' ' -f2-) !!!" >> ${name}
