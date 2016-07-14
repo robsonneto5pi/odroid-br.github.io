@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 2 hours, 31 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 02:47:08 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 03:00:11 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -197,16 +197,15 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1261 ?        S      0:00 [kworker/u8:2]
  2863 ?        S      0:00 [kworker/3:0]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 4197 ?        S      0:09 [kworker/1:0]
+ 4197 ?        S      0:10 [kworker/1:0]
  4265 ?        S      0:00 [kworker/3:1]
  8450 ?        S      0:00 [kworker/0:0]
-12147 ?        S      0:00 [kworker/0:2]
-12698 ?        S      0:00 [kworker/0:1]
-12752 ?        S      0:00 /usr/sbin/CRON -f
-12753 ?        Ss     0:00 /bin/sh -c mastershell.sh
-12754 ?        S      0:00 /bin/bash /bin/mastershell.sh
-12796 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-12829 ?        R      0:00 ps ax
+13230 ?        S      0:00 [kworker/0:2]
+13849 ?        S      0:00 /usr/sbin/CRON -f
+13850 ?        Ss     0:00 /bin/sh -c mastershell.sh
+13851 ?        S      0:00 /bin/bash /bin/mastershell.sh
+13893 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+13926 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
