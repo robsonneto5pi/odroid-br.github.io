@@ -7,7 +7,7 @@ Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
 Eu estou ligado ininterruptamente à 1 day, 11 hours, 22 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 23:08:18 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 23:08:24 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -201,7 +201,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  7578 ?        S      0:00 [kworker/2:2]
  8139 ?        Ss     0:00 sshd: odroid [priv]
  8189 ?        S      0:00 sshd: odroid@pts/2
- 8190 pts/2    Ss+    0:00 -bash
+ 8190 pts/2    Ss     0:00 -bash
  8465 ?        S      0:00 xcalc
 10850 ?        S      0:00 /usr/sbin/CRON -f
 10851 ?        Ss     0:00 /bin/sh -c mastershell.sh
@@ -284,8 +284,11 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 18471 ?        S      0:00 sh _scripts/mastershell.bkp
 18578 ?        S      0:00 sh _scripts/mastershell.bkp
 18677 ?        S      0:00 sh _scripts/mastershell.bkp
-18723 ?        S      0:00 sh _scripts/odroid-monitor.sh
-18756 ?        R      0:00 ps ax
+18783 ?        S      0:00 sh _scripts/odroid-monitor.sh
+18797 pts/2    S+     0:00 git clone --recursive https://github.com/odroid-br/televator-c2.git
+18798 pts/2    S+     0:00 git-remote-https origin https://github.com/odroid-br/televator-c2.git
+18802 pts/2    S+     0:00 git fetch-pack --stateless-rpc --stdin --lock-pack --thin --check-self-contained-and-connected --cloning https://github.com/odroid-br/televator-c2.git/
+18820 ?        R      0:00 ps ax
 19073 ?        S      0:44 [kworker/3:2]
 25416 ?        Ss     0:00 sshd: odroid [priv]
 25477 ?        S      0:00 sshd: odroid@pts/1
