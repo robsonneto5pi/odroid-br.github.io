@@ -70,12 +70,6 @@ echo "{% highlight ruby %}" >> ${name}
 echo "$(ps ax)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
-echo "Há $(curl -s 192.168.1.1/padrao | grep -o -E -i IP:.{13} | sort -u | wc -l) dispositivos conectados no meu roteador local <br />" >> ${name}
-echo "São esses os IPs:" >> ${name}
-echo "{% highlight ruby %}" >> ${name}
-echo "$(curl -s 192.168.1.1/padrao | grep -o -E -i IP:.{13} | sort -u)" >> ${name}
-echo "{% endhighlight %}" >> ${name}
-echo "" >> ${name}
 echo "Here is a picture of the state of my screen right now!!!" >> ${name}
 echo "" >> ${name}
 echo "![picture of my screen](https://github.com/odroid-br/televator-c2/blob/master/screenshot.png?raw=true =250x)" >> ${name}
