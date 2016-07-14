@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 11 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 11 hours, 18 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 23:00:12 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 23:04:18 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36 02:47       25416 (192.168.1.32)
-odroid   + pts/2        2016-07-13 22:29 00:01        8139 (192.168.1.30)
+odroid   + pts/1        2016-07-13 19:36 02:51       25416 (192.168.1.32)
+odroid   + pts/2        2016-07-13 22:29   .          8139 (192.168.1.30)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -137,7 +137,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   582 ?        Ss     0:00 /usr/sbin/sshd -D
   587 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   604 ?        Ssl    0:00 /usr/sbin/lightdm
-  618 tty7     Ss+   13:53 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  618 tty7     Ss+   13:54 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   643 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   650 ?        Ss     0:15 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
@@ -201,18 +201,63 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  7578 ?        S      0:00 [kworker/2:2]
  8139 ?        Ss     0:00 sshd: odroid [priv]
  8189 ?        S      0:00 sshd: odroid@pts/2
- 8190 pts/2    Ss+    0:00 -bash
+ 8190 pts/2    Ss     0:00 -bash
  8465 ?        S      0:00 xcalc
 10468 ?        S      0:00 [kworker/0:0]
 10850 ?        S      0:00 /usr/sbin/CRON -f
 10851 ?        Ss     0:00 /bin/sh -c mastershell.sh
 10852 ?        S      0:00 /bin/bash /bin/mastershell.sh
 10889 ?        S      0:00 [kworker/0:2]
-10909 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-10942 ?        R      0:00 ps ax
+10975 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+11062 ?        S      0:00 sh _scripts/mastershell.bkp
+11159 ?        S      0:00 sh _scripts/mastershell.bkp
+11256 ?        S      0:00 sh _scripts/mastershell.bkp
+11353 ?        S      0:00 sh _scripts/mastershell.bkp
+11450 ?        S      0:00 sh _scripts/mastershell.bkp
+11547 ?        S      0:00 sh _scripts/mastershell.bkp
+11644 ?        S      0:00 sh _scripts/mastershell.bkp
+11741 ?        S      0:00 sh _scripts/mastershell.bkp
+11848 ?        S      0:00 sh _scripts/mastershell.bkp
+11945 ?        S      0:00 sh _scripts/mastershell.bkp
+12043 ?        S      0:00 sh _scripts/mastershell.bkp
+12143 ?        S      0:00 sh _scripts/mastershell.bkp
+12240 ?        S      0:00 sh _scripts/mastershell.bkp
+12337 ?        S      0:00 sh _scripts/mastershell.bkp
+12435 ?        S      0:00 sh _scripts/mastershell.bkp
+12532 ?        S      0:00 sh _scripts/mastershell.bkp
+12629 ?        S      0:00 sh _scripts/mastershell.bkp
+12726 ?        S      0:00 sh _scripts/mastershell.bkp
+12823 ?        S      0:00 sh _scripts/mastershell.bkp
+12910 ?        S      0:00 sh _scripts/mastershell.bkp
+13027 ?        S      0:00 sh _scripts/mastershell.bkp
+13124 ?        S      0:00 sh _scripts/mastershell.bkp
+13221 ?        S      0:00 sh _scripts/mastershell.bkp
+13308 ?        S      0:00 sh _scripts/mastershell.bkp
+13405 ?        S      0:00 sh _scripts/mastershell.bkp
+13502 ?        S      0:00 sh _scripts/mastershell.bkp
+13599 ?        S      0:00 sh _scripts/mastershell.bkp
+13696 ?        S      0:00 sh _scripts/mastershell.bkp
+13784 ?        S      0:00 sh _scripts/mastershell.bkp
+13881 ?        S      0:00 sh _scripts/mastershell.bkp
+13978 ?        S      0:00 sh _scripts/mastershell.bkp
+14065 ?        S      0:00 sh _scripts/mastershell.bkp
+14162 ?        S      0:00 sh _scripts/mastershell.bkp
+14251 ?        S      0:00 sh _scripts/mastershell.bkp
+14349 ?        S      0:00 sh _scripts/mastershell.bkp
+14446 ?        S      0:00 sh _scripts/mastershell.bkp
+14543 ?        S      0:00 sh _scripts/mastershell.bkp
+14545 pts/2    S+     0:00 sh /bin/mastershell.sh
+14561 ?        S      0:00 git up
+14563 ?        S      0:00 /bin/sh -c git remote update -p; git merge --ff-only @{u} git remote update -p; git merge --ff-only @{u}
+14564 ?        S      0:00 git remote update -p
+14565 ?        S      0:00 git fetch --prune --multiple --all
+14566 ?        S      0:00 git fetch --append --prune origin
+14567 ?        R      0:00 git-remote-https origin https://github.com/odroid-br/televator-c2.git
+14608 pts/2    S+     0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+14641 pts/2    R+     0:00 ps ax
 17162 ?        S      0:00 [kworker/1:1]
 17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
-19073 ?        S      0:43 [kworker/3:2]
+19073 ?        S      0:44 [kworker/3:2]
 25416 ?        Ss     0:00 sshd: odroid [priv]
 25477 ?        S      0:00 sshd: odroid@pts/1
 25478 pts/1    Ss+    0:00 -bash
