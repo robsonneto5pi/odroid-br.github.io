@@ -3,11 +3,11 @@ layout: post
 title:  "Monitoramento Meu Odroid"
 ---
 <br />
-  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha "região" é: $(curl -s ipinfo.io | grep "region" | cut -d':' -f2 | sed 's/[", ]//g')  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 13 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 13 hours, 31 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 13:47:10 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 14:00:16 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -111,7 +111,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:12 [kthread_di]
+   84 ?        S      0:13 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -119,7 +119,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   163 ?        S<     0:00 [ipv6_addrconf]
   183 ?        S      0:00 [kauditd]
   188 ?        Ss     0:00 /lib/systemd/systemd-journald
-  237 ?        S      0:23 [kworker/2:2]
+  237 ?        S      0:24 [kworker/2:2]
   239 ?        Ss     0:00 /lib/systemd/systemd-udevd
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
@@ -168,7 +168,10 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   877 ?        Sl     0:00 /usr/lib/mate-panel/wnck-applet
   879 ?        Sl     0:00 /usr/lib/mate-applets/trashapplet
   880 ?        SNsl   0:00 /usr/lib/rtkit/rtkit-daemon
+  881 ?        S      0:00 /usr/sbin/CRON -f
   882 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+  883 ?        Ss     0:00 /bin/sh -c mastershell.sh
+  884 ?        S      0:00 /bin/bash /bin/mastershell.sh
   889 ?        Sl     0:00 mate-volume-control-applet
   896 ?        Ssl    0:00 /usr/lib/udisks2/udisksd --no-debug
   898 ?        Sl     0:01 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
@@ -179,6 +182,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   937 ?        Sl     0:00 mate-maximus
   942 ?        Sl     0:01 mate-power-manager
   943 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
+  958 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
   962 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
   968 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
   982 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
@@ -186,6 +190,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   999 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
  1010 ?        Ssl    0:01 /usr/lib/upower/upowerd
  1041 ?        Sl     0:02 /usr/lib/mate-panel/clock-applet
+ 1042 ?        R      0:00 ps ax
  1043 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
  1058 ?        Sl     0:00 marco.real --no-composite
  1080 pts/0    Ss+    0:00 /bin/bash
@@ -198,14 +203,9 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  4265 ?        S      0:00 [kworker/3:1]
 11561 ?        S      0:13 [kworker/1:1]
-23913 ?        S      0:09 [kworker/1:0]
+23913 ?        S      0:10 [kworker/1:0]
 25712 ?        S      0:00 [kworker/0:2]
-31479 ?        S      0:00 [kworker/0:1]
-32115 ?        S      0:00 /usr/sbin/CRON -f
-32116 ?        Ss     0:00 /bin/sh -c mastershell.sh
-32117 ?        S      0:00 /bin/bash /bin/mastershell.sh
-32163 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-32199 ?        R      0:00 ps ax
+32763 ?        S      0:00 [kworker/0:0]
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
