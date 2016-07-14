@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 10 hours, 31 minutes !!!
+Eu estou ligado ininterruptamente à 11 hours, 18 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 11:00:15 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 11:47:12 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -119,18 +119,18 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   163 ?        S<     0:00 [ipv6_addrconf]
   183 ?        S      0:00 [kauditd]
   188 ?        Ss     0:00 /lib/systemd/systemd-journald
-  237 ?        S      0:18 [kworker/2:2]
+  237 ?        S      0:20 [kworker/2:2]
   239 ?        Ss     0:00 /lib/systemd/systemd-udevd
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
   437 ?        Ss     0:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  447 ?        Ssl    0:16 /usr/sbin/NetworkManager --no-daemon
+  447 ?        Ssl    0:18 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   453 ?        Ssl    0:00 /usr/sbin/ModemManager
   455 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
-  463 ?        Ssl    0:03 /usr/bin/whoopsie -f
+  463 ?        Ssl    0:04 /usr/bin/whoopsie -f
   472 ?        Ss     0:00 /lib/systemd/systemd-logind
   473 ?        Ss     0:00 avahi-daemon: running [odroid64.local]
   504 ?        S      0:00 avahi-daemon: chroot helper
@@ -161,7 +161,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   844 ?        Sl     0:00 /usr/lib/dconf/dconf-service
   848 ?        Sl     0:00 gnome-keyring-daemon --start
   856 ?        Sl     0:01 /usr/bin/mate-settings-daemon
-  861 ?        Sl     0:01 mate-panel
+  861 ?        Sl     0:02 mate-panel
   866 ?        Sl     0:02 caja
   868 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
   876 ?        S<l    0:00 /usr/bin/pulseaudio --start --log-target=syslog
@@ -171,7 +171,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   882 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
   889 ?        Sl     0:00 mate-volume-control-applet
   896 ?        Ssl    0:00 /usr/lib/udisks2/udisksd --no-debug
-  898 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
+  898 ?        Sl     0:01 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
   905 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
   931 ?        Sl     0:01 tilda
   933 ?        Sl     0:04 nm-applet
@@ -190,7 +190,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1058 ?        Sl     0:00 marco.real --no-composite
  1080 pts/0    Ss+    0:00 /bin/bash
  1093 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
- 1110 ?        S      0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+ 1110 ?        S      0:01 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
  1146 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
  1253 ?        S      0:00 /usr/lib/bluetooth/obexd
  1261 ?        S      0:00 [kworker/u8:2]
@@ -199,13 +199,14 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  3737 ?        S      0:08 [kworker/1:2]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  4265 ?        S      0:00 [kworker/3:1]
-11561 ?        S      0:08 [kworker/1:1]
-18538 ?        S      0:00 [kworker/0:2]
-18905 ?        S      0:00 /usr/sbin/CRON -f
-18906 ?        Ss     0:00 /bin/sh -c mastershell.sh
-18907 ?        S      0:00 /bin/bash /bin/mastershell.sh
-18949 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-18982 ?        R      0:00 ps ax
+11561 ?        S      0:12 [kworker/1:1]
+21659 ?        S      0:00 [kworker/0:2]
+22170 ?        S      0:00 [kworker/0:0]
+22493 ?        S      0:00 /usr/sbin/CRON -f
+22494 ?        Ss     0:00 /bin/sh -c mastershell.sh
+22495 ?        S      0:00 /bin/bash /bin/mastershell.sh
+22537 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+22570 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
