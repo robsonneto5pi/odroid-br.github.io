@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 6 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 6 hours, 31 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 06:47:08 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 07:00:10 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               639 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          698 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               640 id=tyS0
-odroid   + pts/1        2016-07-14 05:11 01:12       24111 (192.168.1.32)
+odroid   + pts/1        2016-07-14 05:11 01:25       24111 (192.168.1.32)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -100,7 +100,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    69 ?        S<     0:00 [dwc_otg]
    70 ?        S      0:00 [kworker/2:1]
    71 ?        S<     0:00 [dwc_otg]
-   72 ?        S      0:01 [kthread_hdcp]
+   72 ?        S      0:02 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
    74 ?        S      0:02 [kworker/1:1]
    75 ?        S      0:00 [irq/99-sd_emmc_]
@@ -197,19 +197,18 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1261 ?        S      0:00 [kworker/u8:2]
  2863 ?        S      0:00 [kworker/3:0]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 4197 ?        S      0:31 [kworker/1:0]
+ 4197 ?        S      0:32 [kworker/1:0]
  4265 ?        S      0:00 [kworker/3:1]
-13230 ?        S      0:01 [kworker/0:2]
 24111 ?        Ss     0:00 sshd: odroid [priv]
 24162 ?        S      0:00 sshd: odroid@pts/1
 24163 pts/1    Ss+    0:00 -bash
 30084 ?        S      0:00 [kworker/0:0]
-31200 ?        S      0:00 [kworker/0:1]
-31473 ?        S      0:00 /usr/sbin/CRON -f
-31474 ?        Ss     0:00 /bin/sh -c mastershell.sh
-31475 ?        S      0:00 /bin/bash /bin/mastershell.sh
-31517 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-31550 ?        R      0:00 ps ax
+32183 ?        S      0:00 [kworker/0:2]
+32517 ?        S      0:00 /usr/sbin/CRON -f
+32518 ?        Ss     0:00 /bin/sh -c mastershell.sh
+32519 ?        S      0:00 /bin/bash /bin/mastershell.sh
+32561 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+32594 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
