@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 10 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 10 hours, 31 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 10:47:11 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 11:00:15 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -137,7 +137,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   551 ?        Ssl    0:00 /usr/sbin/cups-browsed
   557 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   576 ?        Ssl    0:00 /usr/sbin/lightdm
-  600 tty7     Ss+    0:16 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  600 tty7     Ss+    0:17 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   601 ?        Ss     0:00 /usr/sbin/sshd -D
   639 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   640 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
@@ -184,7 +184,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   982 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
   997 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
   999 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
- 1010 ?        Ssl    0:00 /usr/lib/upower/upowerd
+ 1010 ?        Ssl    0:01 /usr/lib/upower/upowerd
  1041 ?        Sl     0:02 /usr/lib/mate-panel/clock-applet
  1043 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
  1058 ?        Sl     0:00 marco.real --no-composite
@@ -199,13 +199,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  3737 ?        S      0:08 [kworker/1:2]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  4265 ?        S      0:00 [kworker/3:1]
-11561 ?        S      0:07 [kworker/1:1]
-17487 ?        S      0:00 [kworker/0:2]
-17854 ?        S      0:00 /usr/sbin/CRON -f
-17855 ?        Ss     0:00 /bin/sh -c mastershell.sh
-17856 ?        S      0:00 /bin/bash /bin/mastershell.sh
-17905 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-17938 ?        R      0:00 ps ax
+11561 ?        S      0:08 [kworker/1:1]
+18538 ?        S      0:00 [kworker/0:2]
+18905 ?        S      0:00 /usr/sbin/CRON -f
+18906 ?        Ss     0:00 /bin/sh -c mastershell.sh
+18907 ?        S      0:00 /bin/bash /bin/mastershell.sh
+18949 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+18982 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
