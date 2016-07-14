@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 15 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 15 hours, 31 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 15:47:21 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 16:00:28 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -111,7 +111,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:14 [kthread_di]
+   84 ?        S      0:15 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -197,14 +197,14 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  2863 ?        S      0:00 [kworker/3:0]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  4265 ?        S      0:00 [kworker/3:1]
- 8520 ?        S      0:00 [kworker/0:0]
- 9240 ?        S      0:00 /usr/sbin/CRON -f
- 9241 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 9242 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 9344 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 9381 ?        R      0:00 ps ax
+ 9909 ?        S      0:00 [kworker/0:1]
+10359 ?        S      0:00 /usr/sbin/CRON -f
+10360 ?        Ss     0:00 /bin/sh -c mastershell.sh
+10361 ?        S      0:00 /bin/bash /bin/mastershell.sh
+10459 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+10509 ?        R      0:00 ps ax
 11561 ?        S      0:13 [kworker/1:1]
-23913 ?        S      0:20 [kworker/1:0]
+23913 ?        S      0:21 [kworker/1:0]
 25712 ?        S      0:01 [kworker/0:2]
 {% endhighlight %}
 
