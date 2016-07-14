@@ -37,7 +37,7 @@ layout: post
 title:  \"Monitoramento Meu Odroid\"
 ---" > ${name}
 echo "<br />" >> ${name}
-echo "$(cat grettings.txt | grep ^1_ | cut -d'_' -f2-)  <br />" >> ${name}
+echo "$(cat grettings.txt | grep ^5_ | cut -d'_' -f2-)  <br />" >> ${name}
 #echo "Hello friends! Meu nome é $(whoami). Esse é uma publicação automática. <br />" >> ${name}
 echo "Abaixo você irá encontrar um relatório de monitoramento <br />" >> ${name}
 echo "Eu estou ligado ininterruptamente à $(uptime -p | cut -d' ' -f2-) !!!" >> ${name}
