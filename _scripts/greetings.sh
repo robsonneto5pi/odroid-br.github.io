@@ -4,6 +4,10 @@
 
 cd /home/odroid/rodolfo/odroid-br.github.io/_scripts
 
+git reset --hard
+git clean -fd
+git up
+
 echo "1_Hello Friends! Esse é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!" > greetings.txt
 echo "2_Hello Friends! Meu nome é $(whoami)." >> greetings.txt
 echo "3_Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!" >> greetings.txt
