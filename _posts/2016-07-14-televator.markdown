@@ -5,15 +5,15 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 12 hours, 36 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 12 hours, 38 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 00:22:08 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 00:24:08 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M  9.4M  163M   6% /run
+tmpfs           172M   12M  161M   7% /run
 /dev/mmcblk0p2  7.1G  4.6G  2.3G  68% /
 tmpfs           860M  448K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
@@ -31,9 +31,9 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36 04:08       25416 (192.168.1.32)
+odroid   + pts/1        2016-07-13 19:36 04:10       25416 (192.168.1.32)
 odroid   + pts/2        2016-07-13 22:29   .          8139 (192.168.1.30)
-odroid   + pts/3        2016-07-14 00:16 00:04       26876 (192.168.1.30)
+odroid   + pts/3        2016-07-14 00:16 00:06       26876 (192.168.1.30)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -172,7 +172,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   900 ?        Sl     0:00 mate-volume-control-applet
   908 ?        Sl     0:02 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
   910 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
-  937 ?        Sl     0:12 nm-applet
+  937 ?        Sl     0:13 nm-applet
   938 ?        Sl     0:01 tilda
   941 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
   943 ?        Sl     0:00 mate-maximus
@@ -201,7 +201,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  7578 ?        S      0:00 [kworker/2:2]
  8139 ?        Ss     0:00 sshd: odroid [priv]
  8189 ?        S      0:01 sshd: odroid@pts/2
- 8190 pts/2    Ss+    0:01 -bash
+ 8190 pts/2    Ss+    0:02 -bash
 16657 ?        S      0:02 [kworker/0:2]
 17162 ?        S      0:00 [kworker/1:1]
 17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
@@ -214,11 +214,11 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 26929 ?        S      0:00 sshd: odroid@pts/3
 26930 pts/3    Ss+    0:00 -bash
 27396 ?        S      0:00 [kworker/0:0]
-27561 ?        S      0:00 /usr/sbin/CRON -f
-27562 ?        Ss     0:00 /bin/sh -c mastershell.sh
-27563 ?        S      0:00 /bin/bash /bin/mastershell.sh
-27595 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-27628 ?        R      0:00 ps ax
+27896 ?        S      0:00 /usr/sbin/CRON -f
+27897 ?        Ss     0:00 /bin/sh -c mastershell.sh
+27898 ?        S      0:00 /bin/bash /bin/mastershell.sh
+27932 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+27975 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
