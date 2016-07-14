@@ -5,17 +5,17 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 11 hours, 22 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 11 hours, 44 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 23:08:24 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 23:30:11 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.4M  163M   6% /run
-/dev/mmcblk0p2  7.1G  4.5G  2.4G  66% /
-tmpfs           860M  384K  859M   1% /dev/shm
+/dev/mmcblk0p2  7.1G  4.6G  2.3G  68% /
+tmpfs           860M  448K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36 02:55       25416 (192.168.1.32)
+odroid   + pts/1        2016-07-13 19:36 03:17       25416 (192.168.1.32)
 odroid   + pts/2        2016-07-13 22:29   .          8139 (192.168.1.30)
 {% endhighlight %}
 
@@ -86,7 +86,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    33 ?        S      0:00 [khubd]
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
-   36 ?        S      3:40 [kworker/0:1]
    37 ?        S<     0:00 [kworker/1:1H]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
@@ -107,11 +106,11 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    77 ?        S      0:00 [irq/250-sd_emmc]
    78 ?        S      0:00 [vmalloc_ion]
    79 ?        S      0:00 [carveout_ion]
-   80 ?        S      0:01 [mmcqd/0]
+   80 ?        S      0:02 [mmcqd/0]
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:55 [kthread_di]
+   84 ?        S      0:56 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -131,7 +130,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   439 ?        Ssl    0:00 /usr/sbin/ModemManager
   443 ?        Ss     0:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   450 ?        S      0:00 avahi-daemon: chroot helper
-  486 ?        Ssl    0:58 /usr/sbin/NetworkManager --no-daemon
+  486 ?        Ssl    0:59 /usr/sbin/NetworkManager --no-daemon
   488 ?        Ss     0:00 /usr/sbin/cron -f
   490 ?        Ssl    0:00 /usr/sbin/cups-browsed
   582 ?        Ss     0:00 /usr/sbin/sshd -D
@@ -184,7 +183,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   999 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
  1010 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
  1014 ?        Ssl    0:03 /usr/lib/upower/upowerd
- 1038 ?        Sl     0:06 /usr/lib/mate-panel/clock-applet
+ 1038 ?        Sl     0:07 /usr/lib/mate-panel/clock-applet
  1040 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
  1050 ?        Sl     0:01 marco.real --no-composite
  1055 ?        S      0:00 [kworker/2:1]
@@ -201,100 +200,29 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  7578 ?        S      0:00 [kworker/2:2]
  8139 ?        Ss     0:00 sshd: odroid [priv]
  8189 ?        S      0:00 sshd: odroid@pts/2
- 8190 pts/2    Ss     0:00 -bash
+ 8190 pts/2    Ss+    0:00 -bash
  8465 ?        S      0:00 xcalc
-10850 ?        S      0:00 /usr/sbin/CRON -f
-10851 ?        Ss     0:00 /bin/sh -c mastershell.sh
-10852 ?        S      0:00 /bin/bash /bin/mastershell.sh
-10889 ?        S      0:00 [kworker/0:2]
-10975 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-11062 ?        S      0:00 sh _scripts/mastershell.bkp
-11159 ?        S      0:00 sh _scripts/mastershell.bkp
-11256 ?        S      0:00 sh _scripts/mastershell.bkp
-11353 ?        S      0:00 sh _scripts/mastershell.bkp
-11450 ?        S      0:00 sh _scripts/mastershell.bkp
-11547 ?        S      0:00 sh _scripts/mastershell.bkp
-11644 ?        S      0:00 sh _scripts/mastershell.bkp
-11741 ?        S      0:00 sh _scripts/mastershell.bkp
-11848 ?        S      0:00 sh _scripts/mastershell.bkp
-11945 ?        S      0:00 sh _scripts/mastershell.bkp
-12043 ?        S      0:00 sh _scripts/mastershell.bkp
-12143 ?        S      0:00 sh _scripts/mastershell.bkp
-12240 ?        S      0:00 sh _scripts/mastershell.bkp
-12337 ?        S      0:00 sh _scripts/mastershell.bkp
-12435 ?        S      0:00 sh _scripts/mastershell.bkp
-12532 ?        S      0:00 sh _scripts/mastershell.bkp
-12629 ?        S      0:00 sh _scripts/mastershell.bkp
-12726 ?        S      0:00 sh _scripts/mastershell.bkp
-12823 ?        S      0:00 sh _scripts/mastershell.bkp
-12910 ?        S      0:00 sh _scripts/mastershell.bkp
-13027 ?        S      0:00 sh _scripts/mastershell.bkp
-13124 ?        S      0:00 sh _scripts/mastershell.bkp
-13221 ?        S      0:00 sh _scripts/mastershell.bkp
-13308 ?        S      0:00 sh _scripts/mastershell.bkp
-13405 ?        S      0:00 sh _scripts/mastershell.bkp
-13502 ?        S      0:00 sh _scripts/mastershell.bkp
-13599 ?        S      0:00 sh _scripts/mastershell.bkp
-13696 ?        S      0:00 sh _scripts/mastershell.bkp
-13784 ?        S      0:00 sh _scripts/mastershell.bkp
-13881 ?        S      0:00 sh _scripts/mastershell.bkp
-13978 ?        S      0:00 sh _scripts/mastershell.bkp
-14065 ?        S      0:00 sh _scripts/mastershell.bkp
-14162 ?        S      0:00 sh _scripts/mastershell.bkp
-14251 ?        S      0:00 sh _scripts/mastershell.bkp
-14349 ?        S      0:00 sh _scripts/mastershell.bkp
-14446 ?        S      0:00 sh _scripts/mastershell.bkp
-14543 ?        S      0:00 sh _scripts/mastershell.bkp
-14714 ?        S      0:00 sh _scripts/mastershell.bkp
-14889 ?        S      0:00 sh _scripts/mastershell.bkp
-15159 ?        S      0:00 sh _scripts/mastershell.bkp
-15333 ?        S      0:00 sh _scripts/mastershell.bkp
-15464 ?        S      0:00 sh _scripts/mastershell.bkp
-15582 ?        S      0:00 sh _scripts/mastershell.bkp
-15750 ?        S      0:00 sh _scripts/mastershell.bkp
-15854 ?        S      0:00 [kworker/0:0]
-15938 ?        S      0:00 sh _scripts/mastershell.bkp
-16026 ?        S      0:00 sh _scripts/mastershell.bkp
-16126 ?        S      0:00 sh _scripts/mastershell.bkp
-16226 ?        S      0:00 sh _scripts/mastershell.bkp
-16323 ?        S      0:00 sh _scripts/mastershell.bkp
-16421 ?        S      0:00 sh _scripts/mastershell.bkp
-16508 ?        S      0:00 sh _scripts/mastershell.bkp
-16607 ?        S      0:00 sh _scripts/mastershell.bkp
-16705 ?        S      0:00 sh _scripts/mastershell.bkp
-16802 ?        S      0:00 sh _scripts/mastershell.bkp
-16890 ?        S      0:00 sh _scripts/mastershell.bkp
-16988 ?        S      0:00 sh _scripts/mastershell.bkp
-17076 ?        S      0:00 sh _scripts/mastershell.bkp
+15854 ?        S      0:03 [kworker/0:0]
 17162 ?        S      0:00 [kworker/1:1]
-17178 ?        S      0:00 sh _scripts/mastershell.bkp
-17276 ?        S      0:00 sh _scripts/mastershell.bkp
-17380 ?        S      0:00 sh _scripts/mastershell.bkp
-17479 ?        S      0:00 sh _scripts/mastershell.bkp
-17576 ?        S      0:00 sh _scripts/mastershell.bkp
-17684 ?        S      0:00 sh _scripts/mastershell.bkp
-17796 ?        S      0:00 sh _scripts/mastershell.bkp
 17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
-17899 ?        S      0:00 sh _scripts/mastershell.bkp
-17996 ?        S      0:00 sh _scripts/mastershell.bkp
-18083 ?        S      0:00 sh _scripts/mastershell.bkp
-18180 ?        S      0:00 sh _scripts/mastershell.bkp
-18277 ?        S      0:00 sh _scripts/mastershell.bkp
-18374 ?        S      0:00 sh _scripts/mastershell.bkp
-18471 ?        S      0:00 sh _scripts/mastershell.bkp
-18578 ?        S      0:00 sh _scripts/mastershell.bkp
-18677 ?        S      0:00 sh _scripts/mastershell.bkp
-18783 ?        S      0:00 sh _scripts/odroid-monitor.sh
-18797 pts/2    S+     0:00 git clone --recursive https://github.com/odroid-br/televator-c2.git
-18798 pts/2    S+     0:00 git-remote-https origin https://github.com/odroid-br/televator-c2.git
-18802 pts/2    S+     0:00 git fetch-pack --stateless-rpc --stdin --lock-pack --thin --check-self-contained-and-connected --cloning https://github.com/odroid-br/televator-c2.git/
-18820 ?        R      0:00 ps ax
 19073 ?        S      0:44 [kworker/3:2]
+20173 ?        S      0:00 [kworker/0:2]
+20587 ?        S      0:00 [kworker/0:1]
+21590 ?        S      0:00 /usr/sbin/CRON -f
+21591 ?        Ss     0:00 /bin/sh -c mastershell.sh
+21592 ?        S      0:00 /bin/bash /bin/mastershell.sh
+21638 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+21681 ?        R      0:00 ps ax
 25416 ?        Ss     0:00 sshd: odroid [priv]
 25477 ?        S      0:00 sshd: odroid@pts/1
 25478 pts/1    Ss+    0:00 -bash
 {% endhighlight %}
 
+Há 0 dispositivos conectados no meu roteador local <br />
+São esses os IPs:
+{% highlight ruby %}
+
+{% endhighlight %}
 Here is a picture of the state of my screen right now!!!
 
 ![picture of my screen](https://github.com/odroid-br/televator-c2/blob/master/screenshot.png?raw=true =250x)
