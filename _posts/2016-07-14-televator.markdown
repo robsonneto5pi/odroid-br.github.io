@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 hour, 18 minutes !!!
+Eu estou ligado ininterruptamente à 1 hour, 31 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 01:47:08 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 02:00:11 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -126,7 +126,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
   437 ?        Ss     0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  447 ?        Ssl    0:02 /usr/sbin/NetworkManager --no-daemon
+  447 ?        Ssl    0:03 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   453 ?        Ssl    0:00 /usr/sbin/ModemManager
@@ -198,15 +198,16 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  2863 ?        S      0:00 [kworker/3:0]
  3475 ?        S      0:00 [kworker/0:2]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 4197 ?        S      0:04 [kworker/1:0]
+ 4197 ?        S      0:05 [kworker/1:0]
  4265 ?        S      0:00 [kworker/3:1]
- 4582 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
- 7555 ?        S      0:00 [kworker/0:1]
- 8120 ?        S      0:00 /usr/sbin/CRON -f
- 8121 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 8122 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 8154 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 8187 ?        R      0:00 ps ax
+ 8247 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
+ 8450 ?        S      0:00 [kworker/0:0]
+ 8922 ?        S      0:00 [kworker/0:1]
+ 9173 ?        S      0:00 /usr/sbin/CRON -f
+ 9174 ?        Ss     0:00 /bin/sh -c mastershell.sh
+ 9175 ?        S      0:00 /bin/bash /bin/mastershell.sh
+ 9217 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+ 9260 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
