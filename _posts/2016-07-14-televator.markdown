@@ -3,11 +3,11 @@ layout: post
 title:  "Monitoramento Meu Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: $(curl -s ipinfo.io | grep region | cut -d':' -f2 | sed 's/[\", ]//g')  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 14 hours, 31 minutes !!!
+Eu estou ligado ininterruptamente à 15 hours, 18 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 15:00:13 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 15:47:21 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -119,25 +119,25 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   163 ?        S<     0:00 [ipv6_addrconf]
   183 ?        S      0:00 [kauditd]
   188 ?        Ss     0:00 /lib/systemd/systemd-journald
-  237 ?        S      0:25 [kworker/2:2]
+  237 ?        S      0:27 [kworker/2:2]
   239 ?        Ss     0:00 /lib/systemd/systemd-udevd
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
   437 ?        Ss     0:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  447 ?        Ssl    0:23 /usr/sbin/NetworkManager --no-daemon
+  447 ?        Ssl    0:24 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   453 ?        Ssl    0:00 /usr/sbin/ModemManager
   455 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
   463 ?        Ssl    0:05 /usr/bin/whoopsie -f
   472 ?        Ss     0:00 /lib/systemd/systemd-logind
-  473 ?        Ss     0:00 avahi-daemon: running [odroid64.local]
+  473 ?        Ss     0:01 avahi-daemon: running [odroid64.local]
   504 ?        S      0:00 avahi-daemon: chroot helper
   551 ?        Ssl    0:00 /usr/sbin/cups-browsed
   557 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   576 ?        Ssl    0:00 /usr/sbin/lightdm
-  600 tty7     Ss+    0:20 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  600 tty7     Ss+    0:21 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   601 ?        Ss     0:00 /usr/sbin/sshd -D
   639 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   640 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
@@ -185,7 +185,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   997 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
   999 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
  1010 ?        Ssl    0:01 /usr/lib/upower/upowerd
- 1041 ?        Sl     0:02 /usr/lib/mate-panel/clock-applet
+ 1041 ?        Sl     0:03 /usr/lib/mate-panel/clock-applet
  1043 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
  1058 ?        Sl     0:00 marco.real --no-composite
  1080 pts/0    Ss+    0:00 /bin/bash
@@ -197,16 +197,15 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  2863 ?        S      0:00 [kworker/3:0]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  4265 ?        S      0:00 [kworker/3:1]
- 4977 ?        S      0:00 [kworker/0:0]
- 5486 ?        S      0:00 [kworker/0:1]
- 5688 ?        S      0:00 /usr/sbin/CRON -f
- 5689 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 5690 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 5736 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 5782 ?        R      0:00 ps ax
+ 8520 ?        S      0:00 [kworker/0:0]
+ 9240 ?        S      0:00 /usr/sbin/CRON -f
+ 9241 ?        Ss     0:00 /bin/sh -c mastershell.sh
+ 9242 ?        S      0:00 /bin/bash /bin/mastershell.sh
+ 9344 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+ 9381 ?        R      0:00 ps ax
 11561 ?        S      0:13 [kworker/1:1]
-23913 ?        S      0:16 [kworker/1:0]
-25712 ?        S      0:00 [kworker/0:2]
+23913 ?        S      0:20 [kworker/1:0]
+25712 ?        S      0:01 [kworker/0:2]
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
