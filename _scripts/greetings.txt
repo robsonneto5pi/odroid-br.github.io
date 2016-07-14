@@ -1,4 +1,4 @@
-1_Hello Friends! Esse é mais uma publicação automática. Cliquem [aqui](_includes/odroid-wiki) para saber mais sobre mim!
+1_Hello Friends! Esse é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!
 2_
 3_
 4_
