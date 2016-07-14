@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 8 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 8 hours, 44 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 20:00:13 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 20:30:13 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36   .         25416 (192.168.1.32)
+odroid   + pts/1        2016-07-13 19:36 00:17       25416 (192.168.1.32)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -85,7 +85,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    33 ?        S      0:00 [khubd]
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
-   36 ?        S      3:21 [kworker/0:1]
+   36 ?        S      3:24 [kworker/0:1]
    37 ?        S<     0:00 [kworker/1:1H]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
@@ -130,13 +130,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   439 ?        Ssl    0:00 /usr/sbin/ModemManager
   443 ?        Ss     0:07 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   450 ?        S      0:00 avahi-daemon: chroot helper
-  486 ?        Ssl    0:52 /usr/sbin/NetworkManager --no-daemon
+  486 ?        Ssl    0:53 /usr/sbin/NetworkManager --no-daemon
   488 ?        Ss     0:00 /usr/sbin/cron -f
   490 ?        Ssl    0:00 /usr/sbin/cups-browsed
   582 ?        Ss     0:00 /usr/sbin/sshd -D
   587 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   604 ?        Ssl    0:00 /usr/sbin/lightdm
-  618 tty7     Ss+   13:45 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  618 tty7     Ss+   13:46 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   643 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   650 ?        Ss     0:14 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
@@ -198,20 +198,20 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  6915 ?        S      0:00 [kworker/u8:1]
 17162 ?        S      0:00 [kworker/1:1]
 17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
-19073 ?        S      0:38 [kworker/3:2]
-19694 ?        S      0:00 [kworker/u8:0]
-24906 ?        S      0:00 xcalc
+19073 ?        S      0:39 [kworker/3:2]
 25416 ?        Ss     0:00 sshd: odroid [priv]
 25477 ?        S      0:00 sshd: odroid@pts/1
 25478 pts/1    Ss+    0:00 -bash
-27042 ?        S      0:00 [kworker/0:0]
-27440 ?        S      0:00 [kworker/0:2]
-27501 ?        S      0:00 /usr/sbin/CRON -f
-27502 ?        Ss     0:00 /bin/sh -c mastershell.sh
-27503 ?        S      0:00 /bin/bash /bin/mastershell.sh
-27547 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-27580 ?        R      0:00 ps ax
+27670 ?        S      0:00 xcalc
+27673 ?        S      0:00 [kworker/u8:2]
 28031 ?        S      0:00 [kworker/2:0]
+29662 ?        S      0:00 [kworker/0:0]
+30084 ?        S      0:00 [kworker/0:2]
+30125 ?        S      0:00 /usr/sbin/CRON -f
+30126 ?        Ss     0:00 /bin/sh -c mastershell.sh
+30127 ?        S      0:00 /bin/bash /bin/mastershell.sh
+30158 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+30201 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
