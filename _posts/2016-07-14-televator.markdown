@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 12 hours, 26 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 12 hours, 36 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 00:12:12 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 00:22:08 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -23,7 +23,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   32K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 2 usuário(s) conectado(s) em mim ;) <br />
+Há 3 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -31,8 +31,9 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36 03:59       25416 (192.168.1.32)
+odroid   + pts/1        2016-07-13 19:36 04:08       25416 (192.168.1.32)
 odroid   + pts/2        2016-07-13 22:29   .          8139 (192.168.1.30)
+odroid   + pts/3        2016-07-14 00:16 00:04       26876 (192.168.1.30)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -126,7 +127,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   429 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   432 ?        Ss     0:02 avahi-daemon: running [odroid64.local]
   433 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
-  438 ?        Ssl    0:01 /usr/lib/accountsservice/accounts-daemon
+  438 ?        Ssl    0:02 /usr/lib/accountsservice/accounts-daemon
   439 ?        Ssl    0:00 /usr/sbin/ModemManager
   443 ?        Ss     0:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   450 ?        S      0:00 avahi-daemon: chroot helper
@@ -201,20 +202,23 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  8139 ?        Ss     0:00 sshd: odroid [priv]
  8189 ?        S      0:01 sshd: odroid@pts/2
  8190 pts/2    Ss+    0:01 -bash
-16657 ?        S      0:01 [kworker/0:2]
+16657 ?        S      0:02 [kworker/0:2]
 17162 ?        S      0:00 [kworker/1:1]
 17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
 19073 ?        S      0:46 [kworker/3:2]
-22059 ?        S      0:00 [kworker/0:1]
 25416 ?        Ss     0:00 sshd: odroid [priv]
 25477 ?        S      0:00 sshd: odroid@pts/1
 25478 pts/1    Ss+    0:00 -bash
-26203 ?        S      0:00 [kworker/0:0]
-26357 ?        S      0:00 /usr/sbin/CRON -f
-26358 ?        Ss     0:00 /bin/sh -c mastershell.sh
-26359 ?        S      0:00 /bin/bash /bin/mastershell.sh
-26404 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-26447 ?        R      0:00 ps ax
+26815 ?        S      0:00 [kworker/0:1]
+26876 ?        Ss     0:00 sshd: odroid [priv]
+26929 ?        S      0:00 sshd: odroid@pts/3
+26930 pts/3    Ss+    0:00 -bash
+27396 ?        S      0:00 [kworker/0:0]
+27561 ?        S      0:00 /usr/sbin/CRON -f
+27562 ?        Ss     0:00 /bin/sh -c mastershell.sh
+27563 ?        S      0:00 /bin/bash /bin/mastershell.sh
+27595 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+27628 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
