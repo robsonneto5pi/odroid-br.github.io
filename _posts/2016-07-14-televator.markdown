@@ -3,11 +3,11 @@ layout: post
 title:  "Monitoramento Meu Odroid"
 ---
 <br />
-Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
+Hello Friends! Esse é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 15 hours, 31 minutes !!!
+Eu estou ligado ininterruptamente à 16 hours, 18 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 16:00:28 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 16:47:21 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -119,13 +119,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   163 ?        S<     0:00 [ipv6_addrconf]
   183 ?        S      0:00 [kauditd]
   188 ?        Ss     0:00 /lib/systemd/systemd-journald
-  237 ?        S      0:27 [kworker/2:2]
+  237 ?        S      0:29 [kworker/2:2]
   239 ?        Ss     0:00 /lib/systemd/systemd-udevd
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
-  420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
+  420 ?        Ssl    0:01 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
   437 ?        Ss     0:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  447 ?        Ssl    0:24 /usr/sbin/NetworkManager --no-daemon
+  447 ?        Ssl    0:26 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   453 ?        Ssl    0:00 /usr/sbin/ModemManager
@@ -142,7 +142,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   639 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   640 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   644 ?        Sl     0:00 lightdm --session-child 12 15
-  650 ?        Ss     0:06 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  650 ?        Ss     0:07 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   672 ?        Ss     0:00 /lib/systemd/systemd --user
   675 ?        S      0:00 (sd-pam)
   698 ?        Ssl    0:00 mate-session
@@ -174,7 +174,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   898 ?        Sl     0:01 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
   905 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
   931 ?        Sl     0:01 tilda
-  933 ?        Sl     0:05 nm-applet
+  933 ?        Sl     0:06 nm-applet
   935 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
   937 ?        Sl     0:00 mate-maximus
   942 ?        Sl     0:01 mate-power-manager
@@ -197,14 +197,15 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  2863 ?        S      0:00 [kworker/3:0]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  4265 ?        S      0:00 [kworker/3:1]
- 9909 ?        S      0:00 [kworker/0:1]
-10359 ?        S      0:00 /usr/sbin/CRON -f
-10360 ?        Ss     0:00 /bin/sh -c mastershell.sh
-10361 ?        S      0:00 /bin/bash /bin/mastershell.sh
-10459 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-10509 ?        R      0:00 ps ax
 11561 ?        S      0:13 [kworker/1:1]
-23913 ?        S      0:21 [kworker/1:0]
+13028 ?        S      0:00 [kworker/0:0]
+13686 ?        S      0:00 [kworker/0:1]
+13884 ?        S      0:00 /usr/sbin/CRON -f
+13885 ?        Ss     0:00 /bin/sh -c mastershell.sh
+13886 ?        S      0:00 /bin/bash /bin/mastershell.sh
+13989 ?        R      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+14029 ?        R      0:00 ps ax
+23913 ?        S      0:25 [kworker/1:0]
 25712 ?        S      0:01 [kworker/0:2]
 {% endhighlight %}
 
