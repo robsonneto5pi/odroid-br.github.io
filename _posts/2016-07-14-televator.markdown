@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 12 hours, 40 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 12 hours, 42 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 00:26:08 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 00:28:09 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,9 +31,9 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36 04:12       25416 (192.168.1.32)
-odroid   + pts/2        2016-07-13 22:29 00:01        8139 (192.168.1.30)
-odroid   + pts/3        2016-07-14 00:16 00:08       26876 (192.168.1.30)
+odroid   + pts/1        2016-07-13 19:36 04:14       25416 (192.168.1.32)
+odroid   + pts/2        2016-07-13 22:29   .          8139 (192.168.1.30)
+odroid   + pts/3        2016-07-14 00:16 00:10       26876 (192.168.1.30)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -202,7 +202,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  8139 ?        Ss     0:00 sshd: odroid [priv]
  8189 ?        S      0:01 sshd: odroid@pts/2
  8190 pts/2    Ss+    0:02 -bash
-16657 ?        S      0:02 [kworker/0:2]
+16657 ?        S      0:03 [kworker/0:2]
 17162 ?        S      0:00 [kworker/1:1]
 17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
 19073 ?        S      0:46 [kworker/3:2]
@@ -214,11 +214,11 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 26930 pts/3    Ss+    0:00 -bash
 27396 ?        S      0:00 [kworker/0:0]
 28156 ?        S      0:00 [kworker/0:1]
-28200 ?        S      0:00 /usr/sbin/CRON -f
-28201 ?        Ss     0:00 /bin/sh -c mastershell.sh
-28202 ?        S      0:00 /bin/bash /bin/mastershell.sh
-28244 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-28277 ?        R      0:00 ps ax
+28535 ?        S      0:00 /usr/sbin/CRON -f
+28536 ?        Ss     0:00 /bin/sh -c mastershell.sh
+28537 ?        S      0:00 /bin/bash /bin/mastershell.sh
+28579 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+28622 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
