@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 3 hours, 31 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 03:47:09 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 04:00:13 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -100,7 +100,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    69 ?        S<     0:00 [dwc_otg]
    70 ?        S      0:00 [kworker/2:1]
    71 ?        S<     0:00 [dwc_otg]
-   72 ?        S      0:00 [kthread_hdcp]
+   72 ?        S      0:01 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
    74 ?        S      0:02 [kworker/1:1]
    75 ?        S      0:00 [irq/99-sd_emmc_]
@@ -120,13 +120,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   163 ?        S<     0:00 [ipv6_addrconf]
   183 ?        S      0:00 [kauditd]
   188 ?        Ss     0:00 /lib/systemd/systemd-journald
-  237 ?        S      0:05 [kworker/2:2]
+  237 ?        S      0:06 [kworker/2:2]
   239 ?        Ss     0:00 /lib/systemd/systemd-udevd
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
   437 ?        Ss     0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  447 ?        Ssl    0:05 /usr/sbin/NetworkManager --no-daemon
+  447 ?        Ssl    0:06 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   453 ?        Ssl    0:00 /usr/sbin/ModemManager
@@ -161,7 +161,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   837 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
   844 ?        Sl     0:00 /usr/lib/dconf/dconf-service
   848 ?        Sl     0:00 gnome-keyring-daemon --start
-  856 ?        Sl     0:00 /usr/bin/mate-settings-daemon
+  856 ?        Sl     0:01 /usr/bin/mate-settings-daemon
   861 ?        Sl     0:01 mate-panel
   866 ?        Sl     0:02 caja
   868 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
@@ -197,16 +197,15 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1261 ?        S      0:00 [kworker/u8:2]
  2863 ?        S      0:00 [kworker/3:0]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 4197 ?        S      0:15 [kworker/1:0]
+ 4197 ?        S      0:16 [kworker/1:0]
  4265 ?        S      0:00 [kworker/3:1]
 13230 ?        S      0:00 [kworker/0:2]
-16442 ?        S      0:00 [kworker/0:1]
 17154 ?        S      0:00 [kworker/0:0]
-17438 ?        S      0:00 /usr/sbin/CRON -f
-17439 ?        Ss     0:00 /bin/sh -c mastershell.sh
-17440 ?        S      0:00 /bin/bash /bin/mastershell.sh
-17472 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-17515 ?        R      0:00 ps ax
+18483 ?        S      0:00 /usr/sbin/CRON -f
+18484 ?        Ss     0:00 /bin/sh -c mastershell.sh
+18485 ?        S      0:00 /bin/bash /bin/mastershell.sh
+18537 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+18570 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
