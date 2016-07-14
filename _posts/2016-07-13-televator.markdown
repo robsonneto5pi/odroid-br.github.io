@@ -5,16 +5,16 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 11 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 11 hours, 22 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 13 23:04:18 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 13 23:08:18 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.4M  163M   6% /run
-/dev/mmcblk0p2  7.1G  4.6G  2.4G  67% /
+/dev/mmcblk0p2  7.1G  4.5G  2.4G  66% /
 tmpfs           860M  384K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36 02:51       25416 (192.168.1.32)
+odroid   + pts/1        2016-07-13 19:36 02:55       25416 (192.168.1.32)
 odroid   + pts/2        2016-07-13 22:29   .          8139 (192.168.1.30)
 {% endhighlight %}
 
@@ -201,9 +201,8 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  7578 ?        S      0:00 [kworker/2:2]
  8139 ?        Ss     0:00 sshd: odroid [priv]
  8189 ?        S      0:00 sshd: odroid@pts/2
- 8190 pts/2    Ss     0:00 -bash
+ 8190 pts/2    Ss+    0:00 -bash
  8465 ?        S      0:00 xcalc
-10468 ?        S      0:00 [kworker/0:0]
 10850 ?        S      0:00 /usr/sbin/CRON -f
 10851 ?        Ss     0:00 /bin/sh -c mastershell.sh
 10852 ?        S      0:00 /bin/bash /bin/mastershell.sh
@@ -246,17 +245,47 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 14349 ?        S      0:00 sh _scripts/mastershell.bkp
 14446 ?        S      0:00 sh _scripts/mastershell.bkp
 14543 ?        S      0:00 sh _scripts/mastershell.bkp
-14545 pts/2    S+     0:00 sh /bin/mastershell.sh
-14561 ?        S      0:00 git up
-14563 ?        S      0:00 /bin/sh -c git remote update -p; git merge --ff-only @{u} git remote update -p; git merge --ff-only @{u}
-14564 ?        S      0:00 git remote update -p
-14565 ?        S      0:00 git fetch --prune --multiple --all
-14566 ?        S      0:00 git fetch --append --prune origin
-14567 ?        R      0:00 git-remote-https origin https://github.com/odroid-br/televator-c2.git
-14608 pts/2    S+     0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-14641 pts/2    R+     0:00 ps ax
+14714 ?        S      0:00 sh _scripts/mastershell.bkp
+14889 ?        S      0:00 sh _scripts/mastershell.bkp
+15159 ?        S      0:00 sh _scripts/mastershell.bkp
+15333 ?        S      0:00 sh _scripts/mastershell.bkp
+15464 ?        S      0:00 sh _scripts/mastershell.bkp
+15582 ?        S      0:00 sh _scripts/mastershell.bkp
+15750 ?        S      0:00 sh _scripts/mastershell.bkp
+15854 ?        S      0:00 [kworker/0:0]
+15938 ?        S      0:00 sh _scripts/mastershell.bkp
+16026 ?        S      0:00 sh _scripts/mastershell.bkp
+16126 ?        S      0:00 sh _scripts/mastershell.bkp
+16226 ?        S      0:00 sh _scripts/mastershell.bkp
+16323 ?        S      0:00 sh _scripts/mastershell.bkp
+16421 ?        S      0:00 sh _scripts/mastershell.bkp
+16508 ?        S      0:00 sh _scripts/mastershell.bkp
+16607 ?        S      0:00 sh _scripts/mastershell.bkp
+16705 ?        S      0:00 sh _scripts/mastershell.bkp
+16802 ?        S      0:00 sh _scripts/mastershell.bkp
+16890 ?        S      0:00 sh _scripts/mastershell.bkp
+16988 ?        S      0:00 sh _scripts/mastershell.bkp
+17076 ?        S      0:00 sh _scripts/mastershell.bkp
 17162 ?        S      0:00 [kworker/1:1]
+17178 ?        S      0:00 sh _scripts/mastershell.bkp
+17276 ?        S      0:00 sh _scripts/mastershell.bkp
+17380 ?        S      0:00 sh _scripts/mastershell.bkp
+17479 ?        S      0:00 sh _scripts/mastershell.bkp
+17576 ?        S      0:00 sh _scripts/mastershell.bkp
+17684 ?        S      0:00 sh _scripts/mastershell.bkp
+17796 ?        S      0:00 sh _scripts/mastershell.bkp
 17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+17899 ?        S      0:00 sh _scripts/mastershell.bkp
+17996 ?        S      0:00 sh _scripts/mastershell.bkp
+18083 ?        S      0:00 sh _scripts/mastershell.bkp
+18180 ?        S      0:00 sh _scripts/mastershell.bkp
+18277 ?        S      0:00 sh _scripts/mastershell.bkp
+18374 ?        S      0:00 sh _scripts/mastershell.bkp
+18471 ?        S      0:00 sh _scripts/mastershell.bkp
+18578 ?        S      0:00 sh _scripts/mastershell.bkp
+18677 ?        S      0:00 sh _scripts/mastershell.bkp
+18723 ?        S      0:00 sh _scripts/odroid-monitor.sh
+18756 ?        R      0:00 ps ax
 19073 ?        S      0:44 [kworker/3:2]
 25416 ?        Ss     0:00 sshd: odroid [priv]
 25477 ?        S      0:00 sshd: odroid@pts/1
