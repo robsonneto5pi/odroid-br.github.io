@@ -39,7 +39,7 @@ cd ${basedir}/../_posts/
 
 echo "---
 layout: post
-title:  \"Monitoramento Meu Odroid\"
+title:  \"Publicação Automática do Odroid\"
 ---" > ${name}
 echo "<br />" >> ${name}
 echo "$(cat ../_scripts/greetings.txt | grep "^$(${aleat})_" | cut -d'_' -f2-)  <br />" >> ${name}
