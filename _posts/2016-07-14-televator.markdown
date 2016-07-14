@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 12 hours, 20 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 12 hours, 22 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 00:06:09 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 00:08:13 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36 03:52       25416 (192.168.1.32)
-odroid   + pts/2        2016-07-13 22:29 00:02        8139 (192.168.1.30)
+odroid   + pts/1        2016-07-13 19:36 03:55       25416 (192.168.1.32)
+odroid   + pts/2        2016-07-13 22:29   .          8139 (192.168.1.30)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -59,7 +59,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   PID TTY      STAT   TIME COMMAND
     1 ?        Ss     0:06 /sbin/init
     2 ?        S      0:00 [kthreadd]
-    3 ?        S      0:01 [ksoftirqd/0]
+    3 ?        S      0:02 [ksoftirqd/0]
     5 ?        S<     0:00 [kworker/0:0H]
     7 ?        S      0:04 [rcu_preempt]
     8 ?        S      0:00 [rcu_sched]
@@ -119,7 +119,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   185 ?        Ss     0:01 /lib/systemd/systemd-journald
   187 ?        S      0:00 [kauditd]
   235 ?        Ss     0:00 /lib/systemd/systemd-udevd
-  348 ?        S      0:00 sh _scripts/mastershell.bkp
   411 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   412 ?        Ss     0:00 /lib/systemd/systemd-logind
   423 ?        Ssl    0:10 /usr/bin/whoopsie -f
@@ -130,12 +129,10 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   438 ?        Ssl    0:01 /usr/lib/accountsservice/accounts-daemon
   439 ?        Ssl    0:00 /usr/sbin/ModemManager
   443 ?        Ss     0:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  448 ?        S      0:00 sh _scripts/mastershell.bkp
   450 ?        S      0:00 avahi-daemon: chroot helper
   486 ?        Ssl    1:00 /usr/sbin/NetworkManager --no-daemon
   488 ?        Ss     0:00 /usr/sbin/cron -f
   490 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  562 ?        S      0:00 sh _scripts/mastershell.bkp
   582 ?        Ss     0:00 /usr/sbin/sshd -D
   587 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   604 ?        Ssl    0:00 /usr/sbin/lightdm
@@ -143,12 +140,10 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   643 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   650 ?        Ss     0:16 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
-  663 ?        S      0:00 sh _scripts/mastershell.bkp
   680 ?        Sl     0:00 lightdm --session-child 12 15
   704 ?        Ss     0:00 /lib/systemd/systemd --user
   705 ?        S      0:00 (sd-pam)
   708 ?        Ssl    0:00 mate-session
-  766 ?        S      0:00 sh _scripts/mastershell.bkp
   791 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
   794 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
   795 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
@@ -183,7 +178,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   946 ?        Sl     0:03 mate-power-manager
   952 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
   955 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
-  959 ?        S      0:00 sh _scripts/mastershell.bkp
   974 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
   986 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
   999 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
@@ -194,419 +188,34 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1050 ?        Sl     0:01 marco.real --no-composite
  1055 ?        S      0:00 [kworker/2:1]
  1059 ?        S      0:03 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
- 1103 ?        S      0:00 sh _scripts/mastershell.bkp
- 1204 ?        S      0:00 sh _scripts/mastershell.bkp
  1205 pts/0    Ss+    0:00 /bin/bash
  1216 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
  1242 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
  1252 ?        S      0:00 /usr/lib/bluetooth/obexd
- 1312 ?        S      0:00 sh _scripts/mastershell.bkp
- 1409 ?        S      0:00 sh _scripts/mastershell.bkp
- 1496 ?        S      0:00 sh _scripts/mastershell.bkp
- 1593 ?        S      0:00 sh _scripts/mastershell.bkp
- 1690 ?        S      0:00 sh _scripts/mastershell.bkp
- 1778 ?        S      0:00 sh _scripts/mastershell.bkp
- 1878 ?        S      0:00 sh _scripts/mastershell.bkp
- 1965 ?        S      0:00 sh _scripts/mastershell.bkp
- 2062 ?        S      0:00 sh _scripts/mastershell.bkp
- 2159 ?        S      0:00 sh _scripts/mastershell.bkp
- 2246 ?        S      0:00 sh _scripts/mastershell.bkp
- 2343 ?        S      0:00 sh _scripts/mastershell.bkp
  2372 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-468ede86-35c2-47ec-bc19-ca930e001090-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 2441 ?        S      0:00 sh _scripts/mastershell.bkp
  2511 ?        S      0:18 [kworker/3:0]
- 2539 ?        S      0:00 sh _scripts/mastershell.bkp
- 2626 ?        S      0:00 sh _scripts/mastershell.bkp
- 2725 ?        S      0:00 sh _scripts/mastershell.bkp
- 2823 ?        S      0:00 sh _scripts/mastershell.bkp
- 2920 ?        S      0:00 sh _scripts/mastershell.bkp
- 3017 ?        S      0:00 sh _scripts/mastershell.bkp
- 3114 ?        S      0:00 sh _scripts/mastershell.bkp
  3194 ?        S      0:00 [kworker/u8:2]
- 3212 ?        S      0:00 sh _scripts/mastershell.bkp
- 3310 ?        S      0:00 sh _scripts/mastershell.bkp
- 3398 ?        S      0:00 sh _scripts/mastershell.bkp
- 3505 ?        S      0:00 sh _scripts/mastershell.bkp
- 3602 ?        S      0:00 sh _scripts/mastershell.bkp
- 3699 ?        S      0:00 sh _scripts/mastershell.bkp
- 3786 ?        S      0:00 sh _scripts/mastershell.bkp
- 3883 ?        S      0:00 sh _scripts/mastershell.bkp
- 3970 ?        S      0:00 sh _scripts/mastershell.bkp
- 4067 ?        S      0:00 sh _scripts/mastershell.bkp
- 4164 ?        S      0:00 sh _scripts/mastershell.bkp
- 4271 ?        S      0:00 sh _scripts/mastershell.bkp
- 4359 ?        S      0:00 sh _scripts/mastershell.bkp
- 4459 ?        S      0:00 sh _scripts/mastershell.bkp
- 4549 ?        S      0:00 sh _scripts/mastershell.bkp
- 4636 ?        S      0:00 sh _scripts/mastershell.bkp
- 4740 ?        S      0:00 sh _scripts/mastershell.bkp
- 4837 ?        S      0:00 sh _scripts/mastershell.bkp
- 4934 ?        S      0:00 sh _scripts/mastershell.bkp
  4960 ?        S      0:00 [kworker/1:0]
- 5032 ?        S      0:00 sh _scripts/mastershell.bkp
- 5129 ?        S      0:00 sh _scripts/mastershell.bkp
- 5226 ?        S      0:00 sh _scripts/mastershell.bkp
- 5313 ?        S      0:00 sh _scripts/mastershell.bkp
- 5410 ?        S      0:00 sh _scripts/mastershell.bkp
- 5497 ?        S      0:00 sh _scripts/mastershell.bkp
- 5594 ?        S      0:00 sh _scripts/mastershell.bkp
- 5681 ?        S      0:00 sh _scripts/mastershell.bkp
- 5768 ?        S      0:00 sh _scripts/mastershell.bkp
- 5885 ?        S      0:00 sh _scripts/mastershell.bkp
- 5972 ?        S      0:00 sh _scripts/mastershell.bkp
- 6069 ?        S      0:00 sh _scripts/mastershell.bkp
- 6166 ?        S      0:00 sh _scripts/mastershell.bkp
- 6253 ?        S      0:00 sh _scripts/mastershell.bkp
- 6340 ?        S      0:00 sh _scripts/mastershell.bkp
- 6447 ?        S      0:00 sh _scripts/mastershell.bkp
- 6544 ?        S      0:00 sh _scripts/mastershell.bkp
- 6641 ?        S      0:00 sh _scripts/mastershell.bkp
- 6742 ?        S      0:00 sh _scripts/mastershell.bkp
- 6839 ?        S      0:00 sh _scripts/mastershell.bkp
  6915 ?        S      0:00 [kworker/u8:1]
- 6947 ?        S      0:00 sh _scripts/mastershell.bkp
- 7054 ?        S      0:00 sh _scripts/mastershell.bkp
- 7159 ?        S      0:00 sh _scripts/mastershell.bkp
- 7260 ?        S      0:00 sh _scripts/mastershell.bkp
- 7361 ?        S      0:00 sh _scripts/mastershell.bkp
- 7458 ?        S      0:00 sh _scripts/mastershell.bkp
  7578 ?        S      0:00 [kworker/2:2]
- 7603 ?        S      0:00 sh _scripts/mastershell.bkp
- 7742 ?        S      0:00 sh _scripts/mastershell.bkp
- 7839 ?        S      0:00 sh _scripts/mastershell.bkp
- 7926 ?        S      0:00 sh _scripts/mastershell.bkp
- 8023 ?        S      0:00 sh _scripts/mastershell.bkp
- 8129 ?        S      0:00 sh _scripts/mastershell.bkp
  8139 ?        Ss     0:00 sshd: odroid [priv]
  8189 ?        S      0:01 sshd: odroid@pts/2
  8190 pts/2    Ss+    0:01 -bash
- 8229 ?        S      0:00 sh _scripts/mastershell.bkp
- 8327 ?        S      0:00 sh _scripts/mastershell.bkp
- 8414 ?        S      0:00 sh _scripts/mastershell.bkp
  8465 ?        S      0:00 xcalc
- 8512 ?        S      0:00 sh _scripts/mastershell.bkp
- 8599 ?        S      0:00 sh _scripts/mastershell.bkp
- 8696 ?        S      0:00 sh _scripts/mastershell.bkp
- 8783 ?        S      0:00 sh _scripts/mastershell.bkp
- 8870 ?        S      0:00 sh _scripts/mastershell.bkp
- 8967 ?        S      0:00 sh _scripts/mastershell.bkp
- 9064 ?        S      0:00 sh _scripts/mastershell.bkp
- 9161 ?        S      0:00 sh _scripts/mastershell.bkp
- 9258 ?        S      0:00 sh _scripts/mastershell.bkp
- 9355 ?        S      0:00 sh _scripts/mastershell.bkp
- 9442 ?        S      0:00 sh _scripts/mastershell.bkp
- 9539 ?        S      0:00 sh _scripts/mastershell.bkp
- 9627 ?        S      0:00 sh _scripts/mastershell.bkp
- 9724 ?        S      0:00 sh _scripts/mastershell.bkp
- 9821 ?        S      0:00 sh _scripts/mastershell.bkp
- 9908 ?        S      0:00 sh _scripts/mastershell.bkp
-10006 ?        S      0:00 sh _scripts/mastershell.bkp
-10103 ?        S      0:00 sh _scripts/mastershell.bkp
-10200 ?        S      0:00 sh _scripts/mastershell.bkp
-10307 ?        S      0:00 sh _scripts/mastershell.bkp
-10410 ?        S      0:00 sh _scripts/mastershell.bkp
-10526 ?        S      0:00 sh _scripts/mastershell.bkp
-10613 ?        S      0:00 sh _scripts/mastershell.bkp
-10721 ?        S      0:00 sh _scripts/mastershell.bkp
-10810 ?        S      0:00 sh _scripts/mastershell.bkp
-10897 ?        S      0:00 sh _scripts/mastershell.bkp
-10995 ?        S      0:00 sh _scripts/mastershell.bkp
-11092 ?        S      0:00 sh _scripts/mastershell.bkp
-11189 ?        S      0:00 sh _scripts/mastershell.bkp
-11280 ?        S      0:00 sh _scripts/mastershell.bkp
-11377 ?        S      0:00 sh _scripts/mastershell.bkp
-11475 ?        S      0:00 sh _scripts/mastershell.bkp
-11562 ?        S      0:00 sh _scripts/mastershell.bkp
-11659 ?        S      0:00 sh _scripts/mastershell.bkp
-11756 ?        S      0:00 sh _scripts/mastershell.bkp
-11853 ?        S      0:00 sh _scripts/mastershell.bkp
-11940 ?        S      0:00 sh _scripts/mastershell.bkp
-12027 ?        S      0:00 sh _scripts/mastershell.bkp
-12124 ?        S      0:00 sh _scripts/mastershell.bkp
-12211 ?        S      0:00 sh _scripts/mastershell.bkp
-12308 ?        S      0:00 sh _scripts/mastershell.bkp
-12406 ?        S      0:00 sh _scripts/mastershell.bkp
-12503 ?        S      0:00 sh _scripts/mastershell.bkp
-12590 ?        S      0:00 sh _scripts/mastershell.bkp
-12687 ?        S      0:00 sh _scripts/mastershell.bkp
-12774 ?        S      0:00 sh _scripts/mastershell.bkp
-12881 ?        S      0:00 sh _scripts/mastershell.bkp
-12978 ?        S      0:00 sh _scripts/mastershell.bkp
-13065 ?        S      0:00 sh _scripts/mastershell.bkp
-13162 ?        S      0:00 sh _scripts/mastershell.bkp
-13259 ?        S      0:00 sh _scripts/mastershell.bkp
-13350 ?        S      0:00 sh _scripts/mastershell.bkp
-13458 ?        S      0:00 sh _scripts/mastershell.bkp
-13555 ?        S      0:00 sh _scripts/mastershell.bkp
-13642 ?        S      0:00 sh _scripts/mastershell.bkp
-13729 ?        S      0:00 sh _scripts/mastershell.bkp
-13826 ?        S      0:00 sh _scripts/mastershell.bkp
-13916 ?        S      0:00 sh _scripts/mastershell.bkp
-14013 ?        S      0:00 sh _scripts/mastershell.bkp
-14110 ?        S      0:00 sh _scripts/mastershell.bkp
-14207 ?        S      0:00 sh _scripts/mastershell.bkp
-14304 ?        S      0:00 sh _scripts/mastershell.bkp
-14391 ?        S      0:00 sh _scripts/mastershell.bkp
-14498 ?        S      0:00 sh _scripts/mastershell.bkp
-14585 ?        S      0:00 sh _scripts/mastershell.bkp
-14682 ?        S      0:00 sh _scripts/mastershell.bkp
-14769 ?        S      0:00 sh _scripts/mastershell.bkp
-14866 ?        S      0:00 sh _scripts/mastershell.bkp
-14953 ?        S      0:00 sh _scripts/mastershell.bkp
-15054 ?        S      0:00 sh _scripts/mastershell.bkp
-15106 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15168 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15220 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15292 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15354 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15406 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15468 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15530 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15593 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15655 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15721 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15773 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15835 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 15854 ?        S      0:08 [kworker/0:0]
-15898 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-15950 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16012 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16074 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16126 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16178 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16240 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16302 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16390 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16511 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16602 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 16657 ?        S      0:00 [kworker/0:2]
-16707 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16821 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-16925 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-17039 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-17153 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 17162 ?        S      0:00 [kworker/1:1]
-17260 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-17374 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-17478 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-17644 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-17758 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
-17867 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-17971 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-18069 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-18179 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-18303 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-18407 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-18521 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-18625 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-18739 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-18853 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-18967 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19052 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 19073 ?        S      0:46 [kworker/3:2]
-19189 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19284 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19346 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19398 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19450 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19512 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19564 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19636 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19688 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19740 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19816 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19886 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19939 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20014 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20066 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20118 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20191 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20243 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20305 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20326 ?        S      0:00 /usr/sbin/CRON -f
-20327 ?        Ss     0:00 /bin/sh -c mastershell.sh
-20328 ?        S      0:00 /bin/bash /bin/mastershell.sh
-20380 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20506 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20566 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20597 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20680 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20711 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20784 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20825 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20908 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20939 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21012 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21043 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21126 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21157 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21230 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21271 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21344 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21375 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21458 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21489 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21572 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21590 ?        S      0:00 /usr/sbin/CRON -f
-21591 ?        Ss     0:00 /bin/sh -c mastershell.sh
-21592 ?        S      0:00 /bin/bash /bin/mastershell.sh
-21606 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21679 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21717 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21721 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21794 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21806 ?        S      0:00 sh _scripts/mastershell.bkp
-21836 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21903 ?        S      0:00 sh _scripts/mastershell.bkp
-21910 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-21941 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22003 ?        S      0:00 sh _scripts/mastershell.bkp
-22025 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22056 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 22059 ?        S      0:00 [kworker/0:1]
-22092 ?        S      0:00 sh _scripts/mastershell.bkp
-22131 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22162 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22199 ?        S      0:00 sh _scripts/mastershell.bkp
-22250 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22281 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22286 ?        S      0:00 sh _scripts/mastershell.bkp
-22365 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22394 ?        S      0:00 sh _scripts/mastershell.bkp
-22397 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22480 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22481 ?        S      0:00 sh _scripts/mastershell.bkp
-22512 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22578 ?        S      0:00 sh _scripts/mastershell.bkp
-22586 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22627 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22685 ?        S      0:00 sh _scripts/mastershell.bkp
-22701 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22732 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22782 ?        S      0:00 sh _scripts/mastershell.bkp
-22826 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22857 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22868 ?        S      0:00 /usr/sbin/CRON -f
-22869 ?        S      0:00 sh _scripts/mastershell.bkp
-22870 ?        Ss     0:00 /bin/sh -c mastershell.sh
-22871 ?        S      0:00 /bin/bash /bin/mastershell.sh
-22944 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-22976 ?        S      0:00 sh _scripts/mastershell.bkp
-22989 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-23018 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-23037 ?        S      0:00 git up
-23039 ?        S      0:00 /bin/sh -c git remote update -p; git merge --ff-only @{u} git remote update -p; git merge --ff-only @{u}
-23040 ?        S      0:00 git remote update -p
-23041 ?        S      0:00 git fetch --prune --multiple --all
-23042 ?        S      0:00 git fetch --append --prune origin
-23043 ?        R      0:00 git-remote-https origin https://github.com/odroid-br/televator-c2.git
-23045 ?        S      0:00 git up
-23047 ?        S      0:00 /bin/sh -c git remote update -p; git merge --ff-only @{u} git remote update -p; git merge --ff-only @{u}
-23048 ?        S      0:00 git remote update -p
-23049 ?        S      0:00 git fetch --prune --multiple --all
-23050 ?        S      0:00 git fetch --append --prune origin
-23051 ?        S      0:00 git-remote-https origin https://github.com/odroid-br/odroid-br.github.io.git
-23063 ?        S      0:00 sh _scripts/mastershell.bkp
-23073 ?        R      0:00 ps ax
-23160 ?        S      0:00 sh _scripts/mastershell.bkp
-23258 ?        S      0:00 sh _scripts/mastershell.bkp
-23355 ?        S      0:00 sh _scripts/mastershell.bkp
-23450 ?        S      0:00 sh _scripts/mastershell.bkp
-23538 ?        S      0:00 sh _scripts/mastershell.bkp
-23646 ?        S      0:00 sh _scripts/mastershell.bkp
-23744 ?        S      0:00 sh _scripts/mastershell.bkp
-23841 ?        S      0:00 sh _scripts/mastershell.bkp
-23928 ?        S      0:00 sh _scripts/mastershell.bkp
-24027 ?        S      0:00 sh _scripts/mastershell.bkp
-24114 ?        S      0:00 sh _scripts/mastershell.bkp
-24211 ?        S      0:00 sh _scripts/mastershell.bkp
-24298 ?        S      0:00 sh _scripts/mastershell.bkp
-24395 ?        S      0:00 sh _scripts/mastershell.bkp
-24482 ?        S      0:00 sh _scripts/mastershell.bkp
-24583 ?        S      0:00 sh _scripts/mastershell.bkp
-24694 ?        S      0:00 sh _scripts/mastershell.bkp
-24917 ?        S      0:00 sh _scripts/mastershell.bkp
-25014 ?        S      0:00 sh _scripts/mastershell.bkp
-25121 ?        S      0:00 sh _scripts/mastershell.bkp
-25208 ?        S      0:00 sh _scripts/mastershell.bkp
-25305 ?        S      0:00 sh _scripts/mastershell.bkp
-25402 ?        S      0:00 sh _scripts/mastershell.bkp
 25416 ?        Ss     0:00 sshd: odroid [priv]
 25477 ?        S      0:00 sshd: odroid@pts/1
 25478 pts/1    Ss+    0:00 -bash
-25492 ?        S      0:00 sh _scripts/mastershell.bkp
-25589 ?        S      0:00 sh _scripts/mastershell.bkp
-25696 ?        S      0:00 sh _scripts/mastershell.bkp
-25783 ?        S      0:00 sh _scripts/mastershell.bkp
-25881 ?        S      0:00 sh _scripts/mastershell.bkp
-25978 ?        S      0:00 sh _scripts/mastershell.bkp
-26075 ?        S      0:00 sh _scripts/mastershell.bkp
-26162 ?        S      0:00 sh _scripts/mastershell.bkp
-26263 ?        S      0:00 sh _scripts/mastershell.bkp
-26350 ?        S      0:00 sh _scripts/mastershell.bkp
-26465 ?        S      0:00 sh _scripts/mastershell.bkp
-26576 ?        S      0:00 sh _scripts/mastershell.bkp
-26677 ?        S      0:00 sh _scripts/mastershell.bkp
-26764 ?        S      0:00 sh _scripts/mastershell.bkp
-26871 ?        S      0:00 sh _scripts/mastershell.bkp
-26959 ?        S      0:00 sh _scripts/mastershell.bkp
-27167 ?        S      0:00 sh _scripts/mastershell.bkp
-27254 ?        S      0:00 sh _scripts/mastershell.bkp
-27361 ?        S      0:00 sh _scripts/mastershell.bkp
-27448 ?        S      0:00 sh _scripts/mastershell.bkp
-27545 ?        S      0:00 sh _scripts/mastershell.bkp
-27632 ?        S      0:00 sh _scripts/mastershell.bkp
-27739 ?        S      0:00 sh _scripts/mastershell.bkp
-27826 ?        S      0:00 sh _scripts/mastershell.bkp
-27913 ?        S      0:00 sh _scripts/mastershell.bkp
-28010 ?        S      0:00 sh _scripts/mastershell.bkp
-28097 ?        S      0:00 sh _scripts/mastershell.bkp
-28194 ?        S      0:00 sh _scripts/mastershell.bkp
-28281 ?        S      0:00 sh _scripts/mastershell.bkp
-28378 ?        S      0:00 sh _scripts/mastershell.bkp
-28465 ?        S      0:00 sh _scripts/mastershell.bkp
-28562 ?        S      0:00 sh _scripts/mastershell.bkp
-28659 ?        S      0:00 sh _scripts/mastershell.bkp
-28756 ?        S      0:00 sh _scripts/mastershell.bkp
-28843 ?        S      0:00 sh _scripts/mastershell.bkp
-28940 ?        S      0:00 sh _scripts/mastershell.bkp
-29037 ?        S      0:00 sh _scripts/mastershell.bkp
-29124 ?        S      0:00 sh _scripts/mastershell.bkp
-29215 ?        S      0:00 sh _scripts/mastershell.bkp
-29322 ?        S      0:00 sh _scripts/mastershell.bkp
-29410 ?        S      0:00 sh _scripts/mastershell.bkp
-29497 ?        S      0:00 sh _scripts/mastershell.bkp
-29600 ?        S      0:00 sh _scripts/mastershell.bkp
-30019 ?        S      0:00 sh _scripts/mastershell.bkp
-30107 ?        S      0:00 sh _scripts/mastershell.bkp
-30204 ?        S      0:00 sh _scripts/mastershell.bkp
-30303 ?        S      0:00 sh _scripts/mastershell.bkp
-30390 ?        S      0:00 sh _scripts/mastershell.bkp
-30497 ?        S      0:00 sh _scripts/mastershell.bkp
-30598 ?        S      0:00 sh _scripts/mastershell.bkp
-30685 ?        S      0:00 sh _scripts/mastershell.bkp
-30783 ?        S      0:00 sh _scripts/mastershell.bkp
-30870 ?        S      0:00 sh _scripts/mastershell.bkp
-30967 ?        S      0:00 sh _scripts/mastershell.bkp
-31054 ?        S      0:00 sh _scripts/mastershell.bkp
-31151 ?        S      0:00 sh _scripts/mastershell.bkp
-31248 ?        S      0:00 sh _scripts/mastershell.bkp
-31335 ?        S      0:00 sh _scripts/mastershell.bkp
-31432 ?        S      0:00 sh _scripts/mastershell.bkp
-31523 ?        S      0:00 sh _scripts/mastershell.bkp
-31631 ?        S      0:00 sh _scripts/mastershell.bkp
-31719 ?        S      0:00 sh _scripts/mastershell.bkp
-31818 ?        S      0:00 sh _scripts/mastershell.bkp
-31916 ?        S      0:00 sh _scripts/mastershell.bkp
-32003 ?        S      0:00 sh _scripts/mastershell.bkp
-32104 ?        S      0:00 sh _scripts/mastershell.bkp
-32202 ?        S      0:00 sh _scripts/mastershell.bkp
-32308 ?        S      0:00 sh _scripts/mastershell.bkp
-32423 ?        S      0:00 sh _scripts/mastershell.bkp
-32521 ?        S      0:00 sh _scripts/mastershell.bkp
-32618 ?        S      0:00 sh _scripts/mastershell.bkp
-32715 ?        S      0:00 sh _scripts/mastershell.bkp
+25777 ?        S      0:00 /usr/sbin/CRON -f
+25778 ?        Ss     0:00 /bin/sh -c mastershell.sh
+25779 ?        S      0:00 /bin/bash /bin/mastershell.sh
+25826 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+25869 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
