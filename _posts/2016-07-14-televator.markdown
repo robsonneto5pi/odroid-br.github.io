@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 12 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 12 hours, 20 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 00:04:08 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 00:06:09 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36 03:50       25416 (192.168.1.32)
-odroid   + pts/2        2016-07-13 22:29   .          8139 (192.168.1.30)
+odroid   + pts/1        2016-07-13 19:36 03:52       25416 (192.168.1.32)
+odroid   + pts/2        2016-07-13 22:29 00:02        8139 (192.168.1.30)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -325,7 +325,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 12124 ?        S      0:00 sh _scripts/mastershell.bkp
 12211 ?        S      0:00 sh _scripts/mastershell.bkp
 12308 ?        S      0:00 sh _scripts/mastershell.bkp
-12341 ?        S      0:00 [kworker/0:1]
 12406 ?        S      0:00 sh _scripts/mastershell.bkp
 12503 ?        S      0:00 sh _scripts/mastershell.bkp
 12590 ?        S      0:00 sh _scripts/mastershell.bkp
@@ -405,7 +404,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 18853 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 18967 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 19052 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-19073 ?        S      0:45 [kworker/3:2]
+19073 ?        S      0:46 [kworker/3:2]
 19189 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 19284 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 19346 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
@@ -429,32 +428,87 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 20327 ?        Ss     0:00 /bin/sh -c mastershell.sh
 20328 ?        S      0:00 /bin/bash /bin/mastershell.sh
 20380 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
-20412 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-20441 ?        S      0:00 git up
-20443 ?        S      0:00 /bin/sh -c git remote update -p; git merge --ff-only @{u} git remote update -p; git merge --ff-only @{u}
-20444 ?        S      0:00 git remote update -p
-20445 ?        S      0:00 git fetch --prune --multiple --all
-20446 ?        S      0:00 git fetch --append --prune origin
-20447 ?        R      0:00 git-remote-https origin https://github.com/odroid-br/televator-c2.git
-20468 ?        R      0:00 ps ax
+20506 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+20566 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+20597 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+20680 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+20711 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+20784 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+20825 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+20908 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+20939 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21012 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21043 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21126 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21157 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21230 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21271 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21344 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21375 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21458 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21489 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21572 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 21590 ?        S      0:00 /usr/sbin/CRON -f
 21591 ?        Ss     0:00 /bin/sh -c mastershell.sh
 21592 ?        S      0:00 /bin/bash /bin/mastershell.sh
+21606 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21679 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 21717 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21721 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21794 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 21806 ?        S      0:00 sh _scripts/mastershell.bkp
+21836 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 21903 ?        S      0:00 sh _scripts/mastershell.bkp
+21910 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+21941 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 22003 ?        S      0:00 sh _scripts/mastershell.bkp
+22025 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+22056 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+22059 ?        S      0:00 [kworker/0:1]
 22092 ?        S      0:00 sh _scripts/mastershell.bkp
+22131 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+22162 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 22199 ?        S      0:00 sh _scripts/mastershell.bkp
+22250 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+22281 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 22286 ?        S      0:00 sh _scripts/mastershell.bkp
+22365 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 22394 ?        S      0:00 sh _scripts/mastershell.bkp
+22397 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+22480 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 22481 ?        S      0:00 sh _scripts/mastershell.bkp
+22512 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 22578 ?        S      0:00 sh _scripts/mastershell.bkp
+22586 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+22627 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 22685 ?        S      0:00 sh _scripts/mastershell.bkp
+22701 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+22732 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 22782 ?        S      0:00 sh _scripts/mastershell.bkp
+22826 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+22857 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+22868 ?        S      0:00 /usr/sbin/CRON -f
 22869 ?        S      0:00 sh _scripts/mastershell.bkp
+22870 ?        Ss     0:00 /bin/sh -c mastershell.sh
+22871 ?        S      0:00 /bin/bash /bin/mastershell.sh
+22944 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
 22976 ?        S      0:00 sh _scripts/mastershell.bkp
+22989 ?        S      0:00 sh /home/odroid/rodolfo/televator-c2/_scripts/mastershell.bkp
+23018 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+23037 ?        S      0:00 git up
+23039 ?        S      0:00 /bin/sh -c git remote update -p; git merge --ff-only @{u} git remote update -p; git merge --ff-only @{u}
+23040 ?        S      0:00 git remote update -p
+23041 ?        S      0:00 git fetch --prune --multiple --all
+23042 ?        S      0:00 git fetch --append --prune origin
+23043 ?        R      0:00 git-remote-https origin https://github.com/odroid-br/televator-c2.git
+23045 ?        S      0:00 git up
+23047 ?        S      0:00 /bin/sh -c git remote update -p; git merge --ff-only @{u} git remote update -p; git merge --ff-only @{u}
+23048 ?        S      0:00 git remote update -p
+23049 ?        S      0:00 git fetch --prune --multiple --all
+23050 ?        S      0:00 git fetch --append --prune origin
+23051 ?        S      0:00 git-remote-https origin https://github.com/odroid-br/odroid-br.github.io.git
 23063 ?        S      0:00 sh _scripts/mastershell.bkp
+23073 ?        R      0:00 ps ax
 23160 ?        S      0:00 sh _scripts/mastershell.bkp
 23258 ?        S      0:00 sh _scripts/mastershell.bkp
 23355 ?        S      0:00 sh _scripts/mastershell.bkp
@@ -553,16 +607,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 32521 ?        S      0:00 sh _scripts/mastershell.bkp
 32618 ?        S      0:00 sh _scripts/mastershell.bkp
 32715 ?        S      0:00 sh _scripts/mastershell.bkp
-{% endhighlight %}
-
-Há 5 dispositivos conectados no meu roteador local <br />
-São esses os IPs:
-{% highlight ruby %}
-IP: 192.168.1.30
-IP: 192.168.1.31
-IP: 192.168.1.32
-IP: 192.168.1.33
-IP: 192.168.1.53
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
