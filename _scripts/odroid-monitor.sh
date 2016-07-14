@@ -10,7 +10,7 @@
 # "the trick" #
 # _monitorar_ #
 ###############
-aleat="shuf -i 1-5 -n 1"
+#aleat="shuf -i 1-5 -n 1"
 
 #cat oi.txt | grep "^$(${ale})_" | cut -d'_' -f2-
 
@@ -19,7 +19,8 @@ log_home="/home/odroid/rodolfo/blog-monitor/"
 basedir="$(dirname $0; $PWD)"
 televatorc2_dir="/home/odroid/rodolfo/televator-c2/"
 
-#aleat="shuf -i 1-$(cat greetings.txt | wc -l) -n 1"
+cd ${basedir}
+aleat="shuf -i 1-$(cat greetings.txt | wc -l) -n 1"
 cd ${basedir}/../
 
 echo "atualizando o repositório..."
