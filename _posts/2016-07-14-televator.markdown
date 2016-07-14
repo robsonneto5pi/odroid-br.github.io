@@ -1,1 +1,1 @@
-[aqui](_includes/odroid-wiki)
+[aqui](_includes/odroid-wiki.html)
