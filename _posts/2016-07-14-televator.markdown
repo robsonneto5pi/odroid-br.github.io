@@ -3,17 +3,17 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No meu relógio agora são: 19:50.  <br />
+Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 55 minutes !!!
+Eu estou ligado ininterruptamente à 1 hour !!!
 
-Script de monitoramento executado em - Thu Jul 14 19:50:19 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 19:55:23 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M  9.4M  163M   6% /run
+tmpfs           172M  9.3M  163M   6% /run
 /dev/mmcblk0p2  7.1G  4.6G  2.3G  67% /
 tmpfs           860M  180K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
@@ -23,7 +23,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   24K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 2 usuário(s) conectado(s) em mim ;) <br />
+Há 1 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-02-11 12:28 00:37        1300 (192.168.1.32)
-odroid   + pts/2        2016-07-14 19:22   .          4286 (192.168.1.30)
+odroid   + pts/1        2016-02-11 12:28 00:42        1300 (192.168.1.32)
+           pts/2        2016-07-14 19:52              4286 id=ts/2  term=0 exit=0
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -114,7 +114,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:00 [kthread_di]
+   84 ?        S      0:01 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -202,18 +202,15 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1364 pts/1    Ss+    0:00 -bash
  2384 ?        S      0:00 [kworker/3:0]
  3911 ?        S      0:00 [kworker/0:0]
- 4286 ?        Ss     0:00 sshd: odroid [priv]
- 4339 ?        S      0:00 sshd: odroid@pts/2
- 4340 pts/2    Ss+    0:00 -bash
- 5540 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  6493 ?        S      0:00 [kworker/0:2]
- 6561 ?        S      0:00 [kworker/1:0]
- 7203 ?        S      0:00 /usr/sbin/CRON -f
- 7204 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 7205 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 7305 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 7345 ?        R      0:00 ps ax
+ 6561 ?        S      0:01 [kworker/1:0]
+ 7525 ?        S      0:00 [kworker/0:1]
+ 7788 ?        S      0:00 /usr/sbin/CRON -f
+ 7789 ?        Ss     0:00 /bin/sh -c mastershell.sh
+ 7790 ?        S      0:00 /bin/bash /bin/mastershell.sh
+ 7887 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+ 7927 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
