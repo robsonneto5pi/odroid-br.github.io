@@ -3,11 +3,11 @@ layout: post
 title:  "Monitoramento Meu Odroid"
 ---
 <br />
-Hello Friends! No meu relógio agora são: 18:00.  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 17 hours, 31 minutes !!!
+Eu estou ligado ininterruptamente à 18 hours, 18 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 18:00:26 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 18:47:15 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -119,13 +119,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   163 ?        S<     0:00 [ipv6_addrconf]
   183 ?        S      0:00 [kauditd]
   188 ?        Ss     0:00 /lib/systemd/systemd-journald
-  237 ?        S      0:31 [kworker/2:2]
+  237 ?        S      0:32 [kworker/2:2]
   239 ?        Ss     0:00 /lib/systemd/systemd-udevd
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ssl    0:01 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
   437 ?        Ss     0:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  447 ?        Ssl    0:28 /usr/sbin/NetworkManager --no-daemon
+  447 ?        Ssl    0:29 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   453 ?        Ssl    0:00 /usr/sbin/ModemManager
@@ -142,7 +142,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   639 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   640 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   644 ?        Sl     0:00 lightdm --session-child 12 15
-  650 ?        Ss     0:07 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  650 ?        Ss     0:08 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   672 ?        Ss     0:00 /lib/systemd/systemd --user
   675 ?        S      0:00 (sd-pam)
   698 ?        Ssl    0:00 mate-session
@@ -198,15 +198,15 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  4265 ?        S      0:00 [kworker/3:1]
 11561 ?        S      0:13 [kworker/1:1]
-17288 ?        S      0:00 [kworker/0:0]
-19550 ?        S      0:00 [kworker/0:1]
-19862 ?        S      0:00 /usr/sbin/CRON -f
-19863 ?        Ss     0:00 /bin/sh -c mastershell.sh
-19864 ?        S      0:00 /bin/bash /bin/mastershell.sh
-19959 ?        R      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-20009 ?        R      0:00 ps ax
-23913 ?        S      0:32 [kworker/1:0]
-25712 ?        S      0:01 [kworker/0:2]
+22395 ?        S      0:00 [kworker/0:0]
+23417 ?        S      0:00 [kworker/0:1]
+23597 ?        S      0:00 /usr/sbin/CRON -f
+23598 ?        Ss     0:00 /bin/sh -c mastershell.sh
+23599 ?        S      0:00 /bin/bash /bin/mastershell.sh
+23684 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+23724 ?        R      0:00 ps ax
+23913 ?        S      0:36 [kworker/1:0]
+25712 ?        S      0:02 [kworker/0:2]
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
