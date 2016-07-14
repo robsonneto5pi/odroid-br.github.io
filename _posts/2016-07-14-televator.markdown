@@ -5,35 +5,33 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 12 hours, 42 minutes !!!
+Eu estou ligado ininterruptamente à 18 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 00:28:09 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 00:47:09 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M   12M  161M   7% /run
-/dev/mmcblk0p2  7.1G  4.6G  2.3G  68% /
-tmpfs           860M  448K  859M   1% /dev/shm
+tmpfs           172M  9.3M  163M   6% /run
+/dev/mmcblk0p2  7.1G  4.6G  2.3G  67% /
+tmpfs           860M  228K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
 cgmfs           100K     0  100K   0% /run/cgmanager/fs
-tmpfs           172M   32K  172M   1% /run/user/1000
+tmpfs           172M   28K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 3 usuário(s) conectado(s) em mim ;) <br />
+Há 0 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
            run-level 5  2016-02-11 12:28
-LOGIN      tty1         2016-02-11 12:28               646 id=tty1
-LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
-odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36 04:14       25416 (192.168.1.32)
-odroid   + pts/2        2016-07-13 22:29   .          8139 (192.168.1.30)
-odroid   + pts/3        2016-07-14 00:16 00:10       26876 (192.168.1.30)
+LOGIN      tty1         2016-02-11 12:28               639 id=tty1
+odroid   + tty7         2016-02-11 12:28  old          698 (:0)
+LOGIN      ttyS0        2016-02-11 12:28               640 id=tyS0
+           pts/1        2016-02-11 12:28              1298 id=ts/1  term=0 exit=0
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -58,11 +56,11 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 ... Meus processos em execução ...
 {% highlight ruby %}
   PID TTY      STAT   TIME COMMAND
-    1 ?        Ss     0:06 /sbin/init
+    1 ?        Ss     0:05 /sbin/init
     2 ?        S      0:00 [kthreadd]
-    3 ?        S      0:02 [ksoftirqd/0]
+    3 ?        S      0:00 [ksoftirqd/0]
     5 ?        S<     0:00 [kworker/0:0H]
-    7 ?        S      0:04 [rcu_preempt]
+    7 ?        S      0:00 [rcu_preempt]
     8 ?        S      0:00 [rcu_sched]
     9 ?        S      0:00 [rcu_bh]
    10 ?        S      0:00 [migration/0]
@@ -88,10 +86,12 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
    37 ?        S<     0:00 [kworker/1:1H]
+   38 ?        S      0:00 [kworker/u8:1]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
    56 ?        S<     0:00 [kthrotld]
    57 ?        S<     0:00 [kworker/u9:0]
+   58 ?        S      0:00 [kworker/3:1]
    63 ?        S<     0:00 [kpsmoused]
    64 ?        S      0:00 [cfinteractive]
    65 ?        S      0:00 [NULL_task_for_h]
@@ -99,126 +99,117 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    67 ?        R      0:00 [cpu_idle_gdbs]
    68 ?        S<     0:00 [binder]
    69 ?        S<     0:00 [dwc_otg]
-   70 ?        S<     0:00 [dwc_otg]
-   71 ?        S      0:10 [kthread_hdcp]
-   72 ?        S      0:00 [irq/249-sd_emmc]
+   70 ?        S      0:00 [kworker/2:1]
+   71 ?        S<     0:00 [dwc_otg]
+   72 ?        S      0:00 [kthread_hdcp]
+   73 ?        S      0:00 [irq/249-sd_emmc]
+   74 ?        S      0:01 [kworker/1:1]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
    77 ?        S      0:00 [irq/250-sd_emmc]
    78 ?        S      0:00 [vmalloc_ion]
    79 ?        S      0:00 [carveout_ion]
-   80 ?        S      0:02 [mmcqd/0]
+   80 ?        S      0:00 [mmcqd/0]
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:57 [kthread_di]
+   84 ?        S      0:00 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
-  147 ?        S<     0:00 [ext4-rsv-conver]
-  160 ?        S<     0:00 [ipv6_addrconf]
-  185 ?        Ss     0:01 /lib/systemd/systemd-journald
-  187 ?        S      0:00 [kauditd]
-  235 ?        Ss     0:00 /lib/systemd/systemd-udevd
-  411 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
-  412 ?        Ss     0:00 /lib/systemd/systemd-logind
-  423 ?        Ssl    0:10 /usr/bin/whoopsie -f
-  426 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
-  429 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
-  432 ?        Ss     0:02 avahi-daemon: running [odroid64.local]
-  433 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
-  438 ?        Ssl    0:02 /usr/lib/accountsservice/accounts-daemon
-  439 ?        Ssl    0:00 /usr/sbin/ModemManager
-  443 ?        Ss     0:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  450 ?        S      0:00 avahi-daemon: chroot helper
-  486 ?        Ssl    1:01 /usr/sbin/NetworkManager --no-daemon
-  488 ?        Ss     0:00 /usr/sbin/cron -f
-  490 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  582 ?        Ss     0:00 /usr/sbin/sshd -D
-  587 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
-  604 ?        Ssl    0:00 /usr/sbin/lightdm
-  618 tty7     Ss+   13:55 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
-  643 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
-  646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
-  650 ?        Ss     0:16 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
-  680 ?        Sl     0:00 lightdm --session-child 12 15
-  704 ?        Ss     0:00 /lib/systemd/systemd --user
-  705 ?        S      0:00 (sd-pam)
-  708 ?        Ssl    0:00 mate-session
-  791 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
-  794 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
-  795 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
-  805 ?        Ssl    0:00 /usr/bin/ibus-daemon --daemonize --xim
-  809 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
-  814 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
-  816 ?        Sl     0:00 /usr/lib/ibus/ibus-dconf
-  819 ?        Sl     0:00 /usr/lib/ibus/ibus-ui-gtk3
-  821 ?        Sl     0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
-  839 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
-  844 ?        S      0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
-  846 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
-  851 ?        Sl     0:00 /usr/lib/dconf/dconf-service
-  857 ?        Sl     0:00 gnome-keyring-daemon --start
-  865 ?        Sl     0:05 /usr/bin/mate-settings-daemon
-  870 ?        Sl     0:04 mate-panel
-  875 ?        Sl     0:02 caja
-  877 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
-  882 ?        Sl     0:01 /usr/lib/mate-panel/wnck-applet
-  885 ?        S<l    0:01 /usr/bin/pulseaudio --start --log-target=syslog
-  887 ?        Sl     0:00 /usr/lib/mate-applets/trashapplet
-  888 ?        SNsl   0:01 /usr/lib/rtkit/rtkit-daemon
-  890 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
-  893 ?        Ssl    0:00 /usr/lib/udisks2/udisksd --no-debug
-  900 ?        Sl     0:00 mate-volume-control-applet
-  908 ?        Sl     0:02 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
-  910 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
-  937 ?        Sl     0:13 nm-applet
-  938 ?        Sl     0:01 tilda
-  941 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
-  943 ?        Sl     0:00 mate-maximus
-  946 ?        Sl     0:03 mate-power-manager
-  952 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
-  955 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
-  974 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
-  986 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
-  999 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
- 1010 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
- 1014 ?        Ssl    0:03 /usr/lib/upower/upowerd
- 1038 ?        Sl     0:07 /usr/lib/mate-panel/clock-applet
- 1040 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
- 1050 ?        Sl     0:01 marco.real --no-composite
- 1055 ?        S      0:00 [kworker/2:1]
- 1059 ?        S      0:03 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
- 1205 pts/0    Ss+    0:00 /bin/bash
- 1216 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
- 1242 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
- 1252 ?        S      0:00 /usr/lib/bluetooth/obexd
- 2372 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-468ede86-35c2-47ec-bc19-ca930e001090-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 2511 ?        S      0:18 [kworker/3:0]
- 3194 ?        S      0:00 [kworker/u8:2]
- 4960 ?        S      0:00 [kworker/1:0]
- 6915 ?        S      0:00 [kworker/u8:1]
- 7578 ?        S      0:00 [kworker/2:2]
- 8139 ?        Ss     0:00 sshd: odroid [priv]
- 8189 ?        S      0:01 sshd: odroid@pts/2
- 8190 pts/2    Ss+    0:02 -bash
-16657 ?        S      0:03 [kworker/0:2]
-17162 ?        S      0:00 [kworker/1:1]
-17815 ?        SNl    0:36 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
-19073 ?        S      0:46 [kworker/3:2]
-25416 ?        Ss     0:00 sshd: odroid [priv]
-25477 ?        S      0:00 sshd: odroid@pts/1
-25478 pts/1    Ss+    0:00 -bash
-26876 ?        Ss     0:00 sshd: odroid [priv]
-26929 ?        S      0:00 sshd: odroid@pts/3
-26930 pts/3    Ss+    0:00 -bash
-27396 ?        S      0:00 [kworker/0:0]
-28156 ?        S      0:00 [kworker/0:1]
-28535 ?        S      0:00 /usr/sbin/CRON -f
-28536 ?        Ss     0:00 /bin/sh -c mastershell.sh
-28537 ?        S      0:00 /bin/bash /bin/mastershell.sh
-28579 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-28622 ?        R      0:00 ps ax
+  150 ?        S<     0:00 [ext4-rsv-conver]
+  163 ?        S<     0:00 [ipv6_addrconf]
+  183 ?        S      0:00 [kauditd]
+  188 ?        Ss     0:00 /lib/systemd/systemd-journald
+  209 ?        S      0:00 [kworker/3:2]
+  237 ?        S      0:00 [kworker/2:2]
+  239 ?        Ss     0:00 /lib/systemd/systemd-udevd
+  410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
+  420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
+  426 ?        Ss     0:00 /usr/sbin/cron -f
+  437 ?        Ss     0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  447 ?        Ssl    0:01 /usr/sbin/NetworkManager --no-daemon
+  449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
+  452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
+  453 ?        Ssl    0:00 /usr/sbin/ModemManager
+  455 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
+  463 ?        Ssl    0:00 /usr/bin/whoopsie -f
+  472 ?        Ss     0:00 /lib/systemd/systemd-logind
+  473 ?        Ss     0:00 avahi-daemon: running [odroid64.local]
+  483 ?        S      0:00 [kworker/0:2]
+  504 ?        S      0:00 avahi-daemon: chroot helper
+  551 ?        Ssl    0:00 /usr/sbin/cups-browsed
+  557 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
+  576 ?        Ssl    0:00 /usr/sbin/lightdm
+  600 tty7     Ss+    0:07 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  601 ?        Ss     0:00 /usr/sbin/sshd -D
+  614 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+  639 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
+  640 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+  644 ?        Sl     0:00 lightdm --session-child 12 15
+  650 ?        Ss     0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  672 ?        Ss     0:00 /lib/systemd/systemd --user
+  675 ?        S      0:00 (sd-pam)
+  698 ?        Ssl    0:00 mate-session
+  771 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
+  774 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
+  786 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+  796 ?        Ssl    0:00 /usr/bin/ibus-daemon --daemonize --xim
+  800 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
+  805 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+  807 ?        Sl     0:00 /usr/lib/ibus/ibus-dconf
+  810 ?        Sl     0:00 /usr/lib/ibus/ibus-ui-gtk3
+  817 ?        Sl     0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+  830 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+  835 ?        S      0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+  837 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+  844 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+  848 ?        Sl     0:00 gnome-keyring-daemon --start
+  856 ?        Sl     0:00 /usr/bin/mate-settings-daemon
+  861 ?        Sl     0:01 mate-panel
+  866 ?        Sl     0:02 caja
+  868 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
+  876 ?        S<l    0:00 /usr/bin/pulseaudio --start --log-target=syslog
+  877 ?        Sl     0:00 /usr/lib/mate-panel/wnck-applet
+  879 ?        Sl     0:00 /usr/lib/mate-applets/trashapplet
+  880 ?        SNsl   0:00 /usr/lib/rtkit/rtkit-daemon
+  882 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+  889 ?        Sl     0:00 mate-volume-control-applet
+  894 ?        Sl     0:00 mate-screensaver
+  896 ?        Ssl    0:00 /usr/lib/udisks2/udisksd --no-debug
+  898 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
+  905 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+  911 ?        Sl     0:00 update-notifier
+  931 ?        Sl     0:01 tilda
+  933 ?        Sl     0:00 nm-applet
+  935 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
+  937 ?        Sl     0:00 mate-maximus
+  942 ?        Sl     0:00 mate-power-manager
+  943 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
+  962 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+  968 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+  982 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+  997 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
+  999 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ 1010 ?        Ssl    0:00 /usr/lib/upower/upowerd
+ 1041 ?        Sl     0:00 /usr/lib/mate-panel/clock-applet
+ 1043 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
+ 1058 ?        Sl     0:00 marco.real --no-composite
+ 1080 pts/0    Ss+    0:00 /bin/bash
+ 1093 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
+ 1110 ?        S      0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+ 1146 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
+ 1253 ?        S      0:00 /usr/lib/bluetooth/obexd
+ 1261 ?        S      0:00 [kworker/u8:2]
+ 1419 ?        S      0:00 [kworker/1:3]
+ 2079 ?        S      0:00 [kworker/0:0]
+ 2704 ?        S      0:00 [kworker/0:1]
+ 2863 ?        S      0:00 [kworker/3:0]
+ 3060 ?        S      0:00 /usr/sbin/CRON -f
+ 3061 ?        Ss     0:00 /bin/sh -c mastershell.sh
+ 3062 ?        S      0:00 /bin/bash /bin/mastershell.sh
+ 3094 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+ 3137 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
