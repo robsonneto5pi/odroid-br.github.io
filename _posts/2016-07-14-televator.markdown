@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 9 hours, 31 minutes !!!
+Eu estou ligado ininterruptamente à 10 hours, 18 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 10:00:18 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 10:47:11 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -60,7 +60,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
     2 ?        S      0:00 [kthreadd]
     3 ?        S      0:00 [ksoftirqd/0]
     5 ?        S<     0:00 [kworker/0:0H]
-    7 ?        S      0:00 [rcu_preempt]
+    7 ?        S      0:01 [rcu_preempt]
     8 ?        S      0:00 [rcu_sched]
     9 ?        S      0:00 [rcu_bh]
    10 ?        S      0:00 [migration/0]
@@ -100,7 +100,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    69 ?        S<     0:00 [dwc_otg]
    70 ?        S      0:00 [kworker/2:1]
    71 ?        S<     0:00 [dwc_otg]
-   72 ?        S      0:02 [kthread_hdcp]
+   72 ?        S      0:03 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
@@ -111,7 +111,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:09 [kthread_di]
+   84 ?        S      0:10 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -119,13 +119,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   163 ?        S<     0:00 [ipv6_addrconf]
   183 ?        S      0:00 [kauditd]
   188 ?        Ss     0:00 /lib/systemd/systemd-journald
-  237 ?        S      0:16 [kworker/2:2]
+  237 ?        S      0:18 [kworker/2:2]
   239 ?        Ss     0:00 /lib/systemd/systemd-udevd
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
   437 ?        Ss     0:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  447 ?        Ssl    0:15 /usr/sbin/NetworkManager --no-daemon
+  447 ?        Ssl    0:16 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   453 ?        Ssl    0:00 /usr/sbin/ModemManager
@@ -195,19 +195,17 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1253 ?        S      0:00 /usr/lib/bluetooth/obexd
  1261 ?        S      0:00 [kworker/u8:2]
  2863 ?        S      0:00 [kworker/3:0]
- 3000 ?        S      0:00 [kworker/0:1]
+ 3000 ?        S      0:01 [kworker/0:1]
  3737 ?        S      0:08 [kworker/1:2]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  4265 ?        S      0:00 [kworker/3:1]
-11561 ?        S      0:03 [kworker/1:1]
-13072 ?        S      0:00 [kworker/0:0]
-14215 ?        S      0:00 /usr/sbin/CRON -f
-14216 ?        Ss     0:00 /bin/sh -c mastershell.sh
-14217 ?        S      0:00 /bin/bash /bin/mastershell.sh
-14269 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-14302 ?        R      0:00 ps ax
+11561 ?        S      0:07 [kworker/1:1]
+17487 ?        S      0:00 [kworker/0:2]
+17854 ?        S      0:00 /usr/sbin/CRON -f
+17855 ?        Ss     0:00 /bin/sh -c mastershell.sh
+17856 ?        S      0:00 /bin/bash /bin/mastershell.sh
+17905 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+17938 ?        R      0:00 ps ax
 {% endhighlight %}
 
-Here is a picture of the state of my screen right now!!!
-
-![picture of my screen](https://github.com/odroid-br/televator-c2/blob/master/screenshot.png?raw=true =250x)
+Eu publico algo todo dia, espere por mais!!!
