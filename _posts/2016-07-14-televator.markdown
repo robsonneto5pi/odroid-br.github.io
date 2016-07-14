@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 12 hours, 22 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 12 hours, 24 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 00:08:13 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 00:10:14 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28               643 id=tyS0
 odroid   + tty7         2016-02-11 12:28  old          708 (:0)
-odroid   + pts/1        2016-07-13 19:36 03:55       25416 (192.168.1.32)
-odroid   + pts/2        2016-07-13 22:29   .          8139 (192.168.1.30)
+odroid   + pts/1        2016-07-13 19:36 03:57       25416 (192.168.1.32)
+odroid   + pts/2        2016-07-13 22:29 00:01        8139 (192.168.1.30)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -136,7 +136,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   582 ?        Ss     0:00 /usr/sbin/sshd -D
   587 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   604 ?        Ssl    0:00 /usr/sbin/lightdm
-  618 tty7     Ss+   13:54 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  618 tty7     Ss+   13:55 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   643 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   650 ?        Ss     0:16 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
@@ -201,7 +201,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  8139 ?        Ss     0:00 sshd: odroid [priv]
  8189 ?        S      0:01 sshd: odroid@pts/2
  8190 pts/2    Ss+    0:01 -bash
- 8465 ?        S      0:00 xcalc
 15854 ?        S      0:08 [kworker/0:0]
 16657 ?        S      0:00 [kworker/0:2]
 17162 ?        S      0:00 [kworker/1:1]
@@ -211,11 +210,11 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 25416 ?        Ss     0:00 sshd: odroid [priv]
 25477 ?        S      0:00 sshd: odroid@pts/1
 25478 pts/1    Ss+    0:00 -bash
-25777 ?        S      0:00 /usr/sbin/CRON -f
-25778 ?        Ss     0:00 /bin/sh -c mastershell.sh
-25779 ?        S      0:00 /bin/bash /bin/mastershell.sh
-25826 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-25869 ?        R      0:00 ps ax
+26069 ?        S      0:00 /usr/sbin/CRON -f
+26070 ?        Ss     0:00 /bin/sh -c mastershell.sh
+26071 ?        S      0:00 /bin/bash /bin/mastershell.sh
+26113 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+26146 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
