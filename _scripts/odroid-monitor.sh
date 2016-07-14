@@ -10,8 +10,9 @@
 # "the trick" #
 # _monitorar_ #
 ###############
-#echo $RANDOM | sed -e 's/^\(.\{2\}\).*/\1/'
-#shuf -i 1-35 -n 1
+#ale="shuf -i 1-2 -n 1"
+#cat oi.txt | grep "^$(${ale})_" | cut -d'_' -f2-
+
 name="$(date +%Y-%m-%d)-televator.markdown"
 log_home="/home/odroid/rodolfo/blog-monitor/"
 basedir="$(dirname $0; $PWD)"
