@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: SaoPaulo  <br />
+Hello Friends! No meu relógio agora são: 19:50.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 40 minutes !!!
+Eu estou ligado ininterruptamente à 55 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 19:35:27 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 19:50:19 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-02-11 12:28 00:22        1300 (192.168.1.32)
-odroid   + pts/2        2016-07-14 19:22 00:08        4286 (192.168.1.30)
+odroid   + pts/1        2016-02-11 12:28 00:37        1300 (192.168.1.32)
+odroid   + pts/2        2016-07-14 19:22   .          4286 (192.168.1.30)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -104,7 +104,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    71 ?        S<     0:00 [dwc_otg]
    72 ?        S      0:00 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
-   74 ?        S      0:03 [kworker/1:1]
+   74 ?        S      0:04 [kworker/1:1]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
    77 ?        S      0:00 [irq/250-sd_emmc]
@@ -116,7 +116,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    83 ?        S      0:00 [kthread_h265]
    84 ?        S      0:00 [kthread_di]
    85 ?        S<     0:00 [cec_work]
-   86 ?        S      0:00 [kworker/1:2]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
   143 ?        S<     0:00 [ext4-rsv-conver]
@@ -139,15 +138,14 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    0:01 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    0:02 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
-  617 tty7     Ss+    0:07 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
-  619 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+  617 tty7     Ss+    0:08 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   647 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
-  649 ?        Ss     0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  649 ?        Ssl    0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   695 ?        Sl     0:00 lightdm --session-child 12 15
   702 ?        Ss     0:00 /lib/systemd/systemd --user
   703 ?        S      0:00 (sd-pam)
@@ -207,13 +205,15 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  4286 ?        Ss     0:00 sshd: odroid [priv]
  4339 ?        S      0:00 sshd: odroid@pts/2
  4340 pts/2    Ss+    0:00 -bash
- 4577 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
- 4659 ?        S      0:00 [kworker/0:2]
- 5319 ?        S      0:00 /usr/sbin/CRON -f
- 5320 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 5321 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 5436 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 5486 ?        R      0:00 ps ax
+ 5540 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
+ 6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+ 6493 ?        S      0:00 [kworker/0:2]
+ 6561 ?        S      0:00 [kworker/1:0]
+ 7203 ?        S      0:00 /usr/sbin/CRON -f
+ 7204 ?        Ss     0:00 /bin/sh -c mastershell.sh
+ 7205 ?        S      0:00 /bin/bash /bin/mastershell.sh
+ 7305 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+ 7345 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
