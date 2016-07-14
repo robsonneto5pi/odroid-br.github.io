@@ -3,11 +3,11 @@ layout: post
 title:  "Monitoramento Meu Odroid"
 ---
 <br />
-Hello Friends! Meu nome é odroid.  <br />
+Hello Friends! No meu relógio agora são: 18:00.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 17 hours, 18 minutes !!!
+Eu estou ligado ininterruptamente à 17 hours, 31 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 17:47:17 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 18:00:26 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -86,7 +86,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
    37 ?        S<     0:00 [kworker/1:1H]
-   38 ?        S      0:01 [kworker/u8:1]
+   38 ?        S      0:02 [kworker/u8:1]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
    56 ?        S<     0:00 [kthrotld]
@@ -111,7 +111,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:16 [kthread_di]
+   84 ?        S      0:17 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -119,13 +119,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   163 ?        S<     0:00 [ipv6_addrconf]
   183 ?        S      0:00 [kauditd]
   188 ?        Ss     0:00 /lib/systemd/systemd-journald
-  237 ?        S      0:30 [kworker/2:2]
+  237 ?        S      0:31 [kworker/2:2]
   239 ?        Ss     0:00 /lib/systemd/systemd-udevd
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ssl    0:01 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
   437 ?        Ss     0:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  447 ?        Ssl    0:27 /usr/sbin/NetworkManager --no-daemon
+  447 ?        Ssl    0:28 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   453 ?        Ssl    0:00 /usr/sbin/ModemManager
@@ -137,7 +137,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   551 ?        Ssl    0:00 /usr/sbin/cups-browsed
   557 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   576 ?        Ssl    0:00 /usr/sbin/lightdm
-  600 tty7     Ss+    0:22 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  600 tty7     Ss+    0:23 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   601 ?        Ss     0:00 /usr/sbin/sshd -D
   639 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   640 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
@@ -199,12 +199,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  4265 ?        S      0:00 [kworker/3:1]
 11561 ?        S      0:13 [kworker/1:1]
 17288 ?        S      0:00 [kworker/0:0]
-18627 ?        S      0:00 /usr/sbin/CRON -f
-18628 ?        Ss     0:00 /bin/sh -c mastershell.sh
-18629 ?        S      0:00 /bin/bash /bin/mastershell.sh
-18714 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-18754 ?        R      0:00 ps ax
-23913 ?        S      0:31 [kworker/1:0]
+19550 ?        S      0:00 [kworker/0:1]
+19862 ?        S      0:00 /usr/sbin/CRON -f
+19863 ?        Ss     0:00 /bin/sh -c mastershell.sh
+19864 ?        S      0:00 /bin/bash /bin/mastershell.sh
+19959 ?        R      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+20009 ?        R      0:00 ps ax
+23913 ?        S      0:32 [kworker/1:0]
 25712 ?        S      0:01 [kworker/0:2]
 {% endhighlight %}
 
