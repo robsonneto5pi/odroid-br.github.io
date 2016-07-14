@@ -5,9 +5,9 @@ title:  "Monitoramento Meu Odroid"
 <br />
 Hello friends! Meu nome é odroid. Esse é uma publicação automática. <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 31 minutes !!!
+Eu estou ligado ininterruptamente à 1 hour, 18 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 01:00:09 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 01:47:08 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -112,7 +112,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:00 [kthread_di]
+   84 ?        S      0:01 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -120,14 +120,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   163 ?        S<     0:00 [ipv6_addrconf]
   183 ?        S      0:00 [kauditd]
   188 ?        Ss     0:00 /lib/systemd/systemd-journald
-  209 ?        S      0:00 [kworker/3:2]
-  237 ?        S      0:00 [kworker/2:2]
+  237 ?        S      0:02 [kworker/2:2]
   239 ?        Ss     0:00 /lib/systemd/systemd-udevd
   410 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   426 ?        Ss     0:00 /usr/sbin/cron -f
   437 ?        Ss     0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  447 ?        Ssl    0:01 /usr/sbin/NetworkManager --no-daemon
+  447 ?        Ssl    0:02 /usr/sbin/NetworkManager --no-daemon
   449 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   452 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   453 ?        Ssl    0:00 /usr/sbin/ModemManager
@@ -139,7 +138,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   551 ?        Ssl    0:00 /usr/sbin/cups-browsed
   557 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
   576 ?        Ssl    0:00 /usr/sbin/lightdm
-  600 tty7     Ss+    0:08 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  600 tty7     Ss+    0:09 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   601 ?        Ss     0:00 /usr/sbin/sshd -D
   639 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   640 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
@@ -196,20 +195,18 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1146 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
  1253 ?        S      0:00 /usr/lib/bluetooth/obexd
  1261 ?        S      0:00 [kworker/u8:2]
- 1419 ?        S      0:00 [kworker/1:3]
- 2704 ?        S      0:00 [kworker/0:1]
  2863 ?        S      0:00 [kworker/3:0]
  3475 ?        S      0:00 [kworker/0:2]
- 3851 ?        S      0:00 [kworker/0:0]
  4049 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-c613ba29-ce4e-4ed6-8ff2-ba4e2c766979-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 4061 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
- 4197 ?        S      0:00 [kworker/1:0]
+ 4197 ?        S      0:04 [kworker/1:0]
  4265 ?        S      0:00 [kworker/3:1]
- 4437 ?        S      0:00 /usr/sbin/CRON -f
- 4438 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 4439 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 4481 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 4524 ?        R      0:00 ps ax
+ 4582 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
+ 7555 ?        S      0:00 [kworker/0:1]
+ 8120 ?        S      0:00 /usr/sbin/CRON -f
+ 8121 ?        Ss     0:00 /bin/sh -c mastershell.sh
+ 8122 ?        S      0:00 /bin/bash /bin/mastershell.sh
+ 8154 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+ 8187 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Here is a picture of the state of my screen right now!!!
