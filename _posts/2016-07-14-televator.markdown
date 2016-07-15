@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 hour !!!
+Eu estou ligado ininterruptamente à 1 hour, 5 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 19:55:23 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 20:00:30 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-02-11 12:28 00:42        1300 (192.168.1.32)
-           pts/2        2016-07-14 19:52              4286 id=ts/2  term=0 exit=0
+odroid   + pts/1        2016-02-11 12:28 00:47        1300 (192.168.1.32)
+           pts/2        2016-07-14 19:57              8086 id=ts/2  term=0 exit=0
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -201,16 +201,16 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1363 ?        S      0:00 sshd: odroid@pts/1
  1364 pts/1    Ss+    0:00 -bash
  2384 ?        S      0:00 [kworker/3:0]
- 3911 ?        S      0:00 [kworker/0:0]
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  6493 ?        S      0:00 [kworker/0:2]
  6561 ?        S      0:01 [kworker/1:0]
  7525 ?        S      0:00 [kworker/0:1]
- 7788 ?        S      0:00 /usr/sbin/CRON -f
- 7789 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 7790 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 7887 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 7927 ?        R      0:00 ps ax
+ 8168 ?        S      0:00 [kworker/1:2]
+ 8388 ?        S      0:00 /usr/sbin/CRON -f
+ 8389 ?        Ss     0:00 /bin/sh -c mastershell.sh
+ 8390 ?        S      0:00 /bin/bash /bin/mastershell.sh
+ 8516 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+ 8556 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
