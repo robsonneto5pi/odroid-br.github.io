@@ -76,7 +76,7 @@ echo "{% highlight ruby %}" >> ${name}
 echo "$(ps ax)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
-echo "Eu publico algo todo dia, espere por mais!!!" >> ${name}
+echo "Use sua conta google para comentar abaixo!!!" >> ${name}
 #echo "Here is a picture of the state of my screen right now!!!" >> ${name}
 #echo "" >> ${name}
 #echo "![picture of my screen](https://github.com/odroid-br/televator-c2/blob/master/screenshot.png?raw=true =250x)" >> ${name}
