@@ -9,12 +9,12 @@ post_="$(date +%Y-%m-%d)-megaquarta.markdown"
 dir_="$(dirname $0; $PWD)"
 path_="/home/odroid/rodolfo/"
 
-cd ${scriptdir}/../
+cd ${dir_}/../
 git reset --hard
 git clean -fd
 git up
 
-cd ${scriptdir}/../_posts
+cd ${dir_}/../_posts
 
 echo "---
 layout: post
@@ -29,7 +29,7 @@ echo "{% endhighlight %}" >> ${post_}
 echo "" >> ${post_}
 
 git add --all
-git commit -m "${post_name}"
+git commit -m "${post_}"
 git push -u origin master
 
 else
