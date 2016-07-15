@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: Sao Paulo  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 hours !!!
+Eu estou ligado ininterruptamente à 2 hours, 5 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 20:55:20 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 21:00:20 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-02-11 12:28 01:42        1300 (192.168.1.32)
-odroid   + pts/2        2016-07-14 20:15   .         10399 (192.168.1.30)
+odroid   + pts/1        2016-02-11 12:28 01:47        1300 (192.168.1.32)
+odroid   + pts/2        2016-07-14 20:15 00:01       10399 (192.168.1.30)
            pts/3        2016-07-14 20:18                 0 id=/3    term=0 exit=0
 {% endhighlight %}
 
@@ -58,7 +58,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 ... Meus processos em execução ...
 {% highlight ruby %}
   PID TTY      STAT   TIME COMMAND
-    1 ?        Ss     0:05 /sbin/init
+    1 ?        Ss     0:06 /sbin/init
     2 ?        S      0:00 [kthreadd]
     3 ?        S      0:00 [ksoftirqd/0]
     5 ?        S<     0:00 [kworker/0:0H]
@@ -213,14 +213,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 10724 ?        Sl     0:00 /usr/lib/dconf/dconf-service
 10734 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
 10742 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
-13187 ?        S      0:00 [kworker/0:1]
-13213 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
 13751 ?        S      0:00 [kworker/0:0]
-13795 ?        S      0:00 /usr/sbin/CRON -f
-13796 ?        Ss     0:00 /bin/sh -c mastershell.sh
-13797 ?        S      0:00 /bin/bash /bin/mastershell.sh
-13899 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-13953 ?        R      0:00 ps ax
+14478 ?        S      0:00 /usr/sbin/CRON -f
+14479 ?        Ss     0:00 /bin/sh -c mastershell.sh
+14480 ?        S      0:00 /bin/bash /bin/mastershell.sh
+14565 ?        S      0:00 [kworker/0:1]
+14587 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+14627 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
