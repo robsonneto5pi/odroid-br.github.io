@@ -4,4 +4,4 @@ title: Adicione!
 permalink: /adicione/
 ---
 {% include adicione.html %}
-{% audio_tag.rb %}
+{% include audio_tag.rb %}
