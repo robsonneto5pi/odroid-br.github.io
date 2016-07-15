@@ -1,6 +1,6 @@
 # odroid-br.github.io
 
-***Hello Friends!!!***
+***Hello Friends!!!*** <br />
 As publicações que vocês vêem no blog (https://odroid-br.github.io/) são todas geradas automaticamente. <br />
 A placa Odroid-c2 está ligada 24 por 7 e executando as postagens por ela mesmo através de shell script. <br />
 E o legal é que você pode também publicar. Basta ter um pouco de conhecimento em Linux e scripting <br />
