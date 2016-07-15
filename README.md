@@ -22,13 +22,17 @@ Give examples
 
 ### Greetings (Gerador de saudações aleatórias)
 
-A step by step series of examples that tell you have to get a development env running
+Nesse repositório existe um script que adiciona saudações em um arquivo txt. Essas saudações podem ser manipuladas e comandos podem ser executados dentro delas. Ok, deixa eu explicar melhor.
 
-Stay what the step will be
+Vejamos um exemplo:
 
 ```
-Give the example
+echo "9_Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: $(curl -s ipinfo.io/city)" >> greetings.txt
 ```
+
+o comando `echo` irá jogar tudo que estiver dentro das apas duplas no arquivo `greetings.txt`
+Porem, na parte `$(curl -s ipinfo.io/city)` o linux irá interpretar como um comando e nesse caso irá retornar o resultado do comando, no caso `cidade X`
+
 
 ## Built With
 
