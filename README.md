@@ -32,7 +32,12 @@ O comando `echo` da linha 19 irá jogar tudo que estiver dentro das apas duplas 
 Porem, na parte `$(curl -s ipinfo.io/city)` o linux irá interpretar como um comando e nesse caso irá retornar o resultado do comando, no caso ***cidade X***. <br />
 Assim, o resultado do arquivo greetings.txt será algo assim: <br />
 ![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/echo2.PNG)
+<br />
+[Aqui](https://github.com/odroid-br/odroid-br.github.io/blob/master/_scripts/greetings.sh) está o script do qual você deve adicionar a sua saudação.
+Repare, que você deve acrescentar um número (seguido de um underline_) no começo da linha, sempre lembrando de acrescentar +1 referente a linha anterior: 
+`echo "10_Aqui vai a sua saudação..." >> greetings.txt`
 
+<br />
 ## Built With
 
 * Jekyll - ;)
