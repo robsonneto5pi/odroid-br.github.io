@@ -26,13 +26,12 @@ Nesse repositório existe um script que adiciona saudações em um arquivo txt. 
 
 Vejamos um exemplo:
 
-```
-echo "9_Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: $(curl -s ipinfo.io/city)" >> greetings.txt
-```
+![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/echo.PNG)
 
-o comando `echo` irá jogar tudo que estiver dentro das apas duplas no arquivo `greetings.txt`
+O comando `echo` da linha 19 irá jogar tudo que estiver dentro das apas duplas no arquivo `greetings.txt`
 Porem, na parte `$(curl -s ipinfo.io/city)` o linux irá interpretar como um comando e nesse caso irá retornar o resultado do comando, no caso ***cidade X***
-
+Assim, o resultado do arquivo greetings.txt será algo assim:
+![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/echo2.PNG)
 
 ## Built With
 
