@@ -5,9 +5,9 @@ title:  "Publicação Automática do Odroid"
 <br />
 Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 hour, 15 minutes !!!
+Eu estou ligado ininterruptamente à 1 hour, 20 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 20:10:24 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 20:15:23 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-02-11 12:28 00:57        1300 (192.168.1.32)
-           pts/2        2016-07-14 20:08              9291 id=ts/2  term=0 exit=0
+odroid   + pts/1        2016-02-11 12:28 01:02        1300 (192.168.1.32)
+           pts/2        2016-07-14 20:15             10186 id=ts/2  term=0 exit=0
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -137,9 +137,9 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    0:02 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    0:03 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
-  588 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
+  588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
   617 tty7     Ss+    0:08 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
@@ -204,14 +204,14 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  6561 ?        S      0:01 [kworker/1:0]
  7525 ?        S      0:00 [kworker/0:1]
  8168 ?        S      0:01 [kworker/1:2]
- 8781 ?        S      0:00 [kworker/0:0]
- 9404 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
  9409 ?        S      0:00 [kworker/0:2]
- 9567 ?        S      0:00 /usr/sbin/CRON -f
- 9568 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 9569 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 9665 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 9705 ?        R      0:00 ps ax
+ 9769 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
+10131 ?        S      0:00 /usr/sbin/CRON -f
+10132 ?        Ss     0:00 /bin/sh -c mastershell.sh
+10133 ?        S      0:00 /bin/bash /bin/mastershell.sh
+10272 ?        S      0:00 [kworker/3:1]
+10274 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+10314 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
