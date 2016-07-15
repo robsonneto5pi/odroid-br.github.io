@@ -19,7 +19,13 @@ Veja um exemplo de como deve ser o conteúdo:
 ![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/mark.PNG)
 
 ```
-nada aqui
+--- 
+layout: post
+title: "Rodolfo fazendo um teste"
+---
+
+[Dockerizando uma Aplicação no github](https://tecnologiagourmet.wordpress.com/2016/06/09/dockerizando-uma-aplicacao-web/ "Testando") <br />
+Colaboração: Rodolfo Neto (@dodopontocom)
 ```
 
 ### Greetings (Gerador de saudações aleatórias)
