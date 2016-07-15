@@ -3,17 +3,17 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: Sao Paulo  <br />
+Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 4 hours, 35 minutes !!!
+Eu estou ligado ininterruptamente à 4 hours, 50 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 23:30:38 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 23:45:30 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M  9.4M  163M   6% /run
+tmpfs           172M  9.3M  163M   6% /run
 /dev/mmcblk0p2  7.1G  4.6G  2.3G  68% /
 tmpfs           860M  244K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
@@ -23,7 +23,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   28K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 2 usuário(s) conectado(s) em mim ;) <br />
+Há 0 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-07-14 21:39 00:07       18829 (192.168.1.30)
-odroid   + pts/2        2016-07-14 20:15   .         10399 (192.168.1.30)
+           pts/1        2016-07-14 23:38             18829 id=ts/1  term=0 exit=0
+           pts/2        2016-07-14 23:38             10399 id=ts/2  term=0 exit=0
            pts/3        2016-07-14 21:42                 0 id=/3    term=0 exit=0
 {% endhighlight %}
 
@@ -101,7 +101,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    67 ?        R      0:00 [cpu_idle_gdbs]
    68 ?        S<     0:00 [binder]
    69 ?        S<     0:00 [dwc_otg]
-   70 ?        S      0:00 [kworker/2:1]
    71 ?        S<     0:00 [dwc_otg]
    72 ?        S      0:01 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
@@ -184,6 +183,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   967 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
   969 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
   978 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+  980 ?        S      0:00 [kworker/0:0]
   990 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
  1000 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
  1017 ?        Sl     0:00 /usr/lib/mate-applets/trashapplet
@@ -193,32 +193,21 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1064 ?        Sl     0:00 marco.real --no-composite
  1084 pts/0    Ss+    0:00 /bin/bash
  1102 ?        S      0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+ 1111 ?        S      0:00 [kworker/2:0]
+ 1113 ?        S      0:00 [kworker/1:1]
  1125 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
  1252 ?        S      0:00 /usr/lib/bluetooth/obexd
  1271 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
+ 1574 ?        S      0:00 /usr/sbin/CRON -f
+ 1575 ?        Ss     0:00 /bin/sh -c mastershell.sh
+ 1576 ?        S      0:00 /bin/bash /bin/mastershell.sh
+ 1770 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+ 1820 ?        R      0:00 ps ax
  2384 ?        S      0:00 [kworker/3:0]
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 6561 ?        S      0:01 [kworker/1:0]
- 8168 ?        S      0:19 [kworker/1:2]
+ 8168 ?        S      0:20 [kworker/1:2]
 10272 ?        S      0:00 [kworker/3:1]
-10399 ?        Ss     0:00 sshd: odroid [priv]
-10426 ?        S      0:06 sshd: odroid@pts/2
-10427 pts/2    Ss+    0:01 -bash
-10482 pts/2    S      0:00 dbus-launch --autolaunch=2af5a0f9274a4d59855b8c00a45b3e01 --binary-syntax --close-stderr
-10483 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
-10724 ?        Sl     0:00 /usr/lib/dconf/dconf-service
-10734 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
-10742 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
-18829 ?        Ss     0:00 sshd: odroid [priv]
-18880 ?        S      0:00 sshd: odroid@pts/1
-18881 pts/1    Ss+    0:00 -bash
 23229 ?        S      0:00 [kworker/0:1]
-31291 ?        S      0:00 [kworker/0:2]
-32350 ?        S      0:00 /usr/sbin/CRON -f
-32351 ?        Ss     0:00 /bin/sh -c mastershell.sh
-32352 ?        S      0:00 /bin/bash /bin/mastershell.sh
-32556 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-32596 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
