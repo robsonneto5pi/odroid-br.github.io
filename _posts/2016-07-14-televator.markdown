@@ -3,18 +3,18 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
+Hello Friends! Meu nome é odroid.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 hours, 5 minutes !!!
+Eu estou ligado ininterruptamente à 3 hours, 20 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 22:00:29 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 22:15:24 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.4M  163M   6% /run
-/dev/mmcblk0p2  7.1G  4.6G  2.3G  67% /
+/dev/mmcblk0p2  7.1G  4.6G  2.3G  68% /
 tmpfs           860M  244K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-07-14 21:39 00:06       18829 (192.168.1.30)
-odroid   + pts/2        2016-07-14 20:15 00:25       10399 (192.168.1.30)
+odroid   + pts/1        2016-07-14 21:39 00:07       18829 (192.168.1.30)
+odroid   + pts/2        2016-07-14 20:15 00:40       10399 (192.168.1.30)
            pts/3        2016-07-14 21:42                 0 id=/3    term=0 exit=0
 {% endhighlight %}
 
@@ -103,7 +103,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    69 ?        S<     0:00 [dwc_otg]
    70 ?        S      0:00 [kworker/2:1]
    71 ?        S<     0:00 [dwc_otg]
-   72 ?        S      0:00 [kthread_hdcp]
+   72 ?        S      0:01 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
@@ -137,11 +137,11 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    0:05 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    0:06 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
-  617 tty7     Ss+    0:09 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  617 tty7     Ss+    0:10 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   647 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   649 ?        Ssl    0:01 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
@@ -199,7 +199,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  2384 ?        S      0:00 [kworker/3:0]
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  6561 ?        S      0:01 [kworker/1:0]
- 8168 ?        S      0:11 [kworker/1:2]
+ 8168 ?        S      0:12 [kworker/1:2]
 10272 ?        S      0:00 [kworker/3:1]
 10399 ?        Ss     0:00 sshd: odroid [priv]
 10426 ?        S      0:05 sshd: odroid@pts/2
@@ -209,21 +209,21 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 10724 ?        Sl     0:00 /usr/lib/dconf/dconf-service
 10734 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
 10742 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
-17248 ?        S      0:00 [kworker/0:0]
 18479 pts/2    S+     0:00 git clone --recursive https://github.com/dodopontocom/scripts.git
-18488 pts/2    S+     0:03 git-remote-https origin https://github.com/dodopontocom/scripts.git
+18488 pts/2    S+     0:05 git-remote-https origin https://github.com/dodopontocom/scripts.git
 18492 pts/2    Sl+    0:00 git fetch-pack --stateless-rpc --stdin --lock-pack --thin --check-self-contained-and-connected --cloning https://github.com/dodopontocom/scripts.git/
-18494 pts/2    S+     0:01 git index-pack --stdin -v --fix-thin --keep=fetch-pack 18492 on odroid64 --check-self-contained-and-connected --pack_header=2,506
+18494 pts/2    S+     0:02 git index-pack --stdin -v --fix-thin --keep=fetch-pack 18492 on odroid64 --check-self-contained-and-connected --pack_header=2,506
 18829 ?        Ss     0:00 sshd: odroid [priv]
 18880 ?        S      0:00 sshd: odroid@pts/1
 18881 pts/1    Ss+    0:00 -bash
-20103 ?        S      0:00 [kworker/0:2]
 20605 ?        S      0:00 [kworker/0:1]
-20841 ?        S      0:00 /usr/sbin/CRON -f
-20842 ?        Ss     0:00 /bin/sh -c mastershell.sh
-20843 ?        S      0:00 /bin/bash /bin/mastershell.sh
-20959 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-21009 ?        R      0:00 ps ax
+21399 ?        S      0:00 [kworker/0:2]
+22008 ?        S      0:00 [kworker/0:0]
+22248 ?        S      0:00 /usr/sbin/CRON -f
+22249 ?        Ss     0:00 /bin/sh -c mastershell.sh
+22250 ?        S      0:00 /bin/bash /bin/mastershell.sh
+22351 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+22401 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
