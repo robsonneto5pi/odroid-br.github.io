@@ -5,7 +5,7 @@
 if [ "$(date +%u)" -eq 4 -o "$(date +%u)" -eq 7 ]
 then
 
-post_="$(date +%Y-%m-%d)-megaquarta.markdown"
+post_="$(date +%Y-%m-%d)-mega.markdown"
 dir_="$(dirname $0; $PWD)"
 path_="/home/odroid/rodolfo/"
 
@@ -18,7 +18,7 @@ cd ${dir_}/../_posts
 
 echo "---
 layout: post
-title:  \"Sorteio da megasena de quarta\"
+title:  \"Sorteio da megasena da noite anterior\"
 ---" > ${post_}
 echo "<br />" >> ${post_}
 echo "Como ontem foi quarta, então aqui estão os números sorteados  <br />" >> ${post_}
