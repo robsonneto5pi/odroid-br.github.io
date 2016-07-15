@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Adicione!
+title: Como Adicionar!
 permalink: /adicione/
 ---
 {% include adicione.html %}
