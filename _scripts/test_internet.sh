@@ -24,7 +24,7 @@ echo "<br />" >> ${post_name}
 echo "Teste da internet!  <br />" >> ${post_name}
 echo "" >> ${post_name}
 echo "{% highlight ruby %}" >> ${post_name}
-echo "$(tail -n 10 ${testpath} | grep -v _end)" >> ${post_name}
+echo "$(tail -n 10 ${testpath} | grep -v _end | grep -v -i from)" >> ${post_name}
 echo "{% endhighlight %}" >> ${post_name}
 
 git add --all
