@@ -24,7 +24,7 @@ echo "<br />" >> ${post_}
 echo "Como ontem foi quarta, então aqui estão os números sorteados  <br />" >> ${post_}
 echo "" >> ${post_}
 echo "{% highlight ruby %}" >> ${post_}
-echo "$(.${path_}/megasena_rodolfo.sh 2>/dev/null >> ${path_}oi.txt; tail -n 1 ${path_}oi.txt)" >> ${post_}
+echo "$(${path_}/megasena_rodolfo.sh 2>/dev/null >> ${path_}oi.txt; tail -n 1 ${path_}oi.txt)" >> ${post_}
 echo "{% endhighlight %}" >> ${post_}
 echo "" >> ${post_}
 
