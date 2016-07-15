@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
+Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 hours, 32 minutes !!!
+Eu estou ligado ininterruptamente à 2 hours, 35 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 21:27:25 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 21:30:28 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -32,7 +32,7 @@ LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
            pts/1        2016-07-14 21:25              1300 id=ts/1  term=0 exit=0
-odroid   + pts/2        2016-07-14 20:15 00:02       10399 (192.168.1.30)
+odroid   + pts/2        2016-07-14 20:15   .         10399 (192.168.1.30)
            pts/3        2016-07-14 20:18                 0 id=/3    term=0 exit=0
 {% endhighlight %}
 
@@ -137,7 +137,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    0:04 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    0:05 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
@@ -204,20 +204,19 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 10272 ?        S      0:00 [kworker/3:1]
 10399 ?        Ss     0:00 sshd: odroid [priv]
 10426 ?        S      0:05 sshd: odroid@pts/2
-10427 pts/2    Ss     0:00 -bash
+10427 pts/2    Ss+    0:00 -bash
 10482 pts/2    S      0:00 dbus-launch --autolaunch=2af5a0f9274a4d59855b8c00a45b3e01 --binary-syntax --close-stderr
 10483 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
 10724 ?        Sl     0:00 /usr/lib/dconf/dconf-service
 10734 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
 10742 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
 15778 ?        S      0:00 [kworker/0:1]
-17162 pts/2    S+     0:00 tail -f internet.txt
 17248 ?        S      0:00 [kworker/0:0]
-17342 ?        S      0:00 /usr/sbin/CRON -f
-17343 ?        Ss     0:00 /bin/sh -c mastershell.sh
-17344 ?        S      0:00 /bin/bash /bin/mastershell.sh
-17440 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-17480 ?        R      0:00 ps ax
+17830 ?        S      0:00 /usr/sbin/CRON -f
+17831 ?        Ss     0:00 /bin/sh -c mastershell.sh
+17832 ?        S      0:00 /bin/bash /bin/mastershell.sh
+17940 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+17990 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
