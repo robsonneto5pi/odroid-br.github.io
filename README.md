@@ -20,7 +20,7 @@ Em Construção!!! <br />
 Give examples
 ```
 
-### Greetings
+### Greetings (Gerador de saudações aleatórias)
 
 A step by step series of examples that tell you have to get a development env running
 
