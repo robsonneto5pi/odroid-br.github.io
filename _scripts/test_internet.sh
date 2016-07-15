@@ -2,7 +2,7 @@
 
 ### _monitorar_ ###
 
-if [ "$(date +%H)" -eq 22 ]
+if [ "$(date +%H)" -eq 23 ]
 then
 
 post_name="$(date +%Y-%m-%d)-internet.markdown"
