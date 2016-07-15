@@ -3,7 +3,7 @@ layout: post
 title:  "Sorteio da megasena da noite anterior"
 ---
 <br />
-Como ontem foi quarta, então aqui estão os números sorteados  <br />
+Ontem teve sorteio, então aqui estão os números <br />
 
 {% highlight ruby %}
 08 15 18 45 59 60 
