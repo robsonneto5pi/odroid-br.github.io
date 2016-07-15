@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Sorteio da megasena da noite anterior"
+---
+<br />
+Como ontem foi quarta, então aqui estão os números sorteados  <br />
+
+{% highlight ruby %}
+08 15 18 45 59 60 
+{% endhighlight %}
+
