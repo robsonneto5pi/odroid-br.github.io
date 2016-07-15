@@ -16,7 +16,6 @@ Para adicionar a sua publicação você deve adicionar um arquivo .markdown na p
 ![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/_posts.PNG)
 <br />
 Veja um exemplo de como deve ser o conteúdo:
-![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/mark.PNG)
 
 ```
 --- 
