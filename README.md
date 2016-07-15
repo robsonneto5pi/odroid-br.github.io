@@ -32,27 +32,27 @@ Give the example
 
 ## Built With
 
-* Jekyll - Bla bla bla
-* Shell Script - Maybe
-* vontade - hum
+* Jekyll - ;)
+* Shell Script - ;)
+* Linux kernel - ;)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+-.-
 
 ## Authors
 
 * **Rodolfo Neto** - *Initial work* - [Odroid.github.io](https://odroid-br.github.io)
 
-See also the list of [contributors](https://github.com/odroid-br.github.io/contributors) who participated in this project.
+-.-
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+[LICENSE.md](LICENSE.md)
 
-## Acknowledgments
+## Agradecimentos
 
-* Hat tip to anyone who's code was used
+* em construção
 * Inspiration
 * etc
 
