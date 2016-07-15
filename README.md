@@ -11,7 +11,7 @@ Tudo pela troca de experiências. <br />
 
 ### Instruções
 
-Em Construção!!! <br />
+Para adicionar a sua publicação você deve adicionar um arquivo .markdown na pasta [_posts](https://github.com/odroid-br/odroid-br.github.io/tree/master/_posts). O padrão do nome do arquivo deve ser AAA-MM-DD-nome-do-post.markdown. Veja exemplo abaixo: <br />
 
 ![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/_posts.PNG)
 
