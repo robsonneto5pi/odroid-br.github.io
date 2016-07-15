@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No roteador da minha rede local, há 3 dispositivo(s) conectado(s)  <br />
+Hello! No momento, estou com 154 processos em execução!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 7 hours, 5 minutes !!!
+Eu estou ligado ininterruptamente à 9 hours, 5 minutes !!!
 
-Script de monitoramento executado em - Fri Jul 15 02:00:19 AMT 2016 <br />
+Script de monitoramento executado em - Fri Jul 15 04:00:21 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -113,7 +113,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:06 [kthread_di]
+   84 ?        S      0:08 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -127,23 +127,23 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   389 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   407 ?        Ssl    0:00 /usr/sbin/ModemManager
   411 ?        Ss     0:00 avahi-daemon: running [odroid64.local]
-  415 ?        Ssl    0:02 /usr/bin/whoopsie -f
+  415 ?        Ssl    0:03 /usr/bin/whoopsie -f
   418 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   427 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
-  433 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
+  433 ?        Ssl    0:01 /usr/lib/accountsservice/accounts-daemon
   434 ?        Ss     0:00 /lib/systemd/systemd-logind
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    0:12 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    0:15 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
-  617 tty7     Ss+    0:13 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  617 tty7     Ss+    0:15 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   647 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
-  649 ?        Ssl    0:03 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  649 ?        Ssl    0:04 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   695 ?        Sl     0:00 lightdm --session-child 12 15
   702 ?        Ss     0:00 /lib/systemd/systemd --user
   703 ?        S      0:00 (sd-pam)
@@ -163,7 +163,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   851 ?        Sl     0:00 /usr/lib/dconf/dconf-service
   855 ?        Sl     0:00 gnome-keyring-daemon --start
   863 ?        Sl     0:01 /usr/bin/mate-settings-daemon
-  868 ?        Sl     0:01 mate-panel
+  868 ?        Sl     0:02 mate-panel
   873 ?        Sl     0:02 caja
   875 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
   880 ?        S<l    0:00 /usr/bin/pulseaudio --start --log-target=syslog
@@ -179,7 +179,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   938 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
   944 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
   948 ?        Sl     0:00 mate-maximus
-  965 ?        Sl     0:00 mate-power-manager
+  965 ?        Sl     0:01 mate-power-manager
   967 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
   969 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
   978 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
@@ -192,8 +192,8 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1064 ?        Sl     0:00 marco.real --no-composite
  1084 pts/0    Ss+    0:00 /bin/bash
  1102 ?        S      0:01 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
- 1111 ?        S      0:04 [kworker/2:0]
- 1113 ?        S      0:12 [kworker/1:1]
+ 1111 ?        S      0:07 [kworker/2:0]
+ 1113 ?        S      0:23 [kworker/1:1]
  1125 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
  1252 ?        S      0:00 /usr/lib/bluetooth/obexd
  1271 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
@@ -202,12 +202,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  8168 ?        S      0:20 [kworker/1:2]
 10272 ?        S      0:00 [kworker/3:1]
 11179 ?        S      0:00 [kworker/0:0]
-11577 ?        S      0:00 [kworker/0:2]
-12289 ?        S      0:00 /usr/sbin/CRON -f
-12290 ?        Ss     0:00 /bin/sh -c mastershell.sh
-12291 ?        S      0:00 /bin/bash /bin/mastershell.sh
-12381 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-12421 ?        R      0:00 ps ax
+20864 ?        S      0:00 [kworker/0:1]
+21274 ?        S      0:00 [kworker/0:2]
+21285 ?        S      0:00 /usr/sbin/CRON -f
+21286 ?        Ss     0:00 /bin/sh -c mastershell.sh
+21287 ?        S      0:00 /bin/bash /bin/mastershell.sh
+21387 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+21427 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
