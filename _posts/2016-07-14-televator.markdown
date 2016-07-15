@@ -3,19 +3,19 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
+Hello Friends! Meu nome é odroid.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 hour, 20 minutes !!!
+Eu estou ligado ininterruptamente à 1 hour, 25 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 20:15:23 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 20:20:36 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M  9.3M  163M   6% /run
+tmpfs           172M  9.4M  163M   6% /run
 /dev/mmcblk0p2  7.1G  4.6G  2.3G  67% /
-tmpfs           860M  180K  859M   1% /dev/shm
+tmpfs           860M  244K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
@@ -23,7 +23,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   24K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 1 usuário(s) conectado(s) em mim ;) <br />
+Há 2 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -31,8 +31,9 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-02-11 12:28 01:02        1300 (192.168.1.32)
-           pts/2        2016-07-14 20:15             10186 id=ts/2  term=0 exit=0
+odroid   + pts/1        2016-02-11 12:28 01:07        1300 (192.168.1.32)
+odroid   + pts/2        2016-07-14 20:15 00:01       10399 (192.168.1.30)
+           pts/3        2016-07-14 20:18                 0 id=/3    term=0 exit=0
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -122,7 +123,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   172 ?        Ss     0:00 /lib/systemd/systemd-journald
   175 ?        S      0:00 [kauditd]
   182 ?        S      0:02 [kworker/2:2]
-  200 ?        S      0:00 [kworker/3:2]
   233 ?        Ss     0:00 /lib/systemd/systemd-udevd
   387 ?        Ss     0:00 /usr/sbin/cron -f
   389 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
@@ -203,15 +203,23 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  6561 ?        S      0:01 [kworker/1:0]
  7525 ?        S      0:00 [kworker/0:1]
- 8168 ?        S      0:01 [kworker/1:2]
+ 8168 ?        S      0:02 [kworker/1:2]
  9409 ?        S      0:00 [kworker/0:2]
- 9769 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
-10131 ?        S      0:00 /usr/sbin/CRON -f
-10132 ?        Ss     0:00 /bin/sh -c mastershell.sh
-10133 ?        S      0:00 /bin/bash /bin/mastershell.sh
 10272 ?        S      0:00 [kworker/3:1]
-10274 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-10314 ?        R      0:00 ps ax
+10399 ?        Ss     0:00 sshd: odroid [priv]
+10426 ?        S      0:05 sshd: odroid@pts/2
+10427 pts/2    Ss+    0:00 -bash
+10482 pts/2    S      0:00 dbus-launch --autolaunch=2af5a0f9274a4d59855b8c00a45b3e01 --binary-syntax --close-stderr
+10483 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+10559 ?        S      0:00 [kworker/0:0]
+10724 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+10734 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
+10742 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+10912 ?        S      0:00 /usr/sbin/CRON -f
+10913 ?        Ss     0:00 /bin/sh -c mastershell.sh
+10914 ?        S      0:00 /bin/bash /bin/mastershell.sh
+11040 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+11080 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
