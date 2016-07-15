@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: Sao Paulo  <br />
+Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 hours, 5 minutes !!!
+Eu estou ligado ininterruptamente à 2 hours, 32 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 21:00:20 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 21:27:25 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -23,7 +23,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   28K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 2 usuário(s) conectado(s) em mim ;) <br />
+Há 1 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-02-11 12:28 01:47        1300 (192.168.1.32)
-odroid   + pts/2        2016-07-14 20:15 00:01       10399 (192.168.1.30)
+           pts/1        2016-07-14 21:25              1300 id=ts/1  term=0 exit=0
+odroid   + pts/2        2016-07-14 20:15 00:02       10399 (192.168.1.30)
            pts/3        2016-07-14 20:18                 0 id=/3    term=0 exit=0
 {% endhighlight %}
 
@@ -122,20 +122,20 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   156 ?        S<     0:00 [ipv6_addrconf]
   172 ?        Ss     0:00 /lib/systemd/systemd-journald
   175 ?        S      0:00 [kauditd]
-  182 ?        S      0:03 [kworker/2:2]
+  182 ?        S      0:04 [kworker/2:2]
   233 ?        Ss     0:00 /lib/systemd/systemd-udevd
   387 ?        Ss     0:00 /usr/sbin/cron -f
   389 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   407 ?        Ssl    0:00 /usr/sbin/ModemManager
   411 ?        Ss     0:00 avahi-daemon: running [odroid64.local]
-  415 ?        Ssl    0:00 /usr/bin/whoopsie -f
+  415 ?        Ssl    0:01 /usr/bin/whoopsie -f
   418 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   427 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
   433 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   434 ?        Ss     0:00 /lib/systemd/systemd-logind
   445 ?        S      0:00 avahi-daemon: chroot helper
-  447 ?        Ss     0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  447 ?        Ss     0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
   490 ?        Ssl    0:04 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
@@ -196,30 +196,28 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1125 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
  1252 ?        S      0:00 /usr/lib/bluetooth/obexd
  1271 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
- 1300 ?        Ss     0:00 sshd: odroid [priv]
- 1363 ?        S      0:00 sshd: odroid@pts/1
- 1364 pts/1    Ss+    0:00 -bash
  2384 ?        S      0:00 [kworker/3:0]
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  6561 ?        S      0:01 [kworker/1:0]
- 8168 ?        S      0:05 [kworker/1:2]
+ 8168 ?        S      0:08 [kworker/1:2]
  9409 ?        S      0:00 [kworker/0:2]
 10272 ?        S      0:00 [kworker/3:1]
 10399 ?        Ss     0:00 sshd: odroid [priv]
 10426 ?        S      0:05 sshd: odroid@pts/2
-10427 pts/2    Ss+    0:00 -bash
+10427 pts/2    Ss     0:00 -bash
 10482 pts/2    S      0:00 dbus-launch --autolaunch=2af5a0f9274a4d59855b8c00a45b3e01 --binary-syntax --close-stderr
 10483 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
 10724 ?        Sl     0:00 /usr/lib/dconf/dconf-service
 10734 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
 10742 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
-13751 ?        S      0:00 [kworker/0:0]
-14478 ?        S      0:00 /usr/sbin/CRON -f
-14479 ?        Ss     0:00 /bin/sh -c mastershell.sh
-14480 ?        S      0:00 /bin/bash /bin/mastershell.sh
-14565 ?        S      0:00 [kworker/0:1]
-14587 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-14627 ?        R      0:00 ps ax
+15778 ?        S      0:00 [kworker/0:1]
+17162 pts/2    S+     0:00 tail -f internet.txt
+17248 ?        S      0:00 [kworker/0:0]
+17342 ?        S      0:00 /usr/sbin/CRON -f
+17343 ?        Ss     0:00 /bin/sh -c mastershell.sh
+17344 ?        S      0:00 /bin/bash /bin/mastershell.sh
+17440 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+17480 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
