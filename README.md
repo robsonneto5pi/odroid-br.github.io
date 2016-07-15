@@ -1,11 +1,11 @@
 # odroid-br.github.io
 
-Odroid é uma plaquinha, digamos, um clone do raspberry, com algumas boas diferenças. <br />
-Esse repositório tem o intuito de agregar blogs, artigos etc relacionados ao Odroid. <br />
-Tudo para a troca de experiências <br />
-***Assuntos relacionados ao Raspiberry PI são bem vindos!!!***
+As publicações que vocês vêem no blog (https://odroid-br.github.io/) são todas geradas automaticamente. <br />
+E o legal é que você pode também publicar. Basta ter um pouco de conhecimento em Linux e scripting <br />
+Tudo pela troca de experiências. <br />
+***Hello Friends!!!***
 
-## Você pode adicionar seus artigos/blog com um pull request
+## Você pode adicionar sua publicação com um pull request
 
 Para isso você deve seguir algumas instruções
 
