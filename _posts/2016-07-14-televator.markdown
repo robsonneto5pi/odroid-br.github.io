@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
+Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 hour, 5 minutes !!!
+Eu estou ligado ininterruptamente à 1 hour, 10 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 20:00:30 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 20:05:29 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-02-11 12:28 00:47        1300 (192.168.1.32)
+odroid   + pts/1        2016-02-11 12:28 00:52        1300 (192.168.1.32)
            pts/2        2016-07-14 19:57              8086 id=ts/2  term=0 exit=0
 {% endhighlight %}
 
@@ -104,7 +104,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    71 ?        S<     0:00 [dwc_otg]
    72 ?        S      0:00 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
-   74 ?        S      0:04 [kworker/1:1]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
    77 ?        S      0:00 [irq/250-sd_emmc]
@@ -122,7 +121,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   156 ?        S<     0:00 [ipv6_addrconf]
   172 ?        Ss     0:00 /lib/systemd/systemd-journald
   175 ?        S      0:00 [kauditd]
-  182 ?        S      0:01 [kworker/2:2]
+  182 ?        S      0:02 [kworker/2:2]
   200 ?        S      0:00 [kworker/3:2]
   233 ?        Ss     0:00 /lib/systemd/systemd-udevd
   387 ?        Ss     0:00 /usr/sbin/cron -f
@@ -206,11 +205,12 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  6561 ?        S      0:01 [kworker/1:0]
  7525 ?        S      0:00 [kworker/0:1]
  8168 ?        S      0:00 [kworker/1:2]
- 8388 ?        S      0:00 /usr/sbin/CRON -f
- 8389 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 8390 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 8516 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 8556 ?        R      0:00 ps ax
+ 8781 ?        S      0:00 [kworker/0:0]
+ 8978 ?        S      0:00 /usr/sbin/CRON -f
+ 8979 ?        Ss     0:00 /bin/sh -c mastershell.sh
+ 8980 ?        S      0:00 /bin/bash /bin/mastershell.sh
+ 9077 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+ 9127 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
