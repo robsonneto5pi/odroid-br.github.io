@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Meu nome é odroid.  <br />
+Hello Friends! No roteador da minha rede local, há 4 dispositivo(s) conectado(s)  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 hours, 20 minutes !!!
+Eu estou ligado ininterruptamente à 3 hours, 35 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 22:15:24 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 22:30:25 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-07-14 21:39 00:07       18829 (192.168.1.30)
-odroid   + pts/2        2016-07-14 20:15 00:40       10399 (192.168.1.30)
+odroid   + pts/1        2016-07-14 21:39 00:10       18829 (192.168.1.30)
+odroid   + pts/2        2016-07-14 20:15   .         10399 (192.168.1.30)
            pts/3        2016-07-14 21:42                 0 id=/3    term=0 exit=0
 {% endhighlight %}
 
@@ -122,7 +122,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   156 ?        S<     0:00 [ipv6_addrconf]
   172 ?        Ss     0:00 /lib/systemd/systemd-journald
   175 ?        S      0:00 [kauditd]
-  182 ?        S      0:05 [kworker/2:2]
+  182 ?        S      0:06 [kworker/2:2]
   233 ?        Ss     0:00 /lib/systemd/systemd-udevd
   387 ?        Ss     0:00 /usr/sbin/cron -f
   389 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
@@ -188,7 +188,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1000 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
  1017 ?        Sl     0:00 /usr/lib/mate-applets/trashapplet
  1029 ?        Ssl    0:00 /usr/lib/upower/upowerd
- 1044 ?        Sl     0:00 /usr/lib/mate-panel/clock-applet
+ 1044 ?        Sl     0:01 /usr/lib/mate-panel/clock-applet
  1047 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
  1064 ?        Sl     0:00 marco.real --no-composite
  1084 pts/0    Ss+    0:00 /bin/bash
@@ -199,31 +199,26 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  2384 ?        S      0:00 [kworker/3:0]
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  6561 ?        S      0:01 [kworker/1:0]
- 8168 ?        S      0:12 [kworker/1:2]
+ 8168 ?        S      0:14 [kworker/1:2]
 10272 ?        S      0:00 [kworker/3:1]
 10399 ?        Ss     0:00 sshd: odroid [priv]
-10426 ?        S      0:05 sshd: odroid@pts/2
-10427 pts/2    Ss     0:00 -bash
+10426 ?        S      0:06 sshd: odroid@pts/2
+10427 pts/2    Ss+    0:00 -bash
 10482 pts/2    S      0:00 dbus-launch --autolaunch=2af5a0f9274a4d59855b8c00a45b3e01 --binary-syntax --close-stderr
 10483 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
 10724 ?        Sl     0:00 /usr/lib/dconf/dconf-service
 10734 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
 10742 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
-18479 pts/2    S+     0:00 git clone --recursive https://github.com/dodopontocom/scripts.git
-18488 pts/2    S+     0:05 git-remote-https origin https://github.com/dodopontocom/scripts.git
-18492 pts/2    Sl+    0:00 git fetch-pack --stateless-rpc --stdin --lock-pack --thin --check-self-contained-and-connected --cloning https://github.com/dodopontocom/scripts.git/
-18494 pts/2    S+     0:02 git index-pack --stdin -v --fix-thin --keep=fetch-pack 18492 on odroid64 --check-self-contained-and-connected --pack_header=2,506
 18829 ?        Ss     0:00 sshd: odroid [priv]
 18880 ?        S      0:00 sshd: odroid@pts/1
 18881 pts/1    Ss+    0:00 -bash
-20605 ?        S      0:00 [kworker/0:1]
-21399 ?        S      0:00 [kworker/0:2]
-22008 ?        S      0:00 [kworker/0:0]
-22248 ?        S      0:00 /usr/sbin/CRON -f
-22249 ?        Ss     0:00 /bin/sh -c mastershell.sh
-22250 ?        S      0:00 /bin/bash /bin/mastershell.sh
-22351 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-22401 ?        R      0:00 ps ax
+22833 ?        S      0:00 [kworker/0:2]
+23229 ?        S      0:00 [kworker/0:1]
+23746 ?        S      0:00 /usr/sbin/CRON -f
+23747 ?        Ss     0:00 /bin/sh -c mastershell.sh
+23748 ?        S      0:00 /bin/bash /bin/mastershell.sh
+24455 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+24495 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
