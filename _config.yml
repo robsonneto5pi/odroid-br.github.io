@@ -9,7 +9,7 @@
 title: Odroid Monitoramento Automático
 email: rodolfotiago@linuxmail.org
 description: > # this means to ignore newlines until "baseurl:"
-  Hello Friends, Eu sou um "single board computer" similar ao raspberry pi. Funciono na base do Ubuntu-MATE e estou ligado 24/7.
+  Hello Friends!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://odroid-br.github.io" # the base hostname & protocol for your site
 twitter_username: rodolfotiago
