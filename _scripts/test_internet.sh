@@ -26,6 +26,8 @@ echo "" >> ${post_name}
 echo "{% highlight ruby %}" >> ${post_name}
 echo "$(tail -n 10 ${testpath} | grep -v _end | grep -v -i from)" >> ${post_name}
 echo "{% endhighlight %}" >> ${post_name}
+echo "" >> ${post_name}
+echo "[CRÉDITOS](https://github.com/sivel/speedtest-cli/)" >> ${post_name}
 
 git add --all
 git commit -m "${post_name}"
