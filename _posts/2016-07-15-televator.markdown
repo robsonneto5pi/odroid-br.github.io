@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No meu relógio agora são: 00:00.  <br />
+Hello Friends! No roteador da minha rede local, há 3 dispositivo(s) conectado(s)  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 5 hours, 5 minutes !!!
+Eu estou ligado ininterruptamente à 7 hours, 5 minutes !!!
 
-Script de monitoramento executado em - Fri Jul 15 00:00:23 AMT 2016 <br />
+Script de monitoramento executado em - Fri Jul 15 02:00:19 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -63,7 +63,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
     3 ?        S      0:00 [ksoftirqd/0]
     5 ?        S<     0:00 [kworker/0:0H]
     6 ?        S      0:00 [kworker/u8:0]
-    7 ?        S      0:00 [rcu_preempt]
+    7 ?        S      0:01 [rcu_preempt]
     8 ?        S      0:00 [rcu_sched]
     9 ?        S      0:00 [rcu_bh]
    10 ?        S      0:00 [migration/0]
@@ -89,7 +89,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
    37 ?        S<     0:00 [kworker/1:1H]
-   38 ?        S      0:00 [kworker/u8:1]
+   38 ?        S      0:01 [kworker/u8:1]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
    56 ?        S<     0:00 [kthrotld]
@@ -102,7 +102,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    68 ?        S<     0:00 [binder]
    69 ?        S<     0:00 [dwc_otg]
    71 ?        S<     0:00 [dwc_otg]
-   72 ?        S      0:01 [kthread_hdcp]
+   72 ?        S      0:02 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
@@ -113,7 +113,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:04 [kthread_di]
+   84 ?        S      0:06 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -127,23 +127,23 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   389 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   407 ?        Ssl    0:00 /usr/sbin/ModemManager
   411 ?        Ss     0:00 avahi-daemon: running [odroid64.local]
-  415 ?        Ssl    0:01 /usr/bin/whoopsie -f
+  415 ?        Ssl    0:02 /usr/bin/whoopsie -f
   418 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   427 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
   433 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   434 ?        Ss     0:00 /lib/systemd/systemd-logind
   445 ?        S      0:00 avahi-daemon: chroot helper
-  447 ?        Ss     0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  447 ?        Ss     0:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    0:09 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    0:12 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
-  617 tty7     Ss+    0:11 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  617 tty7     Ss+    0:13 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   647 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
-  649 ?        Ssl    0:02 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  649 ?        Ssl    0:03 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   695 ?        Sl     0:00 lightdm --session-child 12 15
   702 ?        Ss     0:00 /lib/systemd/systemd --user
   703 ?        S      0:00 (sd-pam)
@@ -162,7 +162,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   844 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
   851 ?        Sl     0:00 /usr/lib/dconf/dconf-service
   855 ?        Sl     0:00 gnome-keyring-daemon --start
-  863 ?        Sl     0:00 /usr/bin/mate-settings-daemon
+  863 ?        Sl     0:01 /usr/bin/mate-settings-daemon
   868 ?        Sl     0:01 mate-panel
   873 ?        Sl     0:02 caja
   875 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
@@ -174,7 +174,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   898 ?        Sl     0:00 mate-volume-control-applet
   908 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
   909 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
-  932 ?        Sl     0:02 nm-applet
+  932 ?        Sl     0:03 nm-applet
   933 ?        Sl     0:01 tilda
   938 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
   944 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
@@ -191,23 +191,23 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1047 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
  1064 ?        Sl     0:00 marco.real --no-composite
  1084 pts/0    Ss+    0:00 /bin/bash
- 1102 ?        S      0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
- 1111 ?        S      0:00 [kworker/2:0]
- 1113 ?        S      0:01 [kworker/1:1]
+ 1102 ?        S      0:01 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+ 1111 ?        S      0:04 [kworker/2:0]
+ 1113 ?        S      0:12 [kworker/1:1]
  1125 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
  1252 ?        S      0:00 /usr/lib/bluetooth/obexd
  1271 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
- 2125 ?        S      0:00 [kworker/0:2]
  2384 ?        S      0:00 [kworker/3:0]
- 2556 ?        S      0:00 [kworker/0:0]
- 3161 ?        S      0:00 /usr/sbin/CRON -f
- 3162 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 3163 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 3263 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 3303 ?        R      0:00 ps ax
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  8168 ?        S      0:20 [kworker/1:2]
 10272 ?        S      0:00 [kworker/3:1]
+11179 ?        S      0:00 [kworker/0:0]
+11577 ?        S      0:00 [kworker/0:2]
+12289 ?        S      0:00 /usr/sbin/CRON -f
+12290 ?        Ss     0:00 /bin/sh -c mastershell.sh
+12291 ?        S      0:00 /bin/bash /bin/mastershell.sh
+12381 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+12421 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
