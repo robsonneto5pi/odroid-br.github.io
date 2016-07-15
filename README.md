@@ -29,8 +29,8 @@ Vejamos um exemplo:
 ![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/echo.PNG)
 
 O comando `echo` da linha 19 irá jogar tudo que estiver dentro das apas duplas no arquivo `greetings.txt`
-Porem, na parte `$(curl -s ipinfo.io/city)` o linux irá interpretar como um comando e nesse caso irá retornar o resultado do comando, no caso ***cidade X***
-Assim, o resultado do arquivo greetings.txt será algo assim:
+Porem, na parte `$(curl -s ipinfo.io/city)` o linux irá interpretar como um comando e nesse caso irá retornar o resultado do comando, no caso ***cidade X***. <br />
+Assim, o resultado do arquivo greetings.txt será algo assim: <br />
 ![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/echo2.PNG)
 
 ## Built With
