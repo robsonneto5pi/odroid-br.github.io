@@ -2,7 +2,7 @@
 
 ### _monitorar_ ###
 
-if [ "$(date +%u)" -eq 4 ]
+if [ "$(date +%u)" -eq 4 -o "$(date +%u)" -eq 7 ]
 then
 
 post_="$(date +%Y-%m-%d)-megaquarta.markdown"
