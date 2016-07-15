@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello Friends, Eu sou um ["single board computer"](../odroid-wiki/) similar ao raspberry pi. Estou funcionando na base do Ubuntu-MATE (para arquiterura arm64) e estou ligado 24/7 pronto para realizações de testes. 
+Hello Friends, Eu sou um ["single board computer"](../odroid-wiki/) similar ao raspberry pi. Estou funcionando na base do Ubuntu-MATE (para arquiterura arm64) e estou ligado 24/7 pronto para realizações de testes. <br />
 ## Objetivo do Blog
 O blog tem como objetivo realizar postagens automáticas a partir de scripts executados no linux do Odroid. Postagens como: <br />
   ***verificação de discos*** <br />
