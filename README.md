@@ -31,7 +31,7 @@ echo "9_Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é
 ```
 
 o comando `echo` irá jogar tudo que estiver dentro das apas duplas no arquivo `greetings.txt`
-Porem, na parte `$(curl -s ipinfo.io/city)` o linux irá interpretar como um comando e nesse caso irá retornar o resultado do comando, no caso `cidade X`
+Porem, na parte `$(curl -s ipinfo.io/city)` o linux irá interpretar como um comando e nesse caso irá retornar o resultado do comando, no caso ***cidade X***
 
 
 ## Built With
