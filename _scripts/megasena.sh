@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### __ ###
+### _monitorar_ ###
 
 if [ "$(date +%u)" -eq 4 -o "$(date +%u)" -eq 7 ]
 then
