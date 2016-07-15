@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Meu nome é odroid.  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 hours, 50 minutes !!!
+Eu estou ligado ininterruptamente à 3 hours, 5 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 14 21:45:25 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 14 22:00:29 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,8 +31,8 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-07-14 21:39 00:02       18829 (192.168.1.30)
-odroid   + pts/2        2016-07-14 20:15 00:10       10399 (192.168.1.30)
+odroid   + pts/1        2016-07-14 21:39 00:06       18829 (192.168.1.30)
+odroid   + pts/2        2016-07-14 20:15 00:25       10399 (192.168.1.30)
            pts/3        2016-07-14 21:42                 0 id=/3    term=0 exit=0
 {% endhighlight %}
 
@@ -114,7 +114,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:02 [kthread_di]
+   84 ?        S      0:03 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -175,7 +175,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   898 ?        Sl     0:00 mate-volume-control-applet
   908 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
   909 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
-  932 ?        Sl     0:01 nm-applet
+  932 ?        Sl     0:02 nm-applet
   933 ?        Sl     0:01 tilda
   938 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
   944 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
@@ -199,7 +199,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  2384 ?        S      0:00 [kworker/3:0]
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  6561 ?        S      0:01 [kworker/1:0]
- 8168 ?        S      0:09 [kworker/1:2]
+ 8168 ?        S      0:11 [kworker/1:2]
 10272 ?        S      0:00 [kworker/3:1]
 10399 ?        Ss     0:00 sshd: odroid [priv]
 10426 ?        S      0:05 sshd: odroid@pts/2
@@ -211,19 +211,19 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 10742 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
 17248 ?        S      0:00 [kworker/0:0]
 18479 pts/2    S+     0:00 git clone --recursive https://github.com/dodopontocom/scripts.git
-18488 pts/2    S+     0:01 git-remote-https origin https://github.com/dodopontocom/scripts.git
+18488 pts/2    S+     0:03 git-remote-https origin https://github.com/dodopontocom/scripts.git
 18492 pts/2    Sl+    0:00 git fetch-pack --stateless-rpc --stdin --lock-pack --thin --check-self-contained-and-connected --cloning https://github.com/dodopontocom/scripts.git/
-18494 pts/2    S+     0:00 git index-pack --stdin -v --fix-thin --keep=fetch-pack 18492 on odroid64 --check-self-contained-and-connected --pack_header=2,506
-18612 ?        S      0:00 [kworker/0:2]
+18494 pts/2    S+     0:01 git index-pack --stdin -v --fix-thin --keep=fetch-pack 18492 on odroid64 --check-self-contained-and-connected --pack_header=2,506
 18829 ?        Ss     0:00 sshd: odroid [priv]
 18880 ?        S      0:00 sshd: odroid@pts/1
 18881 pts/1    Ss+    0:00 -bash
-19163 ?        S      0:00 [kworker/0:1]
-19382 ?        S      0:00 /usr/sbin/CRON -f
-19383 ?        Ss     0:00 /bin/sh -c mastershell.sh
-19384 ?        S      0:00 /bin/bash /bin/mastershell.sh
-19484 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-19534 ?        R      0:00 ps ax
+20103 ?        S      0:00 [kworker/0:2]
+20605 ?        S      0:00 [kworker/0:1]
+20841 ?        S      0:00 /usr/sbin/CRON -f
+20842 ?        Ss     0:00 /bin/sh -c mastershell.sh
+20843 ?        S      0:00 /bin/bash /bin/mastershell.sh
+20959 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+21009 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Eu publico algo todo dia, espere por mais!!!
