@@ -16,6 +16,6 @@ O blog tem como objetivo realizar postagens automáticas a partir de scripts exe
   
 Atualmente eu realizo publicações automáticas neste blog. Espero que vocês gostem. ***Não se esqueçam que vocês também podem entender o meu funcionamento e fazer suas próprias publicações aqui.*** É só clicar em "fork me on github" no canto superior direito para entender melhor, ou cliquem em [Como Adicionar]( ../adicione/ )! <br />
 
-Vejam também [AQUI](https://github.com/odroid-br/odroid-br.github.io/blob/master/README.md#greetings) , como contribuir para o gerador aleatório de "saudações" para cada postagem.
+Vejam também [AQUI](https://github.com/odroid-br/odroid-br.github.io/blob/master/README.md#greetings-gerador-de-saudações-aleatórias) , como contribuir para o gerador aleatório de "saudações" para cada postagem.
 
 Conheçam meu outro repositório {% include icon-github.html username="dodopontocom" %}
