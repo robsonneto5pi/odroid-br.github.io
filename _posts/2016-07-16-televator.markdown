@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No meu relógio agora são: 16:00.  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 21 hours, 5 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 23 hours, 5 minutes !!!
 
-Script de monitoramento executado em - Sat Jul 16 16:00:17 AMT 2016 <br />
+Script de monitoramento executado em - Sat Jul 16 18:00:21 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -74,7 +74,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    16 ?        S      0:00 [ksoftirqd/2]
    18 ?        S<     0:00 [kworker/2:0H]
    19 ?        S      0:00 [migration/3]
-   20 ?        S      0:01 [ksoftirqd/3]
+   20 ?        S      0:02 [ksoftirqd/3]
    22 ?        S<     0:00 [kworker/3:0H]
    23 ?        S<     0:00 [khelper]
    24 ?        S      0:00 [kdevtmpfs]
@@ -102,7 +102,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    68 ?        S<     0:00 [binder]
    69 ?        S<     0:00 [dwc_otg]
    71 ?        S<     0:00 [dwc_otg]
-   72 ?        S      0:12 [kthread_hdcp]
+   72 ?        S      0:13 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
@@ -113,7 +113,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:43 [kthread_di]
+   84 ?        S      0:45 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -125,24 +125,24 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   387 ?        Ss     0:00 /usr/sbin/cron -f
   389 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   407 ?        Ssl    0:00 /usr/sbin/ModemManager
-  411 ?        Ss     0:02 avahi-daemon: running [odroid64.local]
+  411 ?        Ss     0:03 avahi-daemon: running [odroid64.local]
   415 ?        Ssl    0:13 /usr/bin/whoopsie -f
   418 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   420 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   427 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
-  433 ?        Ssl    0:02 /usr/lib/accountsservice/accounts-daemon
+  433 ?        Ssl    0:03 /usr/lib/accountsservice/accounts-daemon
   434 ?        Ss     0:00 /lib/systemd/systemd-logind
   445 ?        S      0:00 avahi-daemon: chroot helper
-  447 ?        Ss     0:10 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  447 ?        Ss     0:11 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    1:16 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    1:20 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
-  617 tty7     Ss+    0:46 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  617 tty7     Ss+    0:47 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   647 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
-  649 ?        Ssl    0:22 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  649 ?        Ssl    0:23 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   695 ?        Sl     0:00 lightdm --session-child 12 15
   702 ?        Ss     0:00 /lib/systemd/systemd --user
   703 ?        S      0:00 (sd-pam)
@@ -173,7 +173,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   898 ?        Sl     0:00 mate-volume-control-applet
   908 ?        Sl     0:03 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
   909 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
-  932 ?        Sl     0:15 nm-applet
+  932 ?        Sl     0:16 nm-applet
   933 ?        Sl     0:01 tilda
   938 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
   944 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
@@ -196,17 +196,17 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1252 ?        S      0:00 /usr/lib/bluetooth/obexd
  1271 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
  1953 ?        S      0:00 [kworker/3:1]
- 2645 ?        S      0:00 [kworker/0:2]
- 3627 ?        S      0:00 /usr/sbin/CRON -f
- 3628 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 3629 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 3741 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 3781 ?        R      0:00 ps ax
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 8407 ?        S      1:36 [kworker/1:2]
-16214 ?        S      0:40 [kworker/2:1]
+ 8407 ?        S      1:47 [kworker/1:2]
+13449 ?        S      0:00 [kworker/0:2]
+13927 ?        S      0:00 /usr/sbin/CRON -f
+13928 ?        Ss     0:00 /bin/sh -c mastershell.sh
+13929 ?        S      0:00 /bin/bash /bin/mastershell.sh
+14041 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+14081 ?        R      0:00 ps ax
+16214 ?        S      0:44 [kworker/2:1]
 19756 ?        S      1:01 [kworker/1:0]
-20745 ?        S      0:00 [kworker/0:1]
+20745 ?        S      0:01 [kworker/0:1]
 29947 ?        S      0:00 [kworker/3:2]
 {% endhighlight %}
 
