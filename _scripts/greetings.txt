@@ -3,7 +3,7 @@
 3_Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!
 4_Hello! No momento, estou com 157 processos em execução!
 5_Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: Sao Paulo
-6_Hello Friends! No meu relógio agora são: 17:00.
+6_Hello Friends! No meu relógio agora são: 17:05.
 7_Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).
 8_Hello Friends! No roteador da minha rede local, há 4 dispositivo(s) conectado(s)
 9_Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Campinas
