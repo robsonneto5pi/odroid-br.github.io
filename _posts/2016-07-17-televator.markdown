@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
+Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 23 hours, 35 minutes !!!
+Eu estou ligado ininterruptamente à 3 days, 5 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 17 18:30:27 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 17 19:00:19 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-07-17 16:47 00:04       16769 (192.168.1.30)
+odroid   + pts/1        2016-07-17 16:47 00:34       16769 (192.168.1.30)
            pts/2        2016-07-14 23:38             10399 id=ts/2  term=0 exit=0
            pts/3        2016-07-14 21:42                 0 id=/3    term=0 exit=0
 {% endhighlight %}
@@ -135,7 +135,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:16 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    2:10 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    2:12 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
@@ -200,18 +200,19 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 16769 ?        Ss     0:00 sshd: odroid [priv]
 16831 ?        S      0:00 sshd: odroid@pts/1
 16832 pts/1    Ss+    0:00 -bash
-23184 ?        S      0:11 [kworker/2:0]
+23184 ?        S      0:12 [kworker/2:0]
 23397 ?        S      0:29 [kworker/2:2]
-26117 ?        S      1:31 [kworker/1:0]
+26117 ?        S      1:34 [kworker/1:0]
 26758 ?        S      0:00 [kworker/3:2]
 27477 ?        S      0:00 [kworker/3:0]
-28482 ?        S      0:00 [kworker/0:0]
-29114 ?        S      0:00 [kworker/0:2]
-29451 ?        S      0:00 /usr/sbin/CRON -f
-29452 ?        Ss     0:00 /bin/sh -c mastershell.sh
-29453 ?        S      0:00 /bin/bash /bin/mastershell.sh
-29571 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-29621 ?        R      0:00 ps ax
+30783 ?        S      0:00 [kworker/0:2]
+32081 ?        S      0:00 [kworker/0:0]
+32283 ?        S      0:00 [kworker/1:2]
+32464 ?        S      0:00 /usr/sbin/CRON -f
+32465 ?        Ss     0:00 /bin/sh -c mastershell.sh
+32466 ?        S      0:00 /bin/bash /bin/mastershell.sh
+32564 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+32604 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Use sua conta google para comentar abaixo!!!
