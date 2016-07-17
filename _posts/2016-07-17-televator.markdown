@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No roteador da minha rede local, há 4 dispositivo(s) conectado(s)  <br />
+Hello Friends! Meu nome é odroid.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 22 hours, 15 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 22 hours, 20 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 17 17:10:37 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 17 17:15:38 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-07-17 16:47 00:04       16769 (192.168.1.30)
+odroid   + pts/1        2016-07-17 16:47 00:09       16769 (192.168.1.30)
            pts/2        2016-07-14 23:38             10399 id=ts/2  term=0 exit=0
            pts/3        2016-07-14 21:42                 0 id=/3    term=0 exit=0
 {% endhighlight %}
@@ -139,7 +139,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
-  617 tty7     Ss+    1:07 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  617 tty7     Ss+    1:08 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   647 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   649 ?        Ssl    0:37 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
@@ -201,12 +201,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 16831 ?        S      0:00 sshd: odroid@pts/1
 16832 pts/1    Ss+    0:00 -bash
 19016 ?        S      0:00 [kworker/0:0]
-19834 ?        S      0:00 /usr/sbin/CRON -f
-19835 ?        Ss     0:00 /bin/sh -c mastershell.sh
-19836 ?        S      0:00 /bin/bash /bin/mastershell.sh
-20043 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-20083 ?        R      0:00 ps ax
 20139 ?        S      0:00 [kworker/3:1]
+20151 ?        S      0:00 [kworker/0:2]
+20618 ?        S      0:00 /usr/sbin/CRON -f
+20619 ?        Ss     0:00 /bin/sh -c mastershell.sh
+20620 ?        S      0:00 /bin/bash /bin/mastershell.sh
+20828 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+20868 ?        R      0:00 ps ax
 23184 ?        S      0:08 [kworker/2:0]
 23397 ?        S      0:29 [kworker/2:2]
 26117 ?        S      1:24 [kworker/1:0]
