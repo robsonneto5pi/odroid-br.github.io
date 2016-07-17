@@ -34,5 +34,14 @@ git commit -m "${post_name}"
 git push -u origin master
 
 else
+  cd ${scriptdir}/../
+  git reset --hard
+  git clean -fd
+  git up
+
+  git add --all
+  git commit -m "${post_name}"
+  git push -u origin master
+  
   exit 1
 fi
