@@ -6,6 +6,6 @@ title:  "Sorteio da megasena da noite anterior"
 Ontem teve sorteio, então aqui estão os números <br />
 
 {% highlight ruby %}
-41 44 48 50 54 57 
+05 08 24 30 57 59 
 {% endhighlight %}
 
