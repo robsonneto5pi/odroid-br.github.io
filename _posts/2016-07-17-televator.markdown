@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
+Hello Friends! No meu relógio agora são: 02:00.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 5 hours, 5 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 7 hours, 5 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 17 00:00:24 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 17 02:00:25 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -60,7 +60,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   PID TTY      STAT   TIME COMMAND
     1 ?        Ss     0:07 /sbin/init
     2 ?        S      0:00 [kthreadd]
-    3 ?        S      0:00 [ksoftirqd/0]
+    3 ?        S      0:01 [ksoftirqd/0]
     5 ?        S<     0:00 [kworker/0:0H]
     6 ?        S      0:00 [kworker/u8:0]
     7 ?        S      0:04 [rcu_preempt]
@@ -113,7 +113,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:50 [kthread_di]
+   84 ?        S      0:52 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -135,14 +135,14 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:12 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    1:32 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    1:36 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
-  617 tty7     Ss+    0:53 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  617 tty7     Ss+    0:54 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   647 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
-  649 ?        Ssl    0:27 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  649 ?        Ssl    0:28 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   695 ?        Sl     0:00 lightdm --session-child 12 15
   702 ?        Ss     0:00 /lib/systemd/systemd --user
   703 ?        S      0:00 (sd-pam)
@@ -173,12 +173,12 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   898 ?        Sl     0:00 mate-volume-control-applet
   908 ?        Sl     0:03 /usr/lib/aarch64-linux-gnu/deja-dup/deja-dup-monitor
   909 ?        Sl     0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
-  932 ?        Sl     0:18 nm-applet
+  932 ?        Sl     0:19 nm-applet
   933 ?        Sl     0:01 tilda
   938 ?        Sl     0:02 /usr/bin/python3 /usr/bin/blueman-applet
   944 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
   948 ?        Sl     0:00 mate-maximus
-  965 ?        Sl     0:04 mate-power-manager
+  965 ?        Sl     0:05 mate-power-manager
   967 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
   969 ?        Sl     0:00 /usr/lib/aarch64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
   978 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
@@ -195,18 +195,19 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1252 ?        S      0:00 /usr/lib/bluetooth/obexd
  1271 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 7741 ?        S      0:07 [kworker/1:1]
- 8407 ?        S      2:12 [kworker/1:2]
-13268 ?        S      0:00 [kworker/0:2]
-15461 ?        S      0:00 /usr/sbin/CRON -f
-15462 ?        Ss     0:00 /bin/sh -c mastershell.sh
-15463 ?        S      0:00 /bin/bash /bin/mastershell.sh
-15654 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-15694 ?        R      0:00 ps ax
+ 7741 ?        S      0:16 [kworker/1:1]
 16214 ?        S      0:47 [kworker/2:1]
 19081 ?        S      0:00 [kworker/3:0]
 20139 ?        S      0:00 [kworker/3:1]
-23397 ?        S      0:07 [kworker/2:2]
+23397 ?        S      0:11 [kworker/2:2]
+26117 ?        S      0:01 [kworker/1:0]
+26538 ?        S      0:00 [kworker/0:2]
+27120 ?        S      0:00 [kworker/0:0]
+27591 ?        S      0:00 /usr/sbin/CRON -f
+27592 ?        Ss     0:00 /bin/sh -c mastershell.sh
+27593 ?        S      0:00 /bin/bash /bin/mastershell.sh
+27800 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+27840 ?        R      0:00 ps ax
 29799 ?        S      0:01 [kworker/0:1]
 {% endhighlight %}
 
