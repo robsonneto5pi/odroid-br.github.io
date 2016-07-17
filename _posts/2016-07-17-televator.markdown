@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Campinas  <br />
+Hello! No momento, estou com 156 processos em execução!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 22 hours, 35 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 23 hours, 5 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 17 17:30:30 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 17 18:00:34 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-07-17 16:47 00:24       16769 (192.168.1.30)
+odroid   + pts/1        2016-07-17 16:47 00:29       16769 (192.168.1.30)
            pts/2        2016-07-14 23:38             10399 id=ts/2  term=0 exit=0
            pts/3        2016-07-14 21:42                 0 id=/3    term=0 exit=0
 {% endhighlight %}
@@ -89,7 +89,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
    37 ?        S<     0:00 [kworker/1:1H]
-   38 ?        S      0:08 [kworker/u8:1]
+   38 ?        S      0:09 [kworker/u8:1]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
    56 ?        S<     0:00 [kthrotld]
@@ -135,14 +135,14 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:15 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    2:08 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    2:09 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
   617 tty7     Ss+    1:08 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   647 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
-  649 ?        Ssl    0:37 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  649 ?        Ssl    0:38 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   695 ?        Sl     0:00 lightdm --session-child 12 15
   702 ?        Ss     0:00 /lib/systemd/systemd --user
   703 ?        S      0:00 (sd-pam)
@@ -201,16 +201,15 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 16831 ?        S      0:00 sshd: odroid@pts/1
 16832 pts/1    Ss+    0:00 -bash
 20139 ?        S      0:00 [kworker/3:1]
-21327 ?        S      0:00 [kworker/0:0]
-22587 ?        S      0:00 [kworker/0:2]
-23097 ?        S      0:00 /usr/sbin/CRON -f
-23098 ?        Ss     0:00 /bin/sh -c mastershell.sh
-23099 ?        S      0:00 /bin/bash /bin/mastershell.sh
-23184 ?        S      0:09 [kworker/2:0]
-23297 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-23338 ?        R      0:00 ps ax
+23184 ?        S      0:10 [kworker/2:0]
 23397 ?        S      0:29 [kworker/2:2]
-26117 ?        S      1:26 [kworker/1:0]
+25048 ?        S      0:00 [kworker/0:2]
+26117 ?        S      1:28 [kworker/1:0]
+26231 ?        S      0:00 /usr/sbin/CRON -f
+26232 ?        Ss     0:00 /bin/sh -c mastershell.sh
+26233 ?        S      0:00 /bin/bash /bin/mastershell.sh
+26430 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+26470 ?        R      0:00 ps ax
 27477 ?        S      0:00 [kworker/3:0]
 {% endhighlight %}
 
