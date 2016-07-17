@@ -33,5 +33,14 @@ git commit -m "${post_}"
 git push -u origin master
 
 else
+  cd ${dir_}/../
+  git reset --hard
+  git clean -fd
+  git up
+
+  git add --all
+  git commit -m "${post_}"
+  git push -u origin master
+
   exit 1
 fi
