@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No meu relógio agora são: 14:00.  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 19 hours, 5 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 21 hours, 5 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 17 14:00:41 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 17 16:00:33 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -63,7 +63,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
     3 ?        S      0:01 [ksoftirqd/0]
     5 ?        S<     0:00 [kworker/0:0H]
     6 ?        S      0:00 [kworker/u8:0]
-    7 ?        S      0:05 [rcu_preempt]
+    7 ?        S      0:06 [rcu_preempt]
     8 ?        S      0:00 [rcu_sched]
     9 ?        S      0:00 [rcu_bh]
    10 ?        S      0:00 [migration/0]
@@ -113,7 +113,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      1:03 [kthread_di]
+   84 ?        S      1:05 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -122,7 +122,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   172 ?        Ss     0:01 /lib/systemd/systemd-journald
   175 ?        S      0:00 [kauditd]
   233 ?        Ss     0:00 /lib/systemd/systemd-udevd
-  374 ?        S      0:00 [kworker/0:1]
   387 ?        Ss     0:00 /usr/sbin/cron -f
   389 ?        Ss     0:00 /usr/sbin/avahi-dnsconfd -s
   407 ?        Ssl    0:00 /usr/sbin/ModemManager
@@ -136,23 +135,18 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:15 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    2:01 /usr/sbin/NetworkManager --no-daemon
-  509 ?        S      0:00 /usr/sbin/CRON -f
-  510 ?        Ss     0:00 /bin/sh -c mastershell.sh
-  512 ?        S      0:00 /bin/bash /bin/mastershell.sh
+  490 ?        Ssl    2:05 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
-  617 tty7     Ss+    1:05 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  617 tty7     Ss+    1:06 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   647 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
-  649 ?        Ssl    0:35 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  649 ?        Ssl    0:37 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   695 ?        Sl     0:00 lightdm --session-child 12 15
   702 ?        Ss     0:00 /lib/systemd/systemd --user
   703 ?        S      0:00 (sd-pam)
   706 ?        Ssl    0:00 mate-session
-  728 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-  768 ?        R      0:00 ps ax
   789 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
   792 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
   793 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
@@ -168,7 +162,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   851 ?        Sl     0:00 /usr/lib/dconf/dconf-service
   855 ?        Sl     0:00 gnome-keyring-daemon --start
   863 ?        Sl     0:05 /usr/bin/mate-settings-daemon
-  868 ?        Sl     0:06 mate-panel
+  868 ?        Sl     0:07 mate-panel
   873 ?        Sl     0:02 caja
   875 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
   880 ?        S<l    0:00 /usr/bin/pulseaudio --start --log-target=syslog
@@ -191,7 +185,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   990 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
  1000 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
  1017 ?        Sl     0:00 /usr/lib/mate-applets/trashapplet
- 1029 ?        Ssl    0:05 /usr/lib/upower/upowerd
+ 1029 ?        Ssl    0:06 /usr/lib/upower/upowerd
  1044 ?        Sl     0:12 /usr/lib/mate-panel/clock-applet
  1047 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
  1064 ?        Sl     0:00 marco.real --no-composite
@@ -200,15 +194,20 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1125 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
  1252 ?        S      0:00 /usr/lib/bluetooth/obexd
  1271 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
+ 2170 ?        S      0:00 [kworker/0:1]
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  7741 ?        S      0:16 [kworker/1:1]
-19376 ?        S      0:00 [kworker/0:2]
+11583 ?        S      0:00 [kworker/0:2]
+12075 ?        S      0:00 /usr/sbin/CRON -f
+12076 ?        Ss     0:00 /bin/sh -c mastershell.sh
+12077 ?        S      0:00 /bin/bash /bin/mastershell.sh
+12274 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+12314 ?        R      0:00 ps ax
 20139 ?        S      0:00 [kworker/3:1]
-23184 ?        S      0:03 [kworker/2:0]
+23184 ?        S      0:06 [kworker/2:0]
 23397 ?        S      0:29 [kworker/2:2]
-26117 ?        S      1:07 [kworker/1:0]
+26117 ?        S      1:17 [kworker/1:0]
 27477 ?        S      0:00 [kworker/3:0]
-31650 ?        S      0:00 [kworker/0:0]
 {% endhighlight %}
 
 Use sua conta google para comentar abaixo!!!
