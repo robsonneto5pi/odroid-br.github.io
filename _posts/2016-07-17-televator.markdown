@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Meu nome é odroid.  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 22 hours, 20 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 22 hours, 25 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 17 17:15:38 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 17 17:20:43 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-07-17 16:47 00:09       16769 (192.168.1.30)
+odroid   + pts/1        2016-07-17 16:47 00:14       16769 (192.168.1.30)
            pts/2        2016-07-14 23:38             10399 id=ts/2  term=0 exit=0
            pts/3        2016-07-14 21:42                 0 id=/3    term=0 exit=0
 {% endhighlight %}
@@ -200,17 +200,17 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 16769 ?        Ss     0:00 sshd: odroid [priv]
 16831 ?        S      0:00 sshd: odroid@pts/1
 16832 pts/1    Ss+    0:00 -bash
-19016 ?        S      0:00 [kworker/0:0]
 20139 ?        S      0:00 [kworker/3:1]
 20151 ?        S      0:00 [kworker/0:2]
-20618 ?        S      0:00 /usr/sbin/CRON -f
-20619 ?        Ss     0:00 /bin/sh -c mastershell.sh
-20620 ?        S      0:00 /bin/bash /bin/mastershell.sh
-20828 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-20868 ?        R      0:00 ps ax
-23184 ?        S      0:08 [kworker/2:0]
+21327 ?        S      0:00 [kworker/0:0]
+21428 ?        S      0:00 /usr/sbin/CRON -f
+21429 ?        Ss     0:00 /bin/sh -c mastershell.sh
+21430 ?        S      0:00 /bin/bash /bin/mastershell.sh
+21657 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+21697 ?        R      0:00 ps ax
+23184 ?        S      0:09 [kworker/2:0]
 23397 ?        S      0:29 [kworker/2:2]
-26117 ?        S      1:24 [kworker/1:0]
+26117 ?        S      1:25 [kworker/1:0]
 27477 ?        S      0:00 [kworker/3:0]
 {% endhighlight %}
 
