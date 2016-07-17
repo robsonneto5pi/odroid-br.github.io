@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
+Hello Friends! Meu nome é odroid.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 22 hours, 5 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 22 hours, 10 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 17 17:00:31 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 17 17:05:32 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -135,7 +135,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:15 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    2:07 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    2:08 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
@@ -194,19 +194,19 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1125 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
  1252 ?        S      0:00 /usr/lib/bluetooth/obexd
  1271 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
- 2170 ?        S      0:00 [kworker/0:1]
+ 2170 ?        S      0:01 [kworker/0:1]
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  7741 ?        S      0:16 [kworker/1:1]
 16769 ?        Ss     0:00 sshd: odroid [priv]
 16831 ?        S      0:00 sshd: odroid@pts/1
 16832 pts/1    Ss+    0:00 -bash
-17105 ?        S      0:00 [kworker/0:0]
 17765 ?        S      0:00 [kworker/0:2]
-18199 ?        S      0:00 /usr/sbin/CRON -f
-18200 ?        Ss     0:00 /bin/sh -c mastershell.sh
-18201 ?        S      0:00 /bin/bash /bin/mastershell.sh
-18409 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-18459 ?        R      0:00 ps ax
+19016 ?        S      0:00 [kworker/0:0]
+19050 ?        S      0:00 /usr/sbin/CRON -f
+19051 ?        Ss     0:00 /bin/sh -c mastershell.sh
+19052 ?        S      0:00 /bin/bash /bin/mastershell.sh
+19230 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+19280 ?        R      0:00 ps ax
 20139 ?        S      0:00 [kworker/3:1]
 23184 ?        S      0:08 [kworker/2:0]
 23397 ?        S      0:29 [kworker/2:2]
