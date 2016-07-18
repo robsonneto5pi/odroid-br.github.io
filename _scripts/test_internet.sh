@@ -21,7 +21,7 @@ layout: post
 title:  \"Teste diário da internet (Download/Upload)\"
 ---" > ${post_name}
 echo "<br />" >> ${post_name}
-echo "Teste da internet!  <br />" >> ${post_name}
+echo "Teste da minha internet local!  <br />" >> ${post_name}
 echo "" >> ${post_name}
 echo "{% highlight ruby %}" >> ${post_name}
 echo "$(tail -n 10 ${testpath} | grep -v _end | grep -v -i from)" >> ${post_name}
