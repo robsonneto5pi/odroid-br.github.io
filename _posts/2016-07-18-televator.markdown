@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Meu nome é odroid.  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Campinas  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 hours, 25 minutes !!!
+Eu estou ligado ininterruptamente à 2 hours, 55 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 18 05:00:20 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 18 05:30:19 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -84,7 +84,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    33 ?        S      0:00 [khubd]
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
-   36 ?        S      0:05 [kworker/0:1]
+   36 ?        S      0:06 [kworker/0:1]
    37 ?        S<     0:00 [kworker/1:1H]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
@@ -101,7 +101,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    71 ?        S<     0:00 [dwc_otg]
    72 ?        S      0:00 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
-   74 ?        S      0:13 [kworker/1:1]
+   74 ?        S      0:16 [kworker/1:1]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
    77 ?        S      0:00 [irq/250-sd_emmc]
@@ -126,7 +126,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   435 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   442 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
   450 ?        Ss     0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  464 ?        Ssl    0:04 /usr/sbin/NetworkManager --no-daemon
+  464 ?        Ssl    0:05 /usr/sbin/NetworkManager --no-daemon
   469 ?        Ss     0:00 /usr/sbin/cron -f
   472 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   473 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
@@ -198,16 +198,15 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1787 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-f4ed8723-38c0-4420-9fc4-2534cc4fbc25-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  2494 ?        S      0:00 [kworker/3:0]
  3196 ?        S      0:00 [kworker/3:1]
- 6987 ?        S      0:00 [kworker/u8:3]
-12050 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
 12065 ?        S      0:00 [kworker/u8:0]
-13489 ?        S      0:00 [kworker/0:2]
-14010 ?        S      0:00 [kworker/0:0]
-14230 ?        S      0:00 /usr/sbin/CRON -f
-14231 ?        Ss     0:00 /bin/sh -c mastershell.sh
-14232 ?        S      0:00 /bin/bash /bin/mastershell.sh
-14334 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-14374 ?        R      0:00 ps ax
+14692 ?        S      0:00 [kworker/u8:1]
+16025 ?        S      0:00 [kworker/0:0]
+16359 ?        S      0:00 [kworker/0:2]
+16706 ?        S      0:00 /usr/sbin/CRON -f
+16707 ?        Ss     0:00 /bin/sh -c mastershell.sh
+16708 ?        S      0:00 /bin/bash /bin/mastershell.sh
+16820 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+16860 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Use sua conta google para comentar abaixo!!!
