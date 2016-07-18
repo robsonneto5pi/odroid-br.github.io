@@ -71,11 +71,11 @@ echo "{% highlight ruby %}" >> ${name}
 echo "$(uname -a)" >> ${name}
 echo "{% endhighlight %}" >> ${name}
 echo "" >> ${name}
-echo "... Meus processos em execução ..." >> ${name}
-echo "{% highlight ruby %}" >> ${name}
-echo "$(ps ax)" >> ${name}
-echo "{% endhighlight %}" >> ${name}
-echo "" >> ${name}
+#echo "... Meus processos em execução ..." >> ${name}
+#echo "{% highlight ruby %}" >> ${name}
+#echo "$(ps ax)" >> ${name}
+#echo "{% endhighlight %}" >> ${name}
+#echo "" >> ${name}
 echo "Here is a picture of the state of my screen right now!!!" >> ${name}
 echo "" >> ${name}
 echo "![picture of my screen](https://github.com/odroid-br/televator-c2/blob/master/screenshot.jpg?raw=true =250x)" >> ${name}
