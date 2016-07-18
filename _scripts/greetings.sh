@@ -17,6 +17,7 @@ echo "6_Hello Friends! No meu relógio agora são: $(date +%H:%M)." >> greetings
 echo "7_Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/)." >> greetings.txt
 echo "8_Hello Friends! No roteador da minha rede local, há $(curl -s 192.168.1.1/padrao | grep -o -E -i IP:.{13} | sort -u | wc -l) dispositivo(s) conectado(s)" >> greetings.txt
 echo "9_Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: $(curl -s ipinfo.io/city)" >> greetings.txt
+echo "10_Dolar agora: $(curl -s \"http://developers.agenciaideias.com.br/cotacoes/json\" | awk -F'\"' '{ print $16}')" >> greetings.txt
 
 git add --all
 git commit -m "greetings uhu"
