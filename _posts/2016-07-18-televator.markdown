@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: Sao Paulo  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 4 hours, 55 minutes !!!
+Eu estou ligado ininterruptamente à 5 hours, 25 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 18 07:30:24 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 18 08:00:24 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               655 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               657 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          722 (:0)
-odroid   + pts/1        2016-07-18 07:03 00:21       25289 (192.168.1.37)
+odroid   + pts/1        2016-07-18 07:03 00:51       25289 (192.168.1.37)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -56,7 +56,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 ... Meus processos em execução ...
 {% highlight ruby %}
   PID TTY      STAT   TIME COMMAND
-    1 ?        Ss     0:05 /sbin/init
+    1 ?        Ss     0:06 /sbin/init
     2 ?        S      0:00 [kthreadd]
     3 ?        S      0:00 [ksoftirqd/0]
     5 ?        S<     0:00 [kworker/0:0H]
@@ -85,7 +85,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    33 ?        S      0:00 [khubd]
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
-   36 ?        S      0:10 [kworker/0:1]
+   36 ?        S      0:11 [kworker/0:1]
    37 ?        S<     0:00 [kworker/1:1H]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
@@ -98,21 +98,20 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    67 ?        R      0:00 [cpu_idle_gdbs]
    68 ?        S<     0:00 [binder]
    69 ?        S<     0:00 [dwc_otg]
-   70 ?        S      0:00 [kworker/2:1]
    71 ?        S<     0:00 [dwc_otg]
    72 ?        S      0:01 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
-   74 ?        S      0:27 [kworker/1:1]
+   74 ?        S      0:29 [kworker/1:1]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
    77 ?        S      0:00 [irq/250-sd_emmc]
    78 ?        S      0:00 [vmalloc_ion]
    79 ?        S      0:00 [carveout_ion]
-   80 ?        S      0:00 [mmcqd/0]
+   80 ?        S      0:01 [mmcqd/0]
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      0:04 [kthread_di]
+   84 ?        S      0:05 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    86 ?        S      0:00 [kworker/1:2]
    88 ?        S<     0:00 [krfcommd]
@@ -126,12 +125,12 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   435 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
   442 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
   450 ?        Ss     0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
-  464 ?        Ssl    0:08 /usr/sbin/NetworkManager --no-daemon
+  464 ?        Ssl    0:09 /usr/sbin/NetworkManager --no-daemon
   469 ?        Ss     0:00 /usr/sbin/cron -f
   472 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
   473 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
   501 ?        Ss     0:00 avahi-daemon: running [odroid64.local]
-  506 ?        Ssl    0:01 /usr/bin/whoopsie -f
+  506 ?        Ssl    0:02 /usr/bin/whoopsie -f
   508 ?        Ssl    0:00 /usr/sbin/ModemManager
   513 ?        Ss     0:00 /lib/systemd/systemd-logind
   517 ?        S      0:00 avahi-daemon: chroot helper
@@ -139,7 +138,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   583 ?        Ssl    0:00 /usr/sbin/cups-browsed
   598 ?        Ssl    0:00 /usr/sbin/lightdm
   623 ?        Ss     0:00 /usr/sbin/sshd -D
-  624 tty7     Ss+    0:14 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  624 tty7     Ss+    0:15 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   655 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
   657 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   665 ?        Ss     0:02 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
@@ -161,7 +160,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   861 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
   866 ?        Sl     0:00 /usr/lib/dconf/dconf-service
   872 ?        Sl     0:00 gnome-keyring-daemon --start
-  880 ?        Sl     0:00 /usr/bin/mate-settings-daemon
+  880 ?        Sl     0:01 /usr/bin/mate-settings-daemon
   885 ?        Sl     0:01 mate-panel
   890 ?        Sl     0:02 caja
   891 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
@@ -199,17 +198,18 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  2494 ?        S      0:00 [kworker/3:0]
  3196 ?        S      0:00 [kworker/3:1]
 12065 ?        S      0:00 [kworker/u8:0]
-22399 ?        S      0:00 [kworker/u8:1]
 25289 ?        Ss     0:00 sshd: odroid [priv]
 25351 ?        S      0:00 sshd: odroid@pts/1
 25352 pts/1    Ss+    0:00 -bash
 26367 ?        S      0:00 [kworker/2:0]
-26902 ?        S      0:00 [kworker/0:0]
-27468 ?        S      0:00 /usr/sbin/CRON -f
-27469 ?        Ss     0:00 /bin/sh -c mastershell.sh
-27471 ?        S      0:00 /bin/bash /bin/mastershell.sh
-27600 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-27640 ?        R      0:00 ps ax
+27971 ?        S      0:00 [kworker/u8:2]
+29000 ?        S      0:00 [kworker/2:2]
+29169 ?        S      0:00 [kworker/0:0]
+30016 ?        S      0:00 /usr/sbin/CRON -f
+30017 ?        Ss     0:00 /bin/sh -c mastershell.sh
+30018 ?        S      0:00 /bin/bash /bin/mastershell.sh
+30120 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+30160 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Use sua conta google para comentar abaixo!!!
