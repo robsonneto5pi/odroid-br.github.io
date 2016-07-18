@@ -11,7 +11,7 @@ Tudo pela troca de experiências. <br />
 
 ### Instruções
 
-Para adicionar a sua publicação você deve adicionar um arquivo .markdown na pasta [_posts](https://github.com/odroid-br/odroid-br.github.io/tree/master/_posts). O padrão do nome do arquivo deve ser AAA-MM-DD-nome-do-post.markdown. Veja exemplo abaixo: <br />
+Para adicionar a sua publicação você deve adicionar um arquivo .markdown na pasta [_posts](https://github.com/odroid-br/odroid-br.github.io/tree/master/_posts). O padrão do nome do arquivo deve ser AAAA-MM-DD-nome-do-post.markdown. Veja exemplo abaixo: <br />
 
 ![alt tag](https://github.com/odroid-br/odroid-br.github.io/blob/master/downloads/_posts.PNG)
 <br />
@@ -25,6 +25,16 @@ title: "Rodolfo fazendo um teste"
 
 [Dockerizando uma Aplicação no github](https://tecnologiagourmet.wordpress.com/2016/06/09/dockerizando-uma-aplicacao-web/ "Testando") <br />
 Colaboração: Rodolfo Neto (@dodopontocom)
+```
+
+### Instruções para gerar scripts que irão publicar automaticamente
+
+Adicionar o seu shell script na pasta [_scripts](https://github.com/odroid-br/odroid-br.github.io/tree/master/_scripts), seguindo os modelos que lá se encontram.
+Você deve colocar uma linha comentada com o termo `_monitorar_`, assim o odroid vai saber que o seu script deverá ser executado.
+Veja um arquivo script exemplo: <br />
+
+```
+https://github.com/odroid-br/odroid-br.github.io/blob/master/_scripts/test_internet.sh
 ```
 
 ## Greetings (Gerador de saudações aleatórias)
