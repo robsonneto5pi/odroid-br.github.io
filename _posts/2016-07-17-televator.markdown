@@ -3,27 +3,27 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No roteador da minha rede local, há 4 dispositivo(s) conectado(s)  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Campinas  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 days, 2 hours, 35 minutes !!!
+Eu estou ligado ininterruptamente à 3 days, 3 hours, 35 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 17 21:30:35 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 17 22:30:26 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M  9.3M  163M   6% /run
+tmpfs           172M   12M  161M   7% /run
 /dev/mmcblk0p2  7.1G  4.6G  2.3G  68% /
 tmpfs           860M  244K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
 cgmfs           100K     0  100K   0% /run/cgmanager/fs
-tmpfs           172M   28K  172M   1% /run/user/1000
+tmpfs           172M   32K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 1 usuário(s) conectado(s) em mim ;) <br />
+Há 3 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -31,9 +31,10 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-07-17 21:17 00:11       15185 (192.168.1.37)
-           pts/2        2016-07-14 23:38             10399 id=ts/2  term=0 exit=0
+odroid   + pts/1        2016-07-17 21:17 00:57       15185 (192.168.1.37)
+odroid   + pts/2        2016-07-17 21:42 00:14       17942 (192.168.1.30)
            pts/3        2016-07-14 21:42                 0 id=/3    term=0 exit=0
+odroid   + pts/3        2016-07-17 21:57 00:02       19592 (192.168.1.30)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
@@ -113,7 +114,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    81 ?        S      0:00 [ge2d_monitor]
    82 ?        S      0:00 [encode_monitor]
    83 ?        S      0:00 [kthread_h265]
-   84 ?        S      1:10 [kthread_di]
+   84 ?        S      1:11 [kthread_di]
    85 ?        S<     0:00 [cec_work]
    87 ?        S<     0:00 [krfcommd]
    88 ?        S<     0:00 [deferwq]
@@ -133,16 +134,16 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   433 ?        Ssl    0:04 /usr/lib/accountsservice/accounts-daemon
   434 ?        Ss     0:00 /lib/systemd/systemd-logind
   445 ?        S      0:00 avahi-daemon: chroot helper
-  447 ?        Ss     0:16 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  447 ?        Ss     0:17 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    2:17 /usr/sbin/NetworkManager --no-daemon
+  490 ?        Ssl    2:20 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
-  588 ?        Ssl    0:01 /usr/lib/policykit-1/polkitd --no-debug
+  588 ?        Ssl    0:02 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
-  617 tty7     Ss+    1:11 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  617 tty7     Ss+    1:12 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
   646 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
   647 ttyS0    Ss+    0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
-  649 ?        Ssl    0:40 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+  649 ?        Ssl    0:41 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
   695 ?        Sl     0:00 lightdm --session-child 12 15
   702 ?        Ss     0:00 /lib/systemd/systemd --user
   703 ?        S      0:00 (sd-pam)
@@ -186,7 +187,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1000 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
  1017 ?        Sl     0:00 /usr/lib/mate-applets/trashapplet
  1029 ?        Ssl    0:06 /usr/lib/upower/upowerd
- 1044 ?        Sl     0:13 /usr/lib/mate-panel/clock-applet
+ 1044 ?        Sl     0:14 /usr/lib/mate-panel/clock-applet
  1047 ?        Sl     0:00 /usr/lib/mate-panel/notification-area-applet
  1064 ?        Sl     0:00 marco.real --no-composite
  1084 pts/0    Ss+    0:00 /bin/bash
@@ -196,19 +197,29 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1271 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
  1734 ?        S      0:05 [kworker/1:1]
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 8054 ?        S      0:07 [kworker/1:0]
+ 8054 ?        S      0:12 [kworker/1:0]
 10755 ?        S      0:00 [kworker/0:1]
-14280 ?        S      0:00 [kworker/0:0]
 15185 ?        Ss     0:00 sshd: odroid [priv]
 15237 ?        S      0:00 sshd: odroid@pts/1
 15238 pts/1    Ss+    0:00 -bash
-16269 ?        S      0:00 [kworker/0:2]
-16490 ?        S      0:00 /usr/sbin/CRON -f
-16491 ?        Ss     0:00 /bin/sh -c mastershell.sh
-16492 ?        S      0:00 /bin/bash /bin/mastershell.sh
-16610 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-16660 ?        R      0:00 ps ax
-23184 ?        S      0:16 [kworker/2:0]
+17942 ?        Ss     0:00 sshd: odroid [priv]
+17979 ?        S      0:00 sshd: odroid@pts/2
+17980 pts/2    Ss+    0:00 -bash
+19592 ?        Ss     0:00 sshd: odroid [priv]
+19629 ?        S      0:03 sshd: odroid@pts/3
+19630 pts/3    Ss+    0:00 -bash
+19691 pts/3    S      0:00 dbus-launch --autolaunch 2af5a0f9274a4d59855b8c00a45b3e01 --binary-syntax --close-stderr
+19692 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+22028 ?        S      0:00 [kworker/0:2]
+22207 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+22268 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-metadata
+22778 ?        S      0:00 [kworker/0:0]
+23134 ?        S      0:00 /usr/sbin/CRON -f
+23135 ?        Ss     0:00 /bin/sh -c mastershell.sh
+23136 ?        S      0:00 /bin/bash /bin/mastershell.sh
+23184 ?        S      0:18 [kworker/2:0]
+23259 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+23299 ?        R      0:00 ps ax
 23397 ?        S      0:29 [kworker/2:2]
 26758 ?        S      0:00 [kworker/3:2]
 27477 ?        S      0:00 [kworker/3:0]
