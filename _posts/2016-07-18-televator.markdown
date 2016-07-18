@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: Sao Paulo  <br />
+Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 days, 5 hours, 5 minutes !!!
+Eu estou ligado ininterruptamente à 3 days, 5 hours, 35 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 18 00:00:19 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 18 00:30:17 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               647 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               646 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          706 (:0)
-odroid   + pts/1        2016-07-17 21:17 02:27       15185 (192.168.1.37)
+odroid   + pts/1        2016-07-17 21:17 02:56       15185 (192.168.1.37)
            pts/2        2016-07-17 23:10             17942 id=ts/2  term=0 exit=0
            pts/3        2016-07-14 21:42                 0 id=/3    term=0 exit=0
            pts/3        2016-07-17 23:09             19592 id=ts/3  term=0 exit=0
@@ -135,10 +135,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   445 ?        S      0:00 avahi-daemon: chroot helper
   447 ?        Ss     0:17 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
   489 ?        Ssl    0:00 /usr/sbin/cups-browsed
-  490 ?        Ssl    2:23 /usr/sbin/NetworkManager --no-daemon
-  574 ?        S      0:00 /usr/sbin/CRON -f
-  575 ?        Ss     0:00 /bin/sh -c mastershell.sh
-  576 ?        S      0:00 /bin/bash /bin/mastershell.sh
+  490 ?        Ssl    2:24 /usr/sbin/NetworkManager --no-daemon
   580 ?        Ss     0:00 /usr/sbin/sshd -D
   588 ?        Ssl    0:02 /usr/lib/policykit-1/polkitd --no-debug
   598 ?        Ssl    0:00 /usr/sbin/lightdm
@@ -150,8 +147,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
   702 ?        Ss     0:00 /lib/systemd/systemd --user
   703 ?        S      0:00 (sd-pam)
   706 ?        Ssl    0:00 mate-session
-  725 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-  775 ?        R      0:00 ps ax
   789 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
   792 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch mate-session
   793 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
@@ -200,8 +195,14 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1252 ?        S      0:00 /usr/lib/bluetooth/obexd
  1271 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.1 /org/gtk/gvfs/exec_spaw/3
  1734 ?        S      0:05 [kworker/1:1]
+ 3483 ?        S      0:00 [kworker/0:1]
+ 3995 ?        S      0:00 /usr/sbin/CRON -f
+ 3996 ?        Ss     0:00 /bin/sh -c mastershell.sh
+ 3997 ?        S      0:00 /bin/bash /bin/mastershell.sh
+ 4109 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+ 4159 ?        R      0:00 ps ax
  6252 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-0cc046b8-7bfd-4f00-8318-8c9c0f614dc0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
- 8054 ?        S      0:20 [kworker/1:0]
+ 8054 ?        S      0:23 [kworker/1:0]
 15185 ?        Ss     0:00 sshd: odroid [priv]
 15237 ?        S      0:00 sshd: odroid@pts/1
 15238 pts/1    Ss+    0:00 -bash
@@ -209,12 +210,11 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 22268 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-metadata
 23184 ?        S      0:21 [kworker/2:0]
 23397 ?        S      0:29 [kworker/2:2]
-23655 ?        S      0:08 xeyes
+23655 ?        S      0:11 xeyes
 26758 ?        S      0:00 [kworker/3:2]
 27477 ?        S      0:00 [kworker/3:0]
 30370 ?        S      0:00 [kworker/u8:1]
 30383 ?        S      0:00 [kworker/0:2]
-32440 ?        S      0:00 [kworker/0:1]
 {% endhighlight %}
 
 Use sua conta google para comentar abaixo!!!
