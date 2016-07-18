@@ -34,7 +34,7 @@ Você deve colocar uma linha comentada com o termo `_monitorar_`, assim o odroid
 Veja um arquivo script exemplo: <br />
 
 ```
-https://github.com/odroid-br/odroid-br.github.io/blob/master/_scripts/test_internet.sh
+[https://github.com/odroid-br/odroid-br.github.io/blob/master/_scripts/test_internet.sh](https://github.com/odroid-br/odroid-br.github.io/blob/master/_scripts/test_internet.sh)
 ```
 
 ## Greetings (Gerador de saudações aleatórias)
