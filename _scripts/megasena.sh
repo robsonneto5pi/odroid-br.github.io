@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### __ ###
+### _monitorar_ ###
 
 if [ "$(date +%u)" -eq 4 -o "$(date +%u)" -eq 7 ]
 then
@@ -21,10 +21,10 @@ layout: post
 title:  \"Sorteio da megasena da noite anterior\"
 ---" > ${post_}
 echo "<br />" >> ${post_}
-echo "Ontem teve sorteio, então aqui estão os números <br />" >> ${post_}
+echo "(EM TESTE) <br />" >> ${post_}
 echo "" >> ${post_}
 echo "{% highlight ruby %}" >> ${post_}
-echo "$(${path_}/megasena_rodolfo.sh 2>/dev/null >> ${path_}oi.txt; tail -n 1 ${path_}oi.txt)" >> ${post_}
+echo "$(${path_}/megasena_rodolfo.sh 2>/dev/null >> ${path_}mega.txt; tail -n 1 ${path_}mega.txt)" >> ${post_}
 echo "{% endhighlight %}" >> ${post_}
 echo "" >> ${post_}
 
