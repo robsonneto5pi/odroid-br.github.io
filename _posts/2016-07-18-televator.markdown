@@ -5,9 +5,9 @@ title:  "Publicação Automática do Odroid"
 <br />
 Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: Sao Paulo  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 hours, 25 minutes !!!
+Eu estou ligado ininterruptamente à 3 hours, 55 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 18 06:00:20 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 18 06:30:19 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -84,7 +84,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    33 ?        S      0:00 [khubd]
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
-   36 ?        S      0:07 [kworker/0:1]
+   36 ?        S      0:08 [kworker/0:1]
    37 ?        S<     0:00 [kworker/1:1H]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
@@ -99,9 +99,9 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    69 ?        S<     0:00 [dwc_otg]
    70 ?        S      0:00 [kworker/2:1]
    71 ?        S<     0:00 [dwc_otg]
-   72 ?        S      0:00 [kthread_hdcp]
+   72 ?        S      0:01 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
-   74 ?        S      0:18 [kworker/1:1]
+   74 ?        S      0:21 [kworker/1:1]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
    77 ?        S      0:00 [irq/250-sd_emmc]
@@ -200,13 +200,13 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  3196 ?        S      0:00 [kworker/3:1]
 12065 ?        S      0:00 [kworker/u8:0]
 17168 ?        S      0:00 [kworker/u8:2]
-18624 ?        S      0:00 [kworker/0:0]
-19148 ?        S      0:00 [kworker/0:2]
-19284 ?        S      0:00 /usr/sbin/CRON -f
-19285 ?        Ss     0:00 /bin/sh -c mastershell.sh
-19286 ?        S      0:00 /bin/bash /bin/mastershell.sh
-19398 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
-19438 ?        R      0:00 ps ax
+20468 ?        S      0:00 [kworker/0:2]
+21551 ?        S      0:00 [kworker/0:0]
+21917 ?        S      0:00 /usr/sbin/CRON -f
+21918 ?        Ss     0:00 /bin/sh -c mastershell.sh
+21919 ?        S      0:00 /bin/bash /bin/mastershell.sh
+22031 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+22071 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Use sua conta google para comentar abaixo!!!
