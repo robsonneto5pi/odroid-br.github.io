@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello! No momento, estou com 155 processos em execução!  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Indaiatuba  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 11 hours, 55 minutes !!!
+Eu estou ligado ininterruptamente à 12 hours, 25 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 18 14:30:23 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 18 15:00:30 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               655 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               657 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          722 (:0)
-           pts/1        2016-07-18 09:20             25289 id=ts/1  term=0 exit=0
+odroid   + pts/1        2016-07-18 14:32 00:27       31686 (:0.0)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
