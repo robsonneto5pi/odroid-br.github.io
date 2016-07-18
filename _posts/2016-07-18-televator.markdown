@@ -3,18 +3,18 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No roteador da minha rede local, há 3 dispositivo(s) conectado(s)  <br />
+Hello! No momento, estou com 155 processos em execução!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 hour, 25 minutes !!!
+Eu estou ligado ininterruptamente à 1 hour, 55 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 18 04:00:19 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 18 04:30:18 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.3M  163M   6% /run
-/dev/mmcblk0p2  7.1G  4.7G  2.3G  68% /
+/dev/mmcblk0p2  7.1G  4.7G  2.2G  68% /
 tmpfs           860M  344K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
@@ -84,7 +84,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    33 ?        S      0:00 [khubd]
    34 ?        S<     0:00 [devfreq_wq]
    35 ?        S      0:00 [gp_pll]
-   36 ?        S      0:03 [kworker/0:1]
+   36 ?        S      0:04 [kworker/0:1]
    37 ?        S<     0:00 [kworker/1:1H]
    41 ?        S      0:00 [kswapd0]
    42 ?        S      0:00 [fsnotify_mark]
@@ -101,7 +101,7 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
    71 ?        S<     0:00 [dwc_otg]
    72 ?        S      0:00 [kthread_hdcp]
    73 ?        S      0:00 [irq/249-sd_emmc]
-   74 ?        S      0:08 [kworker/1:1]
+   74 ?        S      0:10 [kworker/1:1]
    75 ?        S      0:00 [irq/99-sd_emmc_]
    76 ?        S      0:00 [irq/101-sd_emmc]
    77 ?        S      0:00 [irq/250-sd_emmc]
@@ -198,15 +198,15 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
  1787 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-f4ed8723-38c0-4420-9fc4-2534cc4fbc25-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
  2494 ?        S      0:00 [kworker/3:0]
  3196 ?        S      0:00 [kworker/3:1]
- 6957 ?        Sl     0:00 /usr/bin/mate-screensaver --no-daemon
- 6986 ?        S      0:00 [kworker/u8:0]
  6987 ?        S      0:00 [kworker/u8:3]
- 8587 ?        S      0:00 [kworker/0:0]
- 9039 ?        S      0:00 /usr/sbin/CRON -f
- 9040 ?        Ss     0:00 /bin/sh -c mastershell.sh
- 9041 ?        S      0:00 /bin/bash /bin/mastershell.sh
- 9153 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
- 9204 ?        R      0:00 ps ax
+ 9501 ?        S      0:00 [kworker/u8:1]
+10780 ?        S      0:00 [kworker/0:2]
+11583 ?        S      0:00 [kworker/0:0]
+11604 ?        S      0:00 /usr/sbin/CRON -f
+11605 ?        Ss     0:00 /bin/sh -c mastershell.sh
+11606 ?        S      0:00 /bin/bash /bin/mastershell.sh
+11708 ?        S      0:00 sh /home/odroid/rodolfo/odroid-br.github.io/_scripts/odroid-monitor.sh
+11748 ?        R      0:00 ps ax
 {% endhighlight %}
 
 Use sua conta google para comentar abaixo!!!
