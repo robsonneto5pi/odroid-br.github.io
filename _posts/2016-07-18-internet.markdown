@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Teste diário da internet (Download/Upload)"
+---
+<br />
+Teste da minha internet local!  <br />
+
+{% highlight ruby %}
+Retrieving speedtest.net configuration...
+Retrieving speedtest.net server list...
+Selecting best server based on latency...
+Hosted by Pignet Internet Banda Larga (Indaiatuba) [35.34 km]: 51.939 ms
+Testing download speed........................................
+Download: 0.96 Mbyte/s
+Testing upload speed..................................................
+Upload: 0.07 Mbyte/s
+{% endhighlight %}
+
+[CRÉDITOS](https://github.com/sivel/speedtest-cli/)
