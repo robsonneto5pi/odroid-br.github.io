@@ -33,9 +33,9 @@ Adicionar o seu shell script na pasta [_scripts](https://github.com/odroid-br/od
 Você deve colocar uma linha comentada com o termo `_monitorar_`, assim o odroid vai saber que o seu script deverá ser executado.
 Veja um arquivo script exemplo: <br />
 
-```
+
 [https://github.com/odroid-br/odroid-br.github.io/blob/master/_scripts/test_internet.sh](https://github.com/odroid-br/odroid-br.github.io/blob/master/_scripts/test_internet.sh)
-```
+<br />
 
 ## Greetings (Gerador de saudações aleatórias)
 
