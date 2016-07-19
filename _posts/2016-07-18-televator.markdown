@@ -3,19 +3,19 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
+Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 19 hours, 25 minutes !!!
+Eu estou ligado ininterruptamente à 19 hours, 55 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 18 22:00:32 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 18 22:30:26 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M  9.4M  163M   6% /run
-/dev/mmcblk0p2  7.1G  5.3G  1.6G  77% /
-tmpfs           860M  380K  859M   1% /dev/shm
+/dev/mmcblk0p2  7.1G  5.4G  1.6G  78% /
+tmpfs           860M  444K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
@@ -23,7 +23,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   24K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 2 usuário(s) conectado(s) em mim ;) <br />
+Há 1 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -32,8 +32,8 @@ LOGIN      ttyS0        2016-02-11 12:28               655 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               657 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          722 (:0)
            pts/1        2016-07-18 15:02             31686 id=ts/1  term=0 exit=0
-odroid   + pts/2        2016-07-18 20:22 01:38       29028 (192.168.1.37)
-odroid   + pts/3        2016-07-18 20:32   .         30092 (192.168.1.30)
+odroid   + pts/2        2016-07-18 20:22 02:08       29028 (192.168.1.37)
+           pts/3        2016-07-18 22:11             30092 id=ts/3  term=0 exit=0
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
