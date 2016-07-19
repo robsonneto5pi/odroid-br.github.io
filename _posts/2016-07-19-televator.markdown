@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
+Hello! No momento, estou com 170 processos em execução!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 3 hours, 55 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 4 hours, 25 minutes !!!
 
-Script de monitoramento executado em - Tue Jul 19 06:30:19 AMT 2016 <br />
+Script de monitoramento executado em - Tue Jul 19 07:00:20 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -32,7 +32,7 @@ LOGIN      ttyS0        2016-02-11 12:28               655 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               657 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          722 (:0)
            pts/1        2016-07-18 15:02             31686 id=ts/1  term=0 exit=0
-odroid   + pts/2        2016-07-18 20:22 10:08       29028 (192.168.1.37)
+odroid   + pts/2        2016-07-18 20:22 10:38       29028 (192.168.1.37)
            pts/3        2016-07-18 22:11             30092 id=ts/3  term=0 exit=0
 {% endhighlight %}
 
