@@ -18,7 +18,7 @@ cd ${dir_}/../_posts
 
 echo "---
 layout: post
-title:  \"Sorteio da megasena da noite anterior\"
+title:  \"Sorteio da megasena do dia $(expr $(date +%d) - 1)  \"
 ---" > ${post_}
 echo "<br />" >> ${post_}
 echo "(EM TESTE) <br />" >> ${post_}
