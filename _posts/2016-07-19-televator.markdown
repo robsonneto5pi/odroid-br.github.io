@@ -3,17 +3,17 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Dolar agora:   <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 8 hours, 55 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 9 hours, 25 minutes !!!
 
-Script de monitoramento executado em - Tue Jul 19 11:30:25 AMT 2016 <br />
+Script de monitoramento executado em - Tue Jul 19 12:00:26 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M   12M  161M   7% /run
+tmpfs           172M   14M  159M   8% /run
 /dev/mmcblk0p2  7.1G  5.3G  1.6G  78% /
 tmpfs           860M  404K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
