@@ -5,9 +5,9 @@ title:  "Publicação Automática do Odroid"
 <br />
 Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 4 hours, 25 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 4 hours, 55 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 20 07:00:20 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 20 07:30:18 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
