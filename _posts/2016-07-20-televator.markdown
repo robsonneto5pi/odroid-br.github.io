@@ -3,17 +3,17 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Indaiatuba  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 8 hours, 25 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 8 hours, 55 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 20 11:00:23 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 20 11:30:33 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M   18M  154M  11% /run
+tmpfs           172M   21M  152M  12% /run
 /dev/mmcblk0p2  7.1G  5.3G  1.6G  78% /
 tmpfs           860M  408K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
