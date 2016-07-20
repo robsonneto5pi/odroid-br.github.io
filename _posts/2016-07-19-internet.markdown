@@ -6,15 +6,14 @@ title:  "Teste diário da internet (Download/Upload)"
 Teste da minha internet local!  <br />
 
 {% highlight ruby %}
-  File "/usr/local/bin/speedtest-cli", line 436, in closestServers
-    serversxml.append(uh.read(10240))
-  File "/usr/lib/python2.7/socket.py", line 384, in read
-    data = self._sock.recv(left)
-  File "/usr/lib/python2.7/httplib.py", line 612, in read
-    s = self.fp.read(amt)
-  File "/usr/lib/python2.7/socket.py", line 384, in read
-    data = self._sock.recv(left)
-socket.timeout: timed out
+Retrieving speedtest.net configuration...
+Retrieving speedtest.net server list...
+Selecting best server based on latency...
+Hosted by Net Turbo Telecom (Vinhedo) [48.84 km]: 47.155 ms
+Testing download speed........................................
+Download: 0.29 Mbyte/s
+Testing upload speed..................................................
+Upload: 0.06 Mbyte/s
 {% endhighlight %}
 
 [CRÉDITOS](https://github.com/sivel/speedtest-cli/)
