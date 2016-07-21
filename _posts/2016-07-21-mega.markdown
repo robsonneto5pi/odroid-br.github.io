@@ -6,6 +6,6 @@ title:  "Sorteio da megasena do dia 20  "
 (EM TESTE) <br />
 
 {% highlight ruby %}
-05 08 24 30 57 59 
+07 22 28 32 56 58 
 {% endhighlight %}
 
