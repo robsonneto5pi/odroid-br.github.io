@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
+Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 19 hours, 30 minutes !!!
+Eu estou ligado ininterruptamente à 19 hours, 53 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 21 19:24:03 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 21 19:46:44 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,9 +31,9 @@ odroid   + tty7         2016-02-11 12:28  old          748 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               714 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               715 id=tty1
            run-level 5  2016-02-11 12:28
-odroid   + pts/1        2016-07-21 18:54 00:29       14920 (192.168.1.38)
+odroid   + pts/1        2016-07-21 18:54 00:52       14920 (192.168.1.38)
 odroid   + pts/2        2016-07-21 19:01   .         15782 (192.168.1.41)
-odroid   + pts/3        2016-07-21 19:13 00:09       17145 (192.168.1.41)
+odroid   + pts/3        2016-07-21 19:13 00:05       17145 (192.168.1.41)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
