@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No roteador da minha rede local, há 5 dispositivo(s) conectado(s)  <br />
+Hello Friends! Meu nome é odroid.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 7 hours, 53 minutes !!!
+Eu estou ligado ininterruptamente à 8 hours, 7 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 21 07:46:23 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 21 08:00:30 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -23,7 +23,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   24K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 1 usuário(s) conectado(s) em mim ;) <br />
+Há 0 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -31,7 +31,7 @@ odroid   + tty7         2016-02-11 12:28  old          748 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               714 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               715 id=tty1
            run-level 5  2016-02-11 12:28
-odroid   + pts/1        2016-07-21 05:24 02:07       32725 (192.168.1.38)
+           pts/1        2016-07-21 07:51             32725 id=ts/1  term=0 exit=0
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
