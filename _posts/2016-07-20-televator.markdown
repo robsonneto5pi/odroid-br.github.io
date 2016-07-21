@@ -3,18 +3,18 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Campinas  <br />
+Hello Friends! Meu nome é odroid.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 18 hours, 55 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 19 hours, 25 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 20 21:30:25 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 20 22:00:28 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M   21M  152M  12% /run
-/dev/mmcblk0p2  7.1G  5.3G  1.6G  78% /
+/dev/mmcblk0p2  7.1G  5.4G  1.5G  79% /
 tmpfs           860M  408K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
@@ -31,7 +31,7 @@ Comando usado para ver quem está conectado: who -a
 LOGIN      ttyS0        2016-02-11 12:28               655 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               657 id=tty1
 odroid   + tty7         2016-02-11 12:28  old          722 (:0)
-odroid   + pts/1        2016-07-20 20:51 00:17       27698 (192.168.1.41)
+odroid   + pts/1        2016-07-20 20:51   .         27698 (192.168.1.41)
            pts/2        2016-07-19 07:40             29028 id=ts/2  term=0 exit=0
            pts/3        2016-07-18 22:11             30092 id=ts/3  term=0 exit=0
 {% endhighlight %}
