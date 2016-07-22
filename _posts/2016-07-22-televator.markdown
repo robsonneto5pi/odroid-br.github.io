@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No meu relógio agora são: 00:46.  <br />
+Hello Friends! No roteador da minha rede local, há 4 dispositivo(s) conectado(s)  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 53 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 1 hour, 7 minutes !!!
 
-Script de monitoramento executado em - Fri Jul 22 00:46:17 AMT 2016 <br />
+Script de monitoramento executado em - Fri Jul 22 01:00:19 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ odroid   + tty7         2016-02-11 12:28  old          748 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               714 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               715 id=tty1
            run-level 5  2016-02-11 12:28
-odroid   + pts/1        2016-07-21 18:54 03:30       14920 (192.168.1.38)
+odroid   + pts/1        2016-07-21 18:54 03:44       14920 (192.168.1.38)
            pts/2        2016-07-22 00:16             15308 id=ts/2  term=0 exit=0
            pts/3        2016-07-21 19:47             17145 id=ts/3  term=0 exit=0
 {% endhighlight %}
