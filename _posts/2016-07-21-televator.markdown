@@ -3,17 +3,17 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
+Hello Friends! No roteador da minha rede local, há 5 dispositivo(s) conectado(s)  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 22 hours, 30 minutes !!!
+Eu estou ligado ininterruptamente à 22 hours, 53 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 21 22:23:31 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 21 22:46:29 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M   18M  154M  11% /run
+tmpfs           172M   21M  152M  12% /run
 /dev/mmcblk0p2  7.1G  4.7G  2.2G  69% /
 tmpfs           860M  232K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
@@ -31,8 +31,8 @@ odroid   + tty7         2016-02-11 12:28  old          748 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               714 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               715 id=tty1
            run-level 5  2016-02-11 12:28
-odroid   + pts/1        2016-07-21 18:54 01:07       14920 (192.168.1.38)
-odroid   + pts/2        2016-07-21 21:48   .           564 (192.168.1.41)
+odroid   + pts/1        2016-07-21 18:54 01:30       14920 (192.168.1.38)
+odroid   + pts/2        2016-07-21 21:48 00:03         564 (192.168.1.41)
            pts/3        2016-07-21 19:47             17145 id=ts/3  term=0 exit=0
 {% endhighlight %}
 
