@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello! No momento, estou com 172 processos em execução!  <br />
+Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 21 hours, 53 minutes !!!
+Eu estou ligado ininterruptamente à 22 hours, 7 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 21 21:46:40 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 21 22:00:43 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -23,7 +23,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   28K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 1 usuário(s) conectado(s) em mim ;) <br />
+Há 2 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -31,8 +31,8 @@ odroid   + tty7         2016-02-11 12:28  old          748 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               714 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               715 id=tty1
            run-level 5  2016-02-11 12:28
-odroid   + pts/1        2016-07-21 18:54 00:30       14920 (192.168.1.38)
-           pts/2        2016-07-21 19:47             15782 id=ts/2  term=0 exit=0
+odroid   + pts/1        2016-07-21 18:54 00:44       14920 (192.168.1.38)
+odroid   + pts/2        2016-07-21 21:48   .           564 (192.168.1.41)
            pts/3        2016-07-21 19:47             17145 id=ts/3  term=0 exit=0
 {% endhighlight %}
 
