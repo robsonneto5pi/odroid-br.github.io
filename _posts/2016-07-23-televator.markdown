@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello! No momento, estou com 168 processos em execução!  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Indaiatuba  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 3 hours, 30 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 3 hours, 53 minutes !!!
 
-Script de monitoramento executado em - Sat Jul 23 03:23:15 AMT 2016 <br />
+Script de monitoramento executado em - Sat Jul 23 03:46:16 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
