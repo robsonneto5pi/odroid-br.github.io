@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No meu relógio agora são: 00:46.  <br />
+Dolar agora:   <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 53 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 1 hour, 7 minutes !!!
 
-Script de monitoramento executado em - Sat Jul 23 00:46:19 AMT 2016 <br />
+Script de monitoramento executado em - Sat Jul 23 01:00:19 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
