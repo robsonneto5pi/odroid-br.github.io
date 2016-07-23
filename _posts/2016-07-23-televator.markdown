@@ -3,17 +3,17 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 5 hours, 37 minutes !!!
+Eu estou ligado ininterruptamente à 6 hours !!!
 
-Script de monitoramento executado em - Sat Jul 23 16:23:16 AMT 2016 <br />
+Script de monitoramento executado em - Sat Jul 23 16:46:23 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M   14M  159M   8% /run
+tmpfs           172M   16M  157M  10% /run
 /dev/mmcblk0p2  7.1G  4.7G  2.2G  69% /
 tmpfs           860M  304K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
