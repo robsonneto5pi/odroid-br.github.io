@@ -3,37 +3,34 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
+Hello Friends! No meu relógio agora são: 11:00.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 9 hours, 30 minutes !!!
+Eu estou ligado ininterruptamente à 14 minutes !!!
 
-Script de monitoramento executado em - Sat Jul 23 09:23:15 AMT 2016 <br />
+Script de monitoramento executado em - Sat Jul 23 11:00:23 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M   21M  152M  12% /run
+tmpfs           172M  9.3M  163M   6% /run
 /dev/mmcblk0p2  7.1G  4.7G  2.2G  69% /
-tmpfs           860M  352K  859M   1% /dev/shm
+tmpfs           860M  232K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
 cgmfs           100K     0  100K   0% /run/cgmanager/fs
-tmpfs           172M   32K  172M   1% /run/user/1000
+tmpfs           172M   28K  172M   1% /run/user/1000
 {% endhighlight %}
 
 Há 0 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
-odroid   + tty7         2016-02-11 12:28  old          748 (:0)
-LOGIN      ttyS0        2016-02-11 12:28               714 id=tyS0
-LOGIN      tty1         2016-02-11 12:28               715 id=tty1
+odroid   + tty7         2016-02-11 12:28  old          720 (:0)
+LOGIN      ttyS0        2016-02-11 12:28               688 id=tyS0
+LOGIN      tty1         2016-02-11 12:28               687 id=tty1
            run-level 5  2016-02-11 12:28
-           pts/1        2016-07-22 09:09             14920 id=ts/1  term=0 exit=0
-           pts/2        2016-07-22 00:16             15308 id=ts/2  term=0 exit=0
-           pts/3        2016-07-21 19:47             17145 id=ts/3  term=0 exit=0
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
