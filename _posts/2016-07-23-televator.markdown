@@ -3,17 +3,17 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: Sao Paulo  <br />
+Dolar agora:   <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 3 hours, 53 minutes !!!
 
-Script de monitoramento executado em - Sat Jul 23 14:00:20 AMT 2016 <br />
+Script de monitoramento executado em - Sat Jul 23 14:39:26 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
-tmpfs           172M   12M  161M   7% /run
+tmpfs           172M   14M  159M   8% /run
 /dev/mmcblk0p2  7.1G  4.7G  2.2G  69% /
 tmpfs           860M  300K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
