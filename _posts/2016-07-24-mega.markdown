@@ -6,6 +6,6 @@ title:  "Sorteio da megasena do dia 23  "
 (EM TESTE) <br />
 
 {% highlight ruby %}
-07 22 28 32 56 58 
+15 17 33 41 47 48 
 {% endhighlight %}
 
