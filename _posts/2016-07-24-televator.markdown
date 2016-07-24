@@ -3,18 +3,18 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello! No momento, estou com 172 processos em execução!  <br />
+Hello Friends! No meu relógio agora são: 00:23.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 13 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 13 hours, 37 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 24 00:00:25 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 24 00:23:22 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M   21M  152M  12% /run
-/dev/mmcblk0p2  7.1G  4.7G  2.2G  69% /
+/dev/mmcblk0p2  7.1G  4.8G  2.1G  70% /
 tmpfs           860M  324K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
