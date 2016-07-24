@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Aguas de Lindoia  <br />
+Hello Friends! No meu relógio agora são: 08:46.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 21 hours, 37 minutes !!!
+Eu estou ligado ininterruptamente à 22 hours !!!
 
-Script de monitoramento executado em - Sun Jul 24 08:23:23 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 24 08:46:23 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
