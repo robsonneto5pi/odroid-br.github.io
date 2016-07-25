@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Boituva  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 23 hours, 37 minutes !!!
+Eu estou ligado ininterruptamente à 2 days !!!
 
-Script de monitoramento executado em - Mon Jul 25 10:23:18 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 25 10:46:21 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -20,7 +20,7 @@ tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
 cgmfs           100K     0  100K   0% /run/cgmanager/fs
-tmpfs           172M   32K  172M   1% /run/user/1000
+tmpfs           172M   36K  172M   1% /run/user/1000
 {% endhighlight %}
 
 Há 0 usuário(s) conectado(s) em mim ;) <br />
