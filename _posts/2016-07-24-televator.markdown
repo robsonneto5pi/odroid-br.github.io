@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é:   <br />
+Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 9 hours, 1 minute !!!
+Eu estou ligado ininterruptamente à 1 day, 9 hours, 15 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 24 19:46:48 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 24 20:00:50 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
