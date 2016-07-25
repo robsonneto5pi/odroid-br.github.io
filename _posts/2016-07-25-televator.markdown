@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: Sao Paulo  <br />
+Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 22 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 22 hours, 37 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 25 09:00:24 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 25 09:23:18 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -54,6 +54,6 @@ Linux odroid64 3.14.65-61 #1 SMP PREEMPT Wed May 25 03:16:39 BRT 2016 aarch64 aa
 
 Here is a picture of the state of my screen right now!!!
 
-![picture of my screen](https://github.com/odroid-br/televator-c2/blob/master/screenshot.jpg?raw=true =250x)
+![picture of my screen](https://github.com/odroid-br/televator-c2/blob/master/screenshot.jpg?raw=true =100x)
 
 Use sua conta google para comentar abaixo!!!
