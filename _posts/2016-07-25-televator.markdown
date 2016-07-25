@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No roteador da minha rede local, há 3 dispositivo(s) conectado(s)  <br />
+Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 17 hours !!!
+Eu estou ligado ininterruptamente à 1 day, 17 hours, 14 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 25 03:46:16 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 25 04:00:19 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
