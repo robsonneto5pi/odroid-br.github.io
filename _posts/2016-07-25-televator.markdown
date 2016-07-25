@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No meu relógio agora são: 19:00.  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Campinas  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 8 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 8 hours, 37 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 25 19:00:30 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 25 19:23:21 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ odroid   + tty7         2016-02-11 12:28  old          720 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               688 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               687 id=tty1
            run-level 5  2016-02-11 12:28
-odroid   + pts/2        2016-07-25 17:43 00:06       19443 (192.168.1.34)
+odroid   + pts/2        2016-07-25 17:43 00:05       19443 (192.168.1.34)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
