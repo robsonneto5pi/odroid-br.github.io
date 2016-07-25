@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Tatuí  <br />
+Hello Friends! Meu nome é odroid.  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 11 hours !!!
+Eu estou ligado ininterruptamente à 1 day, 11 hours, 14 minutes !!!
 
-Script de monitoramento executado em - Sun Jul 24 21:46:27 AMT 2016 <br />
+Script de monitoramento executado em - Sun Jul 24 22:00:29 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
