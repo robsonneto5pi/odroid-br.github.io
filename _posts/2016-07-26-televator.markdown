@@ -5,9 +5,9 @@ title:  "Publicação Automática do Odroid"
 <br />
 Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Campinas  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 21 hours !!!
+Eu estou ligado ininterruptamente à 2 days, 21 hours, 14 minutes !!!
 
-Script de monitoramento executado em - Tue Jul 26 07:46:17 AMT 2016 <br />
+Script de monitoramento executado em - Tue Jul 26 08:00:25 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
