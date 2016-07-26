@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Teste diário da internet (Download/Upload)"
+---
+<br />
+Teste da minha internet local!  <br />
+
+{% highlight ruby %}
+Retrieving speedtest.net configuration...
+Retrieving speedtest.net server list...
+Selecting best server based on latency...
+Hosted by Zuknet Networks (Itapetininga) [57.16 km]: 78.663 ms
+Testing download speed........................................
+Download: 1.02 Mbyte/s
+Testing upload speed..................................................
+Upload: 0.05 Mbyte/s
+{% endhighlight %}
+
+[CRÉDITOS](https://github.com/sivel/speedtest-cli/)
