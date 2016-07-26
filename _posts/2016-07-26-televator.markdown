@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No roteador da minha rede local, há 3 dispositivo(s) conectado(s)  <br />
+Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 days, 3 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 3 days, 3 hours, 37 minutes !!!
 
-Script de monitoramento executado em - Tue Jul 26 14:00:26 AMT 2016 <br />
+Script de monitoramento executado em - Tue Jul 26 14:23:25 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
