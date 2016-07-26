@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello! No momento, estou com 177 processos em execução!  <br />
+Dolar agora:   <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 days, 1 hour, 37 minutes !!!
+Eu estou ligado ininterruptamente à 3 days, 2 hours !!!
 
-Script de monitoramento executado em - Tue Jul 26 12:23:26 AMT 2016 <br />
+Script de monitoramento executado em - Tue Jul 26 12:46:25 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
