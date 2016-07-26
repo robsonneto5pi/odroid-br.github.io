@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha região é: Sao Paulo  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 22 hours, 37 minutes !!!
+Eu estou ligado ininterruptamente à 2 days, 23 hours !!!
 
-Script de monitoramento executado em - Tue Jul 26 09:23:18 AMT 2016 <br />
+Script de monitoramento executado em - Tue Jul 26 09:46:19 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
