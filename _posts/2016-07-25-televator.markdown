@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
+Hello! No momento, estou com 186 processos em execução!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 2 days, 9 hours !!!
+Eu estou ligado ininterruptamente à 2 days, 9 hours, 15 minutes !!!
 
-Script de monitoramento executado em - Mon Jul 25 19:46:25 AMT 2016 <br />
+Script de monitoramento executado em - Mon Jul 25 20:00:38 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ odroid   + tty7         2016-02-11 12:28  old          720 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               688 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               687 id=tty1
            run-level 5  2016-02-11 12:28
-odroid   + pts/2        2016-07-25 17:43 00:28       19443 (192.168.1.34)
+odroid   + pts/2        2016-07-25 17:43 00:42       19443 (192.168.1.34)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
