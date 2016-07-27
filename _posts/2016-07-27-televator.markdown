@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Meu nome é odroid.  <br />
+Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 days, 23 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 4 days, 1 hour, 14 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 27 10:00:25 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 27 12:00:23 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -20,7 +20,7 @@ tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
 cgmfs           100K     0  100K   0% /run/cgmanager/fs
-tmpfs           172M   32K  172M   1% /run/user/1000
+tmpfs           172M   36K  172M   1% /run/user/1000
 {% endhighlight %}
 
 Há 0 usuário(s) conectado(s) em mim ;) <br />
