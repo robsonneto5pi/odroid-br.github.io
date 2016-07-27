@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 days, 19 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 3 days, 21 hours, 14 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 27 06:00:22 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 27 08:00:22 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
