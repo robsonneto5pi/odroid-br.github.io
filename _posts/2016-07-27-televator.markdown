@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No roteador da minha rede local, há 5 dispositivo(s) conectado(s)  <br />
+Olá, eu fiz uma busca agora no ipinfo.io e descobri que minha cidade é: Sorocaba  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 4 days, 5 hours, 15 minutes !!!
+Eu estou ligado ininterruptamente à 4 days, 7 hours, 15 minutes !!!
 
-Script de monitoramento executado em - Wed Jul 27 16:00:38 AMT 2016 <br />
+Script de monitoramento executado em - Wed Jul 27 18:00:37 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
