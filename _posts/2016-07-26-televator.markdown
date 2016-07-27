@@ -3,18 +3,18 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! Meu nome é odroid.  <br />
+Dolar agora:   <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 days, 9 hours !!!
+Eu estou ligado ininterruptamente à 3 days, 9 hours, 14 minutes !!!
 
-Script de monitoramento executado em - Tue Jul 26 19:46:31 AMT 2016 <br />
+Script de monitoramento executado em - Tue Jul 26 20:00:24 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M   21M  152M  12% /run
-/dev/mmcblk0p2  7.1G  5.1G  1.8G  75% /
+/dev/mmcblk0p2  7.1G  5.4G  1.5G  79% /
 tmpfs           860M  384K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
@@ -31,7 +31,7 @@ odroid   + tty7         2016-02-11 12:28  old          720 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               688 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               687 id=tty1
            run-level 5  2016-02-11 12:28
-odroid   + pts/2        2016-07-26 19:30   .          5495 (192.168.1.34)
+odroid   + pts/2        2016-07-26 19:30 00:10        5495 (192.168.1.34)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
