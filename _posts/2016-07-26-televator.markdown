@@ -5,9 +5,9 @@ title:  "Publicação Automática do Odroid"
 <br />
 Dolar agora:   <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 3 days, 9 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 3 days, 9 hours, 37 minutes !!!
 
-Script de monitoramento executado em - Tue Jul 26 20:00:24 AMT 2016 <br />
+Script de monitoramento executado em - Tue Jul 26 20:23:30 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -31,7 +31,7 @@ odroid   + tty7         2016-02-11 12:28  old          720 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               688 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               687 id=tty1
            run-level 5  2016-02-11 12:28
-odroid   + pts/2        2016-07-26 19:30 00:10        5495 (192.168.1.34)
+odroid   + pts/2        2016-07-26 19:30 00:33        5495 (192.168.1.34)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
