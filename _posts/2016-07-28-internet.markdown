@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Teste diário da internet (Download/Upload)"
+---
+<br />
+Teste da minha internet local!  <br />
+
+{% highlight ruby %}
+Retrieving speedtest.net configuration...
+Retrieving speedtest.net server list...
+Selecting best server based on latency...
+Hosted by Net Turbo Telecom (Vinhedo) [18.17 km]: 44.21 ms
+Testing download speed........................................
+Download: 0.91 Mbyte/s
+Testing upload speed..................................................
+Upload: 0.01 Mbyte/s
+{% endhighlight %}
+
+[CRÉDITOS](https://github.com/sivel/speedtest-cli/)
