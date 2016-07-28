@@ -5,17 +5,17 @@ title:  "Publicação Automática do Odroid"
 <br />
 Hello Friends! Essa é mais uma publicação automática. Cliquem [aqui](//odroid-br.github.io/../../../odroid-wiki) para saber mais sobre mim!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 4 days, 17 hours, 14 minutes !!!
+Eu estou ligado ininterruptamente à 4 days, 19 hours, 15 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 28 04:00:30 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 28 06:00:35 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
 Filesystem      Size  Used Avail Use% Mounted on
 udev            733M     0  733M   0% /dev
 tmpfs           172M   21M  152M  12% /run
-/dev/mmcblk0p2  7.1G  4.8G  2.1G  71% /
-tmpfs           860M  384K  859M   1% /dev/shm
+/dev/mmcblk0p2  7.1G  5.2G  1.7G  77% /
+tmpfs           860M  448K  859M   1% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           860M     0  860M   0% /sys/fs/cgroup
 /dev/mmcblk0p1  128M   21M  108M  17% /media/boot
@@ -23,7 +23,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   36K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 0 usuário(s) conectado(s) em mim ;) <br />
+Há 1 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -31,7 +31,7 @@ odroid   + tty7         2016-02-11 12:28  old          720 (:0)
 LOGIN      ttyS0        2016-02-11 12:28               688 id=tyS0
 LOGIN      tty1         2016-02-11 12:28               687 id=tty1
            run-level 5  2016-02-11 12:28
-           pts/2        2016-07-27 23:04             17470 id=ts/2  term=0 exit=0
+odroid   + pts/2        2016-07-28 05:21   .         29051 (192.168.1.34)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
