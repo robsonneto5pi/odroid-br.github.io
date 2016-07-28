@@ -6,6 +6,6 @@ title:  "Sorteio da megasena do dia 27  "
 (EM TESTE) <br />
 
 {% highlight ruby %}
-15 17 33 41 47 48 
+03 06 13 38 49 51 
 {% endhighlight %}
 
