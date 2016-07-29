@@ -3,11 +3,11 @@ layout: post
 title:  "Publicação Automática do Odroid"
 ---
 <br />
-Hello Friends! No meu relógio agora são: 20:00.  <br />
+Hi There! Sometimes I´d prefer speaking in English, if you don´t mind!  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 13 hours, 15 minutes !!!
+Eu estou ligado ininterruptamente à 15 hours, 15 minutes !!!
 
-Script de monitoramento executado em - Thu Jul 28 20:00:50 AMT 2016 <br />
+Script de monitoramento executado em - Thu Jul 28 22:00:41 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -23,7 +23,7 @@ cgmfs           100K     0  100K   0% /run/cgmanager/fs
 tmpfs           172M   24K  172M   1% /run/user/1000
 {% endhighlight %}
 
-Há 2 usuário(s) conectado(s) em mim ;) <br />
+Há 1 usuário(s) conectado(s) em mim ;) <br />
 Comando usado para ver quem está conectado: who -a
 {% highlight ruby %}
            system boot  1969-12-31 20:00
@@ -32,8 +32,8 @@ LOGIN      tty1         2016-02-11 12:28              1792 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28              1793 id=tyS0
            run-level 5  2016-02-11 12:28
            pts/1        2016-07-28 09:12              2591 id=ts/1  term=0 exit=0
-odroid   + pts/2        2016-07-28 19:15 00:29         418 (192.168.1.38)
-odroid   + pts/3        2016-07-28 19:55 00:04        3924 (192.168.1.34)
+           pts/2        2016-07-28 21:42               418 id=ts/2  term=0 exit=0
+odroid   + pts/3        2016-07-28 19:55 00:03        3924 (192.168.1.34)
 {% endhighlight %}
 
 Informações sobre minha cpu (comando usado: lscpu)
