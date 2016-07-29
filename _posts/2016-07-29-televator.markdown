@@ -5,9 +5,9 @@ title:  "Publicação Automática do Odroid"
 <br />
 Oi! Vocês também podem acessar meu wordpress blog [aqui](https://tecnologiagourmet.wordpress.com/).  <br />
 Abaixo você irá encontrar um relatório de monitoramento <br />
-Eu estou ligado ininterruptamente à 1 day, 9 hours, 15 minutes !!!
+Eu estou ligado ininterruptamente à 1 day, 11 hours, 15 minutes !!!
 
-Script de monitoramento executado em - Fri Jul 29 16:00:21 AMT 2016 <br />
+Script de monitoramento executado em - Fri Jul 29 18:00:27 AMT 2016 <br />
 
 Verificação de espaço em disco (comando usado: df -h)
 {% highlight ruby %}
@@ -32,7 +32,7 @@ LOGIN      tty1         2016-02-11 12:28              1792 id=tty1
 LOGIN      ttyS0        2016-02-11 12:28              1793 id=tyS0
            run-level 5  2016-02-11 12:28
            pts/1        2016-07-28 09:12              2591 id=ts/1  term=0 exit=0
-           pts/2        2016-07-29 10:34             27174 id=ts/2  term=0 exit=0
+           pts/2        2016-07-29 17:33             21098 id=ts/2  term=0 exit=0
            pts/3        2016-07-29 04:09              3924 id=ts/3  term=0 exit=0
 {% endhighlight %}
 
